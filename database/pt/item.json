@@ -941,6 +941,7 @@
         "type": "sword"
         "equip": {
             "stats": {"def": -4, "res": -4}
+		}
     },
     "seliphsblade": {
         "name": "Seliph's Blade",
