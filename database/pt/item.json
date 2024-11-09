@@ -117,7 +117,7 @@
             "Marisa",
             "Sanaki"
         ],
-        "type": "sword"
+        "type": "sword",
 		"equip": {
             "stats": {"spd": -1}
 		}
@@ -246,7 +246,7 @@
             "Lloyd",
             "Linus"
         ],
-        "type": "sword"
+        "type": "sword",
 		"equip": {
             "stats": {"def": -4, "res": -4}
 		}
@@ -938,7 +938,7 @@
         "spotpass": [
             "Eirika"
         ],
-        "type": "sword"
+        "type": "sword",
         "equip": {
             "stats": {"def": -4, "res": -4}
 		}

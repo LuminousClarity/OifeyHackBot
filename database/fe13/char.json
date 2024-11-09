@@ -18449,41 +18449,41 @@
       },
       "rank":{
          "normal":{
-            "lance":61
-			"sword":16
-			"axe":16
-			"tome":16
+            "lance":61,
+			"sword":16,
+			"axe":16,
+			"tome":16,
 			"staff":16
          },
          "hard":{
-            "lance":61
-			"sword":16
-			"axe":16
-			"tome":16
+            "lance":61,
+			"sword":16,
+			"axe":16,
+			"tome":16,
 			"staff":16
          },
          "lunatic":{
-            "lance":61
-			"sword":16
-			"axe":16
-			"tome":16
+            "lance":61,
+			"sword":16,
+			"axe":16,
+			"tome":16,
 			"staff":16
          }
       },
       "skill":{
          "normal":[
-            "speed2"
-			"relief"
+            "speed2",
+			"relief",
 			"rallyspeed"
          ],
          "hard":[
-            "speed2"
-			"relief"
+            "speed2",
+			"relief",
 			"rallyspeed"
          ],
          "lunatic":[
-            "speed2"
-			"relief"
+            "speed2",
+			"relief",
 			"rallyspeed"
          ]
 	  }
@@ -18558,35 +18558,35 @@
       },
       "rank":{
          "normal":{
-            "lance":36
-			"sword":16
-			"axe":36
+            "lance":36,
+			"sword":16,
+			"axe":36,
 			"bow":16
          },
          "hard":{
-           "lance":36
-			"sword":16
-			"axe":36
+           "lance":36,
+			"sword":16,
+			"axe":36,
 			"bow":16
          },
          "lunatic":{
-            "lance":36
-			"sword":16
-			"axe":36
+            "lance":36,
+			"sword":16,
+			"axe":36,
 			"bow":16
          }
       },
       "skill":{
          "normal":[
-            "defense2"
+            "defense2",
 			"indoorfighter"
          ],
          "hard":[
-            "defense2"
+            "defense2",
 			"indoorfighter"
          ],
          "lunatic":[
-            "defense2"
+            "defense2",
 			"indoorfighter"
          ]
 	  }
@@ -18661,41 +18661,41 @@
       },
       "rank":{
          "normal":{
-            "lance":16
-			"sword":16
-			"axe":61
+            "lance":16,
+			"sword":16,
+			"axe":61,
 			"bow":16
          },
          "hard":{
-            "lance":16
-			"sword":16
-			"axe":61
+            "lance":16,
+			"sword":16,
+			"axe":61,
 			"bow":16
          },
          "lunatic":{
-            "lance":16
-			"sword":16
-			"axe":61
+            "lance":16,
+			"sword":16,
+			"axe":61,
 			"bow":16
          }
       },
       "skill":{
          "normal":[
-            "zeal"
-			"despoil"
+            "zeal",
+			"despoil",
 			"renewal"
          ],
          "hard":[
-            "zeal"
-			"despoil"
+            "zeal",
+			"despoil",
 			"renewal"
          ],
          "lunatic":[
-            "zeal"
-			"despoil"
+            "zeal",
+			"despoil",
 			"renewal"
          ]
       }
    }
-   }
+}
    
