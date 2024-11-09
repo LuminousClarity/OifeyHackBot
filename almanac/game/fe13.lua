@@ -288,7 +288,7 @@ Character.set_gender = {
     f = {priest = "cleric"}
 }
 
-local morgan_banlist = {"lordm", "lordf", "tactician", "dancer", "conqueror", "bride", "lodestar", "dreadfighter"}
+local morgan_banlist = {"tactician", "bride", "lodestar", "dreadfighter"}
 
 function Character:get_set()
     local set = util.copy(self.data.set)

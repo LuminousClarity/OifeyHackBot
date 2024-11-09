@@ -1,14 +1,14 @@
 {
     "bronzesword": {
         "name": "Bronze Sword",
-        "desc": "Inexpensive, but low in power.",
+        "desc": "Lck+4. Inexpensive, but low in power.",
         "weapon": true,
         "price_use": 7,
         "stats": {
             "rank": "E",
             "mt": 3,
             "hit": 100,
-            "uses": 50,
+            "uses": 60,
             "rng": 1,
             "price": 350,
             "price per use": 7,
@@ -33,7 +33,7 @@
             "rank": "D",
             "mt": 5,
             "hit": 95,
-            "uses": 40,
+            "uses": 50,
             "rng": 1,
             "price": 520,
             "price per use": 13,
@@ -69,14 +69,14 @@
     },
     "steelsword": {
         "name": "Steel Sword",
-        "desc": "More powerful than its iron brother.",
+        "desc": "More powerful than its iron brother, but heavier. Spd -1.",
         "weapon": true,
         "price_use": 24,
         "stats": {
             "rank": "C",
             "mt": 8,
             "hit": 90,
-            "uses": 35,
+            "uses": 45,
             "rng": 1,
             "price": 840,
             "price per use": 24,
@@ -118,6 +118,9 @@
             "Sanaki"
         ],
         "type": "sword"
+		"equip": {
+            "stats": {"spd": -1}
+		}
     },
     "silversword": {
         "name": "Silver Sword",
@@ -128,7 +131,7 @@
             "rank": "B",
             "mt": 11,
             "hit": 85,
-            "uses": 30,
+            "uses": 40,
             "rng": 1,
             "price": 1410,
             "price per use": 47,
@@ -197,12 +200,12 @@
     },
     "bravesword": {
         "name": "Brave Sword",
-        "desc": "Allows the wielder to strike twice.",
+        "desc": "Def/Res -4. Allows the wielder to strike twice.",
         "weapon": true,
         "price_use": 70,
         "stats": {
             "rank": "A",
-            "mt": 9,
+            "mt": 6,
             "hit": 80,
             "uses": 30,
             "rng": 1,
@@ -244,6 +247,9 @@
             "Linus"
         ],
         "type": "sword"
+		"equip": {
+            "stats": {"def": -4, "res": -4}
+		}
     },
     "armorslayer": {
         "name": "Armorslayer",
@@ -254,7 +260,7 @@
             "rank": "D",
             "mt": 8,
             "hit": 80,
-            "uses": 25,
+            "uses": 30,
             "rng": 1,
             "price": 1450,
             "price per use": 58,
@@ -292,7 +298,7 @@
             "rank": "D",
             "mt": 8,
             "hit": 80,
-            "uses": 25,
+            "uses": 30,
             "rng": 1,
             "price": 1500,
             "price per use": 60,
@@ -329,10 +335,10 @@
         "price_use": 49,
         "stats": {
             "rank": "C",
-            "mt": 9,
+            "mt": 7,
             "hit": 90,
             "crit": 30,
-            "uses": 30,
+            "uses": 35,
             "rng": 1,
             "price": 1470,
             "price per use": 49,
@@ -390,7 +396,7 @@
             "rank": "C",
             "mt": 10,
             "hit": 80,
-            "uses": 25,
+            "uses": 30,
             "rng": "1-2",
             "price": 1600,
             "price per use": 64,
@@ -430,7 +436,7 @@
     },
     "rapier": {
         "name": "Rapier",
-        "desc": "Chrom/Lucina/Marth only. Slender and regal.",
+        "desc": "Chrom/Lucina/Marth/Dancer only. Slender and regal.",
         "weapon": true,
         "price_use": 42,
         "stats": {
@@ -438,7 +444,7 @@
             "mt": 5,
             "hit": 90,
             "crit": 10,
-            "uses": 35,
+            "uses": 40,
             "rng": 1,
             "price": 1470,
             "price per use": 42,
@@ -458,7 +464,7 @@
     },
     "noblerapier": {
         "name": "Noble Rapier",
-        "desc": "Chrom/Lucina/Marth only. Sharp and commanding.",
+        "desc": "Chrom/Lucina/Marth/Dancer only. Sharp and commanding.",
         "weapon": true,
         "price_use": 84,
         "stats": {
@@ -466,7 +472,7 @@
             "mt": 8,
             "hit": 85,
             "crit": 10,
-            "uses": 25,
+            "uses": 30,
             "rng": 1,
             "price": 2100,
             "price per use": 84,
@@ -489,26 +495,22 @@
     },
     "missiletainn": {
         "name": "Missiletainn",
-        "desc": "Owain only. Skill +1. The apocryphal brand?",
+        "desc": "Owain only. Skill +3. The apocryphal brand?",
         "weapon": true,
         "price_use": 30,
         "stats": {
             "rank": "C",
-            "mt": 8,
+            "mt": 11,
             "hit": 85,
             "crit": 10,
-            "uses": 35,
             "rng": 1,
-            "price": 1050,
-            "price per use": 30,
-            "sell": 525
         },
         "shop": [],
         "merchant": [],
         "spotpass": [],
         "type": "sword",
         "equip": {
-            "stats": {"skl": 1}
+            "stats": {"skl": 3}
         }
     },
     "sol": {
@@ -520,7 +522,7 @@
             "mt": 12,
             "hit": 85,
             "crit": 5,
-            "uses": 30,
+            "uses": 35,
             "rng": 1
         },
         "shop": [],
@@ -537,7 +539,7 @@
             "mt": 12,
             "hit": 60,
             "crit": 5,
-            "uses": 30,
+            "uses": 35,
             "rng": "1-2"
         },
         "shop": [],
@@ -545,14 +547,14 @@
         "spotpass": [],
         "type": "sword"
     },
-    "falchion": {
-        "name": "Falchion",
+    "sealedfalchion": {
+        "name": "Sealed Falchion",
         "desc": "Chrom only. Its power remains sealed.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 5,
-            "hit": 80,
+            "mt": 6,
+            "hit": 85,
             "rng": 1
         },
         "shop": [],
@@ -560,14 +562,14 @@
         "spotpass": [],
         "type": "sword"
     },
-    "exaltedfalchion": {
-        "name": "Exalted Falchion",
-        "desc": "Chrom only. Use this to restore 20 HP.",
+    "awokenfalchion": {
+        "name": "Awoken Falchion",
+        "desc": "Chrom only. Use this to restore 20 HP. The Blade of Naga's true form.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 15,
-            "hit": 80,
+            "hit": 85,
             "crit": 10,
             "rng": 1
         },
@@ -601,7 +603,7 @@
             "mt": 17,
             "hit": 95,
             "crit": 5,
-            "uses": 25,
+            "uses": 30,
             "rng": 1
         },
         "shop": [],
@@ -611,14 +613,14 @@
     },
     "tyrfing": {
         "name": "Tyrfing",
-        "desc": "Res +5. A timeless weapon.",
+        "desc": "Res +5. The sword of Baldr.",
         "weapon": true,
         "stats": {
             "rank": "A",
             "mt": 15,
             "hit": 85,
             "crit": 10,
-            "uses": 25,
+            "uses": 30,
             "rng": 1
         },
         "shop": [],
@@ -631,14 +633,14 @@
     },
     "mystletainn": {
         "name": "Mystletainn",
-        "desc": "Skill +5. A timeless weapon.",
+        "desc": "Skill +5. The sword of Hezul.",
         "weapon": true,
         "stats": {
             "rank": "A",
             "mt": 14,
             "hit": 85,
             "crit": 15,
-            "uses": 25,
+            "uses": 30,
             "rng": 1
         },
         "shop": [],
@@ -651,14 +653,14 @@
     },
     "balmung": {
         "name": "Balmung",
-        "desc": "Spd +5. A timeless weapon.",
+        "desc": "Spd +5. The sword of Od.",
         "weapon": true,
         "stats": {
             "rank": "A",
             "mt": 13,
             "hit": 90,
             "crit": 10,
-            "uses": 25,
+            "uses": 30,
             "rng": 1
         },
         "shop": [],
@@ -671,14 +673,14 @@
     },
     "solkatti": {
         "name": "Sol Katti",
-        "desc": "Myrmidon/Swordmaster only. Res +5. A plainsman's blade.",
+        "desc": "Myrmidon/Swordmaster only. Res +5. A plainswoman's blade.",
         "weapon": true,
         "stats": {
             "rank": "A",
             "mt": 8,
             "hit": 100,
             "crit": 50,
-            "uses": 25,
+            "uses": 30,
             "rng": 1
         },
         "shop": [],
@@ -691,7 +693,27 @@
     },
     "ragnell": {
         "name": "Ragnell",
-        "desc": "Def +5. A timeless weapon.",
+        "desc": "Def +5. One of the swords of Altina.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 15,
+            "hit": 70,
+		    "uses": 30,
+            "rng": "1-2"
+			
+        },
+        "shop": [],
+        "merchant": [],
+        "spotpass": [],
+        "type": "sword",
+        "equip": {
+            "stats": {"def": 5}
+        }
+    },
+    "ragnell-boss": {
+        "name": "Ragnell",
+        "desc": "Def +5. One of the swords of Altina.",
         "weapon": true,
         "stats": {
             "rank": "A",
@@ -729,7 +751,7 @@
     },
     "soothingsword": {
         "name": "Soothing Sword",
-        "desc": "Restores 10 HP every turn.",
+        "desc": "Effective against monsters and dark magic users. Restores 10 HP every turn.",
         "weapon": true,
         "price_use": 92,
         "stats": {
@@ -769,14 +791,14 @@
     },
     "superioredge": {
         "name": "Superior Edge",
-        "desc": "Hit/Avo +50 when the enemy has a sword equipped.",
+        "desc": "Hit/Avo +50 when the enemy has a sword equipped. Assert dominance.",
         "weapon": true,
         "price_use": 195,
         "stats": {
             "rank": "B",
             "mt": 11,
             "hit": 80,
-            "uses": 10,
+            "uses": 15,
             "rng": 1,
             "price": 1950,
             "price per use": 195,
@@ -789,7 +811,7 @@
     },
     "eliwoodsblade": {
         "name": "Eliwood's Blade",
-        "desc": "A heroic weapon.",
+        "desc": "A blazing weapon.",
         "weapon": true,
         "price_use": 48,
         "stats": {
@@ -797,7 +819,7 @@
             "mt": 10,
             "hit": 85,
             "crit": 5,
-            "uses": 20,
+            "uses": 25,
             "rng": 1,
             "price": 960,
             "price per use": 48,
@@ -812,7 +834,7 @@
     },
     "roysblade": {
         "name": "Roy's Blade",
-        "desc": "A heroic weapon.",
+        "desc": "A binding weapon.",
         "weapon": true,
         "price_use": 36,
         "stats": {
@@ -820,7 +842,7 @@
             "mt": 8,
             "hit": 95,
             "crit": 5,
-            "uses": 25,
+            "uses": 30,
             "rng": 1,
             "price": 900,
             "price per use": 36,
@@ -834,8 +856,8 @@
         "type": "sword"
     },
     "almsblade": {
-        "name": "Alm's Blade",
-        "desc": "An ancient weapon.",
+        "name": "Royal Sword",
+        "desc": "Walhart only. An ancient weapon. Only the Saint-King's blood can wield it.",
         "weapon": true,
         "price_use": 163,
         "stats": {
@@ -856,8 +878,24 @@
         ],
         "type": "sword"
     },
-    "leifsblade": {
-        "name": "Leif's Blade",
+    "royalsword": {
+        "name": "Royal Sword",
+        "desc": "Walhart only. An ancient weapon. Only the Saint-King's blood can wield it.",
+        "weapon": true,
+        "price_use": 163,
+        "stats": {
+            "rank": "B",
+            "mt": 15,
+            "hit": 75,
+            "crit": 10,
+            "rng": 1,
+        },
+        "shop": [],
+        "merchant": [],
+        "type": "sword"
+    },
+    "lightbrand": {
+        "name": "Light Brand",
         "desc": "May yield a Bullion (S) if the wielder's target falls. Trigger % = (Lck stat)",
         "weapon": true,
         "price_use": 41,
@@ -881,15 +919,15 @@
     },
     "eirikasblade": {
         "name": "Eirika's Blade",
-        "desc": "Allows the wielder to strike twice. A heroic weapon.",
+        "desc": "Def/Res-4. Allows the wielder to strike twice. A sacred weapon.",
         "weapon": true,
         "price_use": 61,
         "stats": {
             "rank": "C",
-            "mt": 6,
+            "mt": 5,
             "hit": 95,
             "crit": 10,
-            "uses": 20,
+            "uses": 25,
             "rng": 1,
             "price": 1220,
             "price per use": 61,
@@ -901,10 +939,12 @@
             "Eirika"
         ],
         "type": "sword"
+        "equip": {
+            "stats": {"def": -4, "res": -4}
     },
     "seliphsblade": {
         "name": "Seliph's Blade",
-        "desc": "Spd/Res +2. A fabled weapon.",
+        "desc": "Spd/Res +2. A descendant's weapon.",
         "weapon": true,
         "price_use": 102,
         "stats": {
@@ -912,7 +952,7 @@
             "mt": 12,
             "hit": 90,
             "crit": 15,
-            "uses": 15,
+            "uses": 20,
             "rng": 1,
             "price": 1530,
             "price per use": 102,

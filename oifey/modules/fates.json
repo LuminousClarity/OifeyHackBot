@@ -888,11 +888,11 @@
             }
         }
     },
-"fetow": {
+	"pt": {
         "name": "Thabes",
         "default": "unit",
         "alias": [
-            "Project Thabes",
+            "thabes",
             "pt",
             "tow",
             "proj"
