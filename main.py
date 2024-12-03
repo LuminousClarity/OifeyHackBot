@@ -33,7 +33,7 @@ oifey.module.get_module_file("oifey/modules/fates.json")
 oifey.module.get_module_file("oifey/modules/holy.json")
 oifey.module.get_module_file("oifey/modules/tellius.json")
 oifey.module.get_module_file("oifey/modules/thracia.json")
-oifey.module.get_module_file("oifey/modules/awakeningremake.json")
+oifey.module.get_module_file("oifey/modules/fe3dsromhacks.json")
 
 # Shortcuts
 class Shortcut:
