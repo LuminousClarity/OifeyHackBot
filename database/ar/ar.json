@@ -1,0 +1,386 @@
+{
+    "anna": {
+        "name": "Anna",
+        "job": "outlaw",
+        "portrait": "anna.png",
+        "lvl": 10,
+        "personal": "makeakilling",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "locktouch",
+                "movement1"
+            ],
+            "hard": [
+                "locktouch",
+                "movement1"
+            ],
+            "lunatic": [
+                "locktouch",
+                "movement1"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "outlaw",
+            "troubadour",
+            "apothecary"
+        ],
+        "base": {
+            "normal": {
+                "hp": 7,
+                "str": 6,
+                "mag": 10,
+                "skl": 6,
+                "spd": 6,
+                "lck": 14,
+                "def": 4,
+                "res": 11
+            },
+            "hard": {
+                "hp": 7,
+                "str": 6,
+                "mag": 10,
+                "skl": 6,
+                "spd": 6,
+                "lck": 14,
+                "def": 4,
+                "res": 11
+            },
+            "lunatic": {
+                "hp": 7,
+                "str": 6,
+                "mag": 10,
+                "skl": 6,
+                "spd": 6,
+                "lck": 14,
+                "def": 4,
+                "res": 11
+            }
+        },
+        "cap": {
+            "str": -1,
+            "mag": 1,
+            "skl": 0,
+            "spd": -1,
+            "lck": 2,
+            "def": -2,
+            "res": 2
+        },
+        "growth": {
+            "hp": 35,
+            "str": 30,
+            "mag": 55,
+            "skl": 30,
+            "spd": 40,
+            "lck": 70,
+            "def": 20,
+            "res": 45
+        },
+        "rank": {
+            "normal": {
+                "bow": 51
+            },
+            "hard": {
+                "bow": 51
+            },
+            "lunatic": {
+                "bow": 51
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 1
+                },
+                "s": {
+                    "lck": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "lck": 1,
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 2,
+                    "mag": 1
+                },
+                "s": {
+                    "lck": 3,
+                    "mag": 1,
+                    "res": 1
+                }
+            }
+        }
+    },
+	"chrom": {
+        "name": "Chrom",
+        "job": "lord",
+        "portrait": "chrom.png",
+        "lvl": 1,
+        "personal": "chivalry",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "chivalry",
+                "dualstriker"
+            ],
+            "hard": [
+                "chivalry",
+                "dualstriker"
+            ],
+            "lunatic": [
+                "chivalry",
+                "dualstriker"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "lord",
+            "cavalier",
+            "archer"
+        ],
+        "base": {
+            "normal": {
+                "hp": 2,
+                "str": 1,
+                "mag": 1,
+                "skl": 3,
+                "spd": 1,
+                "lck": 5,
+                "def": 0,
+                "res": 1
+            },
+            "hard": {
+                "hp": 2,
+                "str": 1,
+                "mag": 1,
+                "skl": 3,
+                "spd": 1,
+                "lck": 5,
+                "def": 0,
+                "res": 1
+            },
+            "lunatic": {
+                "hp": 2,
+                "str": 1,
+                "mag": 1,
+                "skl": 3,
+                "spd": 1,
+                "lck": 5,
+                "def": 0,
+                "res": 1
+            }
+        },
+        "cap": {
+            "str": 1,
+            "mag": 0,
+            "skl": 1,
+            "spd": 1,
+            "lck": 1,
+            "def": -1,
+            "res": -1
+        },
+        "growth": {
+            "hp": 45,
+            "str": 40,
+            "mag": 10,
+            "skl": 40,
+            "spd": 40,
+            "lck": 70,
+            "def": 35,
+            "res": 20
+        },
+        "rank": {
+            "normal": {
+                "sword": 6
+            },
+            "hard": {
+                "sword": 6
+            },
+            "lunatic": {
+                "sword": 6
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 1
+                },
+                "s": {
+                    "lck": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "lck": 1,
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 2,
+                    "mag": 1
+                },
+                "s": {
+                    "lck": 3,
+                    "mag": 1,
+                    "res": 1
+                }
+            }
+        }
+    },
+	"lissa": {
+        "name": "Lissa",
+        "job": "cleric",
+        "portrait": "lissa.png",
+        "lvl": 1,
+        "personal": "lilyspoise",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "lilyspoise",
+                "miracle"
+            ],
+            "hard": [
+                "lilyspoise",
+                "miracle"
+            ],
+            "lunatic": [
+                "lilyspoise",
+                "miracle"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "cleric",
+            "skyknight",
+            "troubadour"
+        ],
+        "base": {
+            "normal": {
+                "hp": 1,
+                "str": 1,
+                "mag": 2,
+                "skl": 2,
+                "spd": 0,
+                "lck": 8,
+                "def": 2,
+                "res": -2
+            },
+            "hard": {
+                "hp": 1,
+                "str": 1,
+                "mag": 2,
+                "skl": 2,
+                "spd": 0,
+                "lck": 8,
+                "def": 2,
+                "res": -2
+            },
+            "lunatic": {
+                "hp": 1,
+                "str": 1,
+                "mag": 2,
+                "skl": 2,
+                "spd": 0,
+                "lck": 8,
+                "def": 2,
+                "res": -2
+            }
+        },
+        "cap": {
+            "str": -2,
+            "mag": 2,
+            "skl": -1,
+            "spd": 0,
+            "lck": 2,
+            "def": -1,
+            "res": 1
+        },
+        "growth": {
+            "hp": 35,
+            "str": 25,
+            "mag": 35,
+            "skl": 30,
+            "spd": 35,
+            "lck": 65,
+            "def": 15,
+            "res": 35
+        },
+        "rank": {
+            "normal": {
+                "staff": 0
+            },
+            "hard": {
+                "sword": 0
+            },
+            "lunatic": {
+                "sword": 0
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 1
+                },
+                "s": {
+                    "lck": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "lck": 1,
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 2,
+                    "mag": 1
+                },
+                "s": {
+                    "lck": 3,
+                    "mag": 1,
+                    "res": 1
+                }
+            }
+        }
+    },
+}

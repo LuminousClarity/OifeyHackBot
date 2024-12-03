@@ -1,8 +1,8 @@
 **Heroes**
-`@Oifey feh` - Heroes
+`@Professor Byleth feh` - Heroes
 
-`@Oifey skill` - Shortcut for Heroes skills.
-`@Oifey art` - Shortcut for Heroes art.
-`@Oifey artist` - Shortcut for Heroes artist.
-`@Oifey va` - Shortcut for Heroes VA.
-`@Oifey quotes` - Shortcut for Heroes quotes.
+`@Professor Byleth skill` - Shortcut for Heroes skills.
+`@Professor Byleth art` - Shortcut for Heroes art.
+`@Professor Byleth artist` - Shortcut for Heroes artist.
+`@Professor Byleth va` - Shortcut for Heroes VA.
+`@Professor Byleth quotes` - Shortcut for Heroes quotes.

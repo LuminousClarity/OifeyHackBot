@@ -5,17 +5,14 @@ OWNER_ID = 0
 
 random_status = [
     "Support the bot -> ko-fi.com/izumi",
-    "Don't believe in the liberal media: FE3 is not real",
-    "Try out compare! @Oifey fe4 lewyn!ced, lewyn!arthur 14",
-    "Play Advance Wars 1+2: Re-Boot Camp!",
-    "@Oifey e sommie",
-    "fe4 enemies are not so strong that you need ayra to attack 20 fucking times",
-    "Cipher cards look pretty cool: @Oifey cipher",
-    "I'm Marth. Emblem Marth, to be clear.",
-    "90% of summoners quit right before they pull their favorite character",
-    "It would be pretty cool if they added marth to fortnite ngl",
-    "Smash Bros is old and boring, they should start adding FE characters to Fortnite instead",
-    "\"Alcryst vs Etie\", the greatest thread in the history of forums, locked by a moderator after 12,239 pages of heated debate,"
+    "I honestly don't understand how I'm even teaching you idiots.",
+    "LuminousClarity is hosting me, Lunaen is my artist, and Heritor is my dad.",
+    "Go on, ask me something. I dare you.",
+    "No, I am not re-adding live2D back.",
+    "I host 3DSFE romhacks. Try asking about alias.",
+    "Discourse not permitted in my prescience.",
+    "Sorry, I'm under NDA.",
+    "I think Plegians aren't ontologically evil."
 ]
 
 discord.utils.setup_logging()

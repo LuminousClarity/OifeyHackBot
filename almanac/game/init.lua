@@ -17,7 +17,8 @@ local init = {
     fe17 = require("almanac.game.fe17"),
     feh = require("almanac.game.feh"),
     cipher = require("almanac.game.cipher"),
-	pt = require("almanac.game.pt")
+	pt = require("almanac.game.pt"),
+	ar = require("almanac.game.ar")
 }
 
 return init
