@@ -409,6 +409,69 @@
             "quixotic": 15
         }
     },
+	"battlemaiden": {
+        "name": "Battle Maiden",
+        "promo": [],
+        "base": {
+            "hp": 17,
+            "str": 5,
+            "mag": 7,
+            "skl": 5,
+            "spd": 5,
+            "lck": 2,
+            "def": 3,
+            "res": 4,
+            "mov": 6
+        },
+        "cap": {
+            "hp": 36,
+            "str": 21,
+            "mag": 20,
+            "skl": 23,
+            "spd": 25,
+            "lck": 24,
+            "def": 20,
+            "res": 24
+        },
+        "generic": {
+            "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 20,
+            "skl": 10,
+            "spd": 0,
+            "lck": 5,
+            "def": 0,
+            "res": 10
+        },
+        "pairup": {
+            "str": 0,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 1,
+            "def": 3,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+            "sword": 96,
+			"tome": 96
+        },
+        "skill": {
+            "sealmagic": 1,
+            "speed2": 10
+        }
+    },
     "berserker": {
         "name": "Berserker",
         "promo": [],
@@ -1066,6 +1129,70 @@
             "futuresight": 10
         }
     },
+	"dragonmaid": {
+        "name": "Dragon Maid",
+        "promo": [],
+        "base": {
+            "hp": 18,
+            "str": 6,
+            "mag": 7,
+            "skl": 9,
+            "spd": 8,
+            "lck": 4,
+            "def": 5,
+            "res": 6,
+            "mov": 6
+        },
+        "cap": {
+            "hp": 50,
+            "str": 27,
+            "mag": 30,
+            "skl": 33,
+            "spd": 26,
+            "lck": 25,
+            "def": 28,
+            "res": 31
+        },
+        "generic": {
+            "hp": 75,
+            "str": 45,
+            "mag": 55,
+            "skl": 55,
+            "spd": 55,
+            "lck": 30,
+            "def": 45,
+            "res": 40
+        },
+        "growth": {
+            "hp": 0,
+            "str": 10,
+            "mag": 10,
+            "skl": 15,
+            "spd": 15,
+            "lck": 10,
+            "def": 45,
+            "res": 40
+        },
+        "pairup": {
+            "str": 0,
+            "mag": 0,
+            "skl": 2,
+            "spd": 0,
+            "lck": 3,
+            "def": 3,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+            "hidden": 96,
+			"staff": 251,
+			"stone": 96
+        },
+        "skill": {
+            "livetoserve": 1,
+            "tomebreaker": 10
+        }
+    },
     "dreadfighter": {
         "name": "Dread Fighter",
         "promo": [],
@@ -1218,7 +1345,8 @@
         "rank": {
             "claw": 161
         },
-        "skill": {}
+        "skill": {},
+		"IGNORE": true,
     },
     "falconknight": {
         "name": "Falcon Knight",
@@ -1812,6 +1940,61 @@
         "skill": {
             "dragonward": 5,
             "hoshidanunity": 15
+        }
+    },
+	"hoshidanprince": {
+        "name": "Hoshidan Prince",
+        "promo": [
+			"hoshidonoble"
+		],
+        "base": {
+            "hp": 17,
+            "str": 7,
+            "mag": 3,
+            "skl": 4,
+            "spd": 5,
+            "lck": 2,
+            "def": 5,
+            "res": 2,
+            "mov": 5
+        },
+        "cap": {
+            "hp": 40,
+            "str": 23,
+            "mag": 17,
+            "skl": 19,
+            "spd": 21,
+            "lck": 22,
+            "def": 21,
+            "res": 19
+        },
+        "growth": {
+            "hp": 15,
+            "str": 15,
+            "mag": 10,
+            "skl": 10,
+            "spd": 10,
+            "lck": 10,
+            "def": 15,
+            "res": 5
+        },
+        "pairup": {
+            "str": 2,
+            "mag": 0,
+            "skl": 1,
+            "spd": 1,
+            "lck": 2,
+            "def": 0,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+            "sword": 96,
+            "stone": 96
+        },
+        "skill": {
+            "nobility": 1,
+            "dragonfang": 10
         }
     },
     "kinshiknight": {
@@ -3271,6 +3454,68 @@
             "aegis": 15
         }
     },
+	"faceless": {
+        "name": "Faceless",
+        "promo": [],
+        "base": {
+            "hp": 18,
+            "str": 5,
+            "mag": 2,
+            "skl": 5,
+            "spd": 6,
+            "lck": 0,
+            "def": 6,
+            "res": 5,
+            "mov": 5
+        },
+        "cap": {
+            "hp": 35,
+            "str": 30,
+            "mag": 24,
+            "skl": 25,
+            "spd": 31,
+            "lck": 25,
+            "def": 36,
+            "res": 32
+        },
+        "generic": {
+            "hp": 95,
+            "str": 50,
+            "mag": 0,
+            "skl": 45,
+            "spd": 50,
+            "lck": 0,
+            "def": 65,
+            "res": 50
+        },
+        "growth": {
+            "hp": 15,
+            "str": 10,
+            "mag": 0,
+            "skl": 15,
+            "spd": 0,
+            "lck": 5,
+            "def": 10,
+            "res": 5
+        },
+        "pairup": {
+            "str": 2,
+            "mag": 0,
+            "skl": 0,
+            "spd": 2,
+            "lck": 0,
+            "def": 2,
+            "res": 2,
+            "mov": 0
+        },
+        "rank": {
+            "stone": 161
+        },
+        "skill": {
+            "defender": 1,
+            "naturalcover": 10
+        }
+    },
     "pegasusknight": {
         "name": "Pegasus Knight",
         "promo": [],
@@ -4254,6 +4499,68 @@
             "veteranintuition": 10,
             "aether": 25,
             "strengthtaker": 35
+        }
+    },
+	"valentianmerc": {
+        "name": "Valentian Mercenary",
+        "promo": [],
+        "base": {
+            "hp": 18,
+            "str": 8,
+            "mag": 0,
+            "skl": 5,
+            "spd": 6,
+            "lck": 1,
+            "def": 5,
+            "res": 1,
+            "mov": 5
+        },
+        "cap": {
+            "hp": 42,
+            "str": 22,
+            "mag": 15,
+            "skl": 26,
+            "spd": 22,
+            "lck": 20,
+            "def": 21,
+            "res": 19
+        },
+        "generic": {
+            "hp": 70,
+            "str": 50,
+            "mag": 0,
+            "skl": 55,
+            "spd": 50,
+            "lck": 30,
+            "def": 45,
+            "res": 40
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 0,
+            "skl": 20,
+            "spd": 10,
+            "lck": 5,
+            "def": 10,
+            "res": 5
+        },
+        "pairup": {
+            "str": 0,
+            "mag": 0,
+            "skl": 2,
+            "spd": 3,
+            "lck": 0,
+            "def": 1,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+            "sword": 96
+        },
+        "skill": {
+            "deathblow": 1,
+            "sol": 10
         }
     },
     "villager": {

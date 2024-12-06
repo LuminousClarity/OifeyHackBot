@@ -529,5 +529,184 @@
                 }
             }
         }
+    },
+	"fefxp": {
+        "name": "FE Fates: Crossed Paths",
+        "default": "unit",
+        "alias": [
+            "fefxp",
+            "xp"
+        ],
+        "random": {
+            "pool": "database/fefxp/fefxp.json",
+            "add": [
+                "fates"
+            ]
+        },
+        "color": "0x3a7ca7",
+        "data": {
+            "unit": {
+                "main": "database/fefxp/fefxp.json",
+                "add": [
+                    "class",
+                    "weapon"
+                ],
+                "exclamation": "mother",
+                "level": {
+                    "lvl": 99,
+                    "size": 20
+                },
+                "multiple": {
+                    "class": 20
+                },
+                "bool": {
+                    "personal": [],
+                    "aptitude": []
+                },
+                "par": {
+                    "offspring": [
+                        "offspringseal"
+                    ],
+                    "wyvernrider": [
+                        "dragon"
+                    ],
+                    "spearfighter": [
+                        "lancer"
+                    ],
+                    "shrinemaiden": [
+                        "priestess"
+                    ],
+                    "darkmage": [
+                        "mage"
+                    ]
+                },
+                "entry": {
+                    "class": "database/fefxp/job.json",
+                    "father": "database/fefxp/fefxp.json",
+                    "mother": "database/fefxp/fefxp.json",
+                    "offspring": "database/fefxp/job.json",
+                    "thirdgen": "database/fefxp/fefxp.json",
+                    "weapon": "database/fefxp/item.json"
+                },
+                "int": {
+                    "chapter": [
+                        8,
+                        27
+                    ],
+                    "forge": [
+                        1,
+                        7
+                    ],
+                    "parent": [
+                        1,
+                        50
+                    ]
+                },
+                "choice": {
+                    "difficulty": {
+                        "Lunatic": "lunatic",
+                        "Hard": "hard",
+                        "Normal": "normal"
+                    },
+                    "boon": {
+                        "Robust (HP)": "hp",
+                        "Strong (Strength)": "str",
+                        "Clever (Magic)": "mag",
+                        "Deft (Skill)": "skl",
+                        "Quick (Speed)": "spd",
+                        "Lucky (Luck)": "lck",
+                        "Sturdy (Defense)": "def",
+                        "Calm (Resistance)": "res"
+                    },
+                    "bane": {
+                        "Sickly (HP)": "hp",
+                        "Weak (Strength)": "str",
+                        "Dull (Magic)": "mag",
+                        "Clumsy (Skill)": "skl",
+                        "Slow (Speed)": "spd",
+                        "Unlucky (Luck)": "lck",
+                        "Fragile (Defense)": "def",
+                        "Excitable (Resistance)": "res"
+                    },
+                    "rank": {
+                        "None": "none",
+                        "C Rank": "C",
+                        "B Rank": "B",
+                        "A Rank": "A"
+                    }
+                },
+                "prefix": {
+                    "boon": "+",
+                    "bane": "-",
+                    "chapter": "-",
+                    "forge": "+",
+                    "modifiers": "$"
+                },
+                "required": [
+                    "route"
+                ],
+                "custom_help": {
+                    "Averages": "text/game/averages/fe14.txt"
+                },
+                "classic_hidden": [
+                    "level",
+                    "route"
+                ],
+                "lua": [
+                    "fefxp",
+                    "Fefxp"
+                ],
+                "comma": {
+                    "name": "compare",
+                    "size": 4
+                },
+                "stats": {
+                    "modifiers": [
+                        "hp",
+                        "str",
+                        "mag",
+                        "skl",
+                        "spd",
+                        "lck",
+                        "def",
+                        "res",
+                        "atk",
+                        "hit",
+                        "crit",
+                        "as"
+                    ]
+                }
+            },
+            "class": {
+                "main": "database/fefxp/job.json",
+                "lua": [
+                    "fefxp",
+                    "Job"
+                ]
+            },
+            "skill": {
+                "main": "database/fefxp/skill.json",
+                "lua": [
+                    "fefxp",
+                    "Skill"
+                ]
+            },
+            "item": {
+                "main": "database/fefxp/item.json",
+                "lua": [
+                    "fefxp",
+                    "Item"
+                ],
+                "int": {
+                    "forge": [
+                        1,
+                        7
+                    ]
+                },
+                "prefix": {
+                    "forge": "+"
+                }
+            }
+        }
     }
 }
