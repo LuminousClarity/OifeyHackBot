@@ -5656,6 +5656,941 @@
             "sell": 500
         },
         "forge": 0,
+        "type": "tome",
+		"equip": {
+            "stats": {
+                "res": 3
+            }
+        }
+    },
+	"andlat": {
+        "name": "Andlát",
+        "desc": "Skill+4 when carried. Gonar's weapon. Shows no mercy.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 75,
+            "crit": 5,
+            "avoid": 10,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "axe",
+		"equip": {
+            "stats": {
+                "skl": 4
+            }
+        }
+    },
+	"dormantandlat": {
+        "name": "Dormant Andlát",
+        "desc": "Gonar's weapon. Shows no mercy.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 70,
+            "crit": 5,
+            "avoid": 10,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "axe"
+    },
+	"borrowedpower": {
+        "name": "Borrowed Power",
+        "desc": "Power given from Gonar to Lilith.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
         "type": "tome"
-    }
+    },
+	"hellfire": {
+        "name": "Hellfire",
+        "desc": "Gonar's full magical strength.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 13,
+            "hit": 65,
+            "crit": 0,
+            "avoid": 0,
+            "rng": "1-2",
+            "price": 4000,
+            "sell": 1000
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"muramasa": {
+        "name": "Muramasa",
+        "desc": "A corrupted blade that lusts for battle. +4 Str when carried.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 80,
+            "crit": 10,
+            "avoid": 5,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {
+                "str": 4
+            }
+        }
+    },
+	"smithandwessen": {
+        "name": "Smith & Wessen",
+        "desc": "Cannot double hit, but effective against sword/axe/lance/armor. Jessie only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "crit": 10,
+            "avoid": -5,
+			"dodge": -5,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "bow"
+    },
+	"friendreplacer": {
+        "name": "Friend Replacer",
+        "desc": "Marth and Leo only. Marth's Glock. Effective against armor but cannot double attack.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 21,
+            "hit": 75,
+            "crit": 10,
+            "avoid": -5,
+			"dodge": -5,
+            "rng": "2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "bow"
+    },
+	"aerondight": {
+        "name": "Aerondight",
+        "desc": "+2 Def/Res when carried. Effective against monsters, dragons, and beaststone, but ineffective against anything else.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 90,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 5,
+            "rng": "1",
+            "price": 2200,
+            "sell": 800
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {
+                "def": 2,
+				"res": 2
+            }
+        }
+    },
+	"monado": {
+        "name": "Monado",
+        "desc": "+4 Lck/+2 Spd. Shulk's weapon. When equipped, use to restore 15 HP. Effective against automations and monsters.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 15,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {
+                "lck": 4,
+				"spd": 2
+            }
+        }
+    },
+	"derverlorene": {
+        "name": "Der Verlorene",
+        "desc": "Cathy only. Effective against armor. Lowers enemy stats upon successful hit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 85,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"igni": {
+        "name": "Igni",
+        "desc": "Ddg+10. A magical sign used by witchers. Target suffers stat drop on hit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 1,
+            "hit": 100,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 10,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "tome",
+    },
+	"divinestream": {
+        "name": "Divine Stream",
+        "desc": "Ddg+10. Cannot make follow-up attacks. The power of a First Dragon.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 30,
+            "hit": 100,
+            "crit": 0,
+            "avoid": 10,
+			"dodge": 10,
+            "rng": "1-3",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "breath",
+    },
+	"zantetsuken": {
+        "name": "Zantetsuken",
+        "desc": "Deals extra damage on critical hits. Doubles Mt when wielder's Skill is higher than the enemy's. Lowers wielder's HP by 25% of max HP after combat.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 80,
+            "crit": 50,
+            "avoid": -20,
+			"dodge": -10,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"lightsaber": {
+        "name": "Lightsaber",
+        "desc": "Doubles weapon Mt during counterattacks. Effective against armor and Mag-based An elegant weapon, for a more civilized age.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 90,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"theforce": {
+        "name": "The Force",
+        "desc": "Cannot kill foes with >1 HP. Cannot crit, trigger offensive skills, or follow up. A mysterious power from another world. Kenobi only. +3 Def/Res, +10 Ddg.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 10,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "tome",
+    },
+	"maerrorka": {
+        "name": "Mærr Orka",
+        "desc": "+3 Res. May halve damage from magical attacks. Trigger % = (Skill stat). Beatrice only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 80,
+            "crit": 5,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"swordsofsolstice": {
+        "name": "Swords of Solstice",
+        "desc": "Two legendary swords as one. +10 Ddg. +4 Str/Def when carried. Strikes twice when attacking.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 75,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"yamato": {
+        "name": "Yamato",
+        "desc": "Enables the wielder to strike twice when attacking. Doubles Mt on attack. Spd/Skil+2 when carried.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 80,
+            "crit": 10,
+            "avoid": 5,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+    },
+	"empyrean": {
+        "name": "Empyrean",
+        "desc": "Good for follow-up attacks (+5 eff. Spd). When equipped, survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 13,
+            "hit": 75,
+            "crit": 15,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "doubling_speed": -5
+        }
+    },
+	"judgement": {
+        "name": "Judgment",
+        "desc": "A gun with high accuracy. Reduces 15% of enemy's maximum HP after combat wielder initiated. Effective against tomes, armor, and fliers. Tara and Ophelia only.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 100,
+            "crit": 0,
+            "avoid": 15,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"callpierce": {
+        "name": "Call: Pierce",
+        "desc": "Summons Ose. Cannot make follow-up attacks. On a hit, lower foe's Str/Def (recovers 1/turn). User takes 15% max HP damage after use. Str+2, Spd+4, Def/Res-2. Kotone only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 18,
+            "hit": 85,
+            "crit": 15,
+            "avoid": 20,
+			"dodge": 0,
+            "rng": "1",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"callmegidola": {
+        "name": "Call: Megidola",
+        "desc": "Magical. Summons Thanatos. Cannot make follow-up attacks or attack in Attack Stance. Cannot counter or be countered. On a hit, lower foe's Mag/Res (recovers 1/turn). After use in combat, wielder suffers Mag/Skill-2. Mag/Def/Res+2, Spd/Luck-2. Kotone only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 20,
+            "hit": 75,
+            "crit": 0,
+            "avoid": -10,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"callneocadenza": {
+        "name": "Call: Neo Cadenza",
+        "desc": "Restores some HP to all allies in range and grant +2 to all stats to allies within four spaces for one turn. Kotone and Takumi only.",
+        "weapon": false,
+        "stats": {
+            "rank": "B",
+            "mt": 8,
+            "hit": 70,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 0,
+			"uses": 4,
+            "rng": "1-3",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "staff",
+    },
+	"lightningsword": {
+        "name": "Lightning Sword",
+        "desc": "A Levin Sword used by Cavaliere. Does physical damage instead.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 70,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1-3",
+            "price": 3300,
+            "sell": 1100
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "doubling_speed": -5
+        }
+    },
+	"bustersword": {
+        "name": "Buster Sword",
+        "desc": "Effective against axes/clubs. +2 Str/Mag, +3 Def.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 15,
+            "rng": "1",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "str": 2,
+			"mag": 2,
+			"def": 3
+        }
+    },
+	"wadoichimonji": {
+        "name": "Wado Ichimonji",
+        "desc": "Enables the wielder to strike twice when attacking. Deals extra damage on critical hits and effective against swords/katanas.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 85,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+    },
+	"keybladerep": {
+        "name": "Kingdom Key Rep.",
+        "desc": "When equipped, use to restore 20HP. +3 Str/Mag. ",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 70,
+            "crit": 15,
+            "avoid": 5,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"wadoichimstory": {
+        "name": "Wado Ichi. (Story)",
+        "desc": "Deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 85,
+            "crit": 5,
+            "avoid": 10,
+			"dodge": 15,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+    },
+	"planetsprotection": {
+        "name": "Planet's Protection",
+        "desc": "All allies in the map heal to full HP and user receives Lck+4 and +2 to all other stats until the end of battle. Aerith only.",
+        "weapon": false,
+        "stats": {
+            "rank": "S",
+            "mt": 99,
+            "hit": 0,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 0,
+			"uses": 1,
+            "rng": "1-127",
+            "price": 8000,
+            "sell": 4000
+        },
+        "forge": 0,
+        "type": "staff",
+    },
+	"callbraveblade": {
+        "name": "Call: Brave Blade",
+        "desc": "Summons Siegfried. Cannot make follow up attacks. Deals Colossal Physical damage with high critical chance. User takes 24% max HP damage after use. Kotone only. Str/Lck+4, Def+2, Spd/Res-2.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 25,
+            "hit": 75,
+            "crit": 40,
+            "avoid": -10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 6000,
+            "sell": 3000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"callvacuumwave": {
+        "name": "Call: Vacuum Wave",
+        "desc": "Magical. Summons Scathach. Cannot make follow up attacks. Deals Severe damage to one foe and lowers their Skl/Spd on hit (recovers 1/turn). After use in combat, wielder suffers Mag/Skl-2. Mag+4, Res+2, Def-4.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 25,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 6000,
+            "sell": 3000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"callmegidolan": {
+        "name": "Call: Megidolaon",
+        "desc": "Magical. Summons Alice. Cannot make follow-up attacks or attack in Attack Stance. Cannot counter or be countered. On a hit, lower foe's Def/Res (recovers 1/turn). After use in combat, wielder suffers Mag/Skill-2 and halves Mag stat until they attack again. May halve damage from magical attacks. %  = (Skill stat). Mag/Res+4, Def/Spd-2. Kotone only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 25,
+            "hit": 90,
+            "crit": 0,
+            "avoid": -15,
+			"dodge": -15,
+            "rng": "1-2",
+            "price": 6000,
+            "sell": 3000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"calldivineblade": {
+        "name": "Call: Divine Blade",
+        "desc": "Summons Futsunushi. Cannot make follow up attacks. Deals Colossal Physical damage with high accuracy, and on hit, lowers foe's Str/Mag (recovers 1/turn). User takes 24% max HP damage after use. Kotone only. Str/Def+4, Lck-2, Res-4.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 22,
+            "hit": 100,
+            "crit": 10,
+            "avoid": 0,
+			"dodge": 20,
+            "rng": "1",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"crescentrose": {
+        "name": "Crescent Rose",
+        "desc": "Ruby's signature weapon. Doubles Mt when wielder's Skill is higher than the enemy's. Effective against monsters and beaststone users.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 80,
+            "crit": 0,
+            "avoid": 10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 2000,
+            "sell": 750
+        },
+        "forge": 0,
+        "type": "naginata",
+    },
+	"crescentroserange": {
+        "name": "C.R (Ranged)",
+        "desc": "Crescent Rose for farther targets. Effective against armor/fliers.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 14,
+            "hit": 70,
+            "crit": 0,
+            "avoid": -10,
+			"dodge": -5,
+            "rng": "2-3",
+            "price": 2000,
+            "sell": 750
+        },
+        "forge": 0,
+        "type": "naginata",
+    },
+	"flintlock": {
+        "name": "Flintlock",
+        "desc": "Ddg+20. Can't inflict criticals or trigger offensive skills. Hi, I'm Saul Goodman. Did you know that you have rights? The constitution says you do!",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 70,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 20,
+            "rng": "2",
+            "price": 500,
+            "sell": 250
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"nambu": {
+        "name": "Nambu M60",
+        "desc": "A double action revolver for law enforcement officers. Effective against fliers and armor.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 75,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 20,
+            "rng": "2",
+            "price": 1000,
+            "sell": 500
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"colt": {
+        "name": "Colt M1911",
+        "desc": "A service pistol used in two great world wars. Effective against fliers and armor.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 80,
+            "crit": 5,
+            "avoid": 5,
+			"dodge": 0,
+            "rng": "2",
+            "price": 2000,
+            "sell": 1000
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"fiveseven": {
+        "name": "FN Five-Seven",
+        "desc": "A modern semi-automatic pistol. Good for follow-up attacks (+3 eff. Spd). Effective against fliers/armor/automations.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 13,
+            "hit": 85,
+            "crit": 10,
+            "avoid": 5,
+			"dodge": 0,
+            "rng": "2",
+            "price": 4000,
+            "sell": 2000
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"deserteagle": {
+        "name": "Desert Eagle",
+        "desc": "A pistol that shoots a powerful cartridge. Deals extra damage on critical hits. Effective against fliers, armor, and automations.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 15,
+            "hit": 80,
+            "crit": 25,
+            "avoid": 0,
+			"dodge": -10,
+            "rng": "2",
+            "price": 6000,
+            "sell": 4000
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"deserteagle": {
+        "name": "Desert Eagle",
+        "desc": "An unstable prototype that shoots energy. Effective against fliers, beaststones, monsters, armor, and automations.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 22,
+            "hit": 60,
+            "crit": 15,
+            "avoid": -10,
+			"dodge": -10,
+            "rng": "2",
+            "price": 8000,
+            "sell": 4000
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"malorianarms": {
+        "name": "Malorian Arms",
+        "desc": "Effective against fliers and armor. Cannot double, but enables the wielder to strike twice when attacking. Inverts weapon advantage and doubles its effects. A custom gun made for a particular legend of Night City.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 13,
+            "hit": 75,
+            "crit": 10,
+            "avoid": 0,
+			"dodge": 5,
+            "rng": "2",
+            "price": 1000,
+            "sell": 500
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"shinrarifle": {
+        "name": "Shinra Rifle",
+        "desc": "A standard rifle issued to the soldiers of the Shinra Electric Company. Effective against fliers and armored units.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 80,
+            "crit": 10,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "2",
+            "price": 1000,
+            "sell": 500
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"deluzeorphean": {
+        "name": "DeLuze Orphean",
+        "desc": "A standard rifle issued to the soldiers of the Shinra Electric Company. Effective against fliers and armored units.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 70,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 15,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "axe",
+    },
+	"calllifedrain": {
+        "name": "Call: Life Drain",
+        "desc": "Magical. Summons Sandalphon. Can't make follow up attacks. Deals Heavy damage to one foe and absorbs target's HP. After use in combat, wielder suffers Mag/Skl-2. Mag/Res+2, Def/Skl -2.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 18,
+            "hit": 70,
+            "crit": 0,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "stone",
+    },
+	"outragesol": {
+        "name": "Outrage (Sol Badguy)",
+        "desc": "+2 Str/Skl when carried. Strikes twice when attacking and deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 75,
+            "crit": 15,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1",
+            "price": 4000,
+            "sell": 1000
+        },
+        "forge": 0,
+        "type": "axe",
+    },
+	"manderville": {
+        "name": "Manderville",
+        "desc": "+2 Str, +5 Def/Res, -5 Spd/Lck. Deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 75,
+            "crit": 15,
+            "avoid": -10,
+			"dodge": 0,
+            "rng": "1",
+            "price": 4000,
+            "sell": 1000
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"suzakuchokuto": {
+        "name": "Suzaku Chokuto",
+        "desc": "+5 Skl/Spd, -4 Str/Def. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Wielder may survive lethal attacks if their HP > 1. Trigger % = (Lck stat).",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 85,
+            "crit": 10,
+            "avoid": 20,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "katana",
+    },
+	"deathscythe": {
+        "name": "Death Scythe",
+        "desc": "+5 Mag, +10 Lck, -2 Skl/Spd, -4 Res. A magic weapon. Absorbs target's HP. Effective against monsters.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 75,
+            "crit": -20,
+            "avoid": 0,
+			"dodge": 10,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "naginata",
+    },
+	"labrysaxe": {
+        "name": "Labrys (axe)",
+        "desc": "Labrys only. While equipped, restores some HP every turn.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 14,
+            "hit": 70,
+            "crit": 10,
+            "avoid": 0,
+			"dodge": 0,
+            "rng": "1",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "axe",
+    },
 }
