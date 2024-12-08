@@ -193,7 +193,7 @@
                 "ylisse"
             ]
         },
-        "color": "0x80b1ed",
+        "color": "0x6900aa",
         "data": {
             "unit": {
                 "main": "database/pt/char.json",
@@ -695,6 +695,184 @@
                 "main": "database/fefxp/item.json",
                 "lua": [
                     "fefxp",
+                    "Item"
+                ],
+                "int": {
+                    "forge": [
+                        1,
+                        7
+                    ]
+                },
+                "prefix": {
+                    "forge": "+"
+                }
+            }
+        }
+    },
+	"sw": {
+        "name": "Silent Waves",
+        "default": "unit",
+        "alias": [
+            "sw"
+        ],
+        "random": {
+            "pool": "database/sw/rev.json",
+            "add": [
+                "fates"
+            ]
+        },
+        "color": "0x607c8e",
+        "data": {
+            "unit": {
+                "main": "database/sw/rev.json",
+                "add": [
+                    "class",
+                    "weapon"
+                ],
+                "exclamation": "mother",
+                "level": {
+                    "lvl": 99,
+                    "size": 20
+                },
+                "multiple": {
+                    "class": 20
+                },
+                "bool": {
+                    "personal": [],
+                    "aptitude": []
+                },
+                "par": {
+                    "offspring": [
+                        "offspringseal"
+                    ],
+                    "wyvernrider": [
+                        "dragon"
+                    ],
+                    "spearfighter": [
+                        "lancer"
+                    ],
+                    "shrinemaiden": [
+                        "priestess"
+                    ],
+                    "darkmage": [
+                        "mage"
+                    ]
+                },
+                "entry": {
+                    "class": "database/sw/job.json",
+                    "father": "database/sw/rev.json",
+                    "mother": "database/sw/rev.json",
+                    "offspring": "database/sw/job.json",
+                    "thirdgen": "database/sw/rev.json",
+                    "weapon": "database/sw/item.json"
+                },
+                "int": {
+                    "chapter": [
+                        8,
+                        27
+                    ],
+                    "forge": [
+                        1,
+                        7
+                    ],
+                    "parent": [
+                        1,
+                        50
+                    ]
+                },
+                "choice": {
+                    "difficulty": {
+                        "Lunatic": "lunatic",
+                        "Hard": "hard",
+                        "Normal": "normal"
+                    },
+                    "boon": {
+                        "Robust (HP)": "hp",
+                        "Strong (Strength)": "str",
+                        "Clever (Magic)": "mag",
+                        "Deft (Skill)": "skl",
+                        "Quick (Speed)": "spd",
+                        "Lucky (Luck)": "lck",
+                        "Sturdy (Defense)": "def",
+                        "Calm (Resistance)": "res"
+                    },
+                    "bane": {
+                        "Sickly (HP)": "hp",
+                        "Weak (Strength)": "str",
+                        "Dull (Magic)": "mag",
+                        "Clumsy (Skill)": "skl",
+                        "Slow (Speed)": "spd",
+                        "Unlucky (Luck)": "lck",
+                        "Fragile (Defense)": "def",
+                        "Excitable (Resistance)": "res"
+                    },
+                    "rank": {
+                        "None": "none",
+                        "C Rank": "C",
+                        "B Rank": "B",
+                        "A Rank": "A"
+                    }
+                },
+                "prefix": {
+                    "boon": "+",
+                    "bane": "-",
+                    "chapter": "-",
+                    "forge": "+",
+                    "modifiers": "$"
+                },
+                "required": [
+                    "route"
+                ],
+                "custom_help": {
+                    "Averages": "text/game/averages/fe14.txt"
+                },
+                "classic_hidden": [
+                    "level",
+                    "route"
+                ],
+                "lua": [
+                    "sw",
+                    "Silentwaves"
+                ],
+                "comma": {
+                    "name": "compare",
+                    "size": 4
+                },
+                "stats": {
+                    "modifiers": [
+                        "hp",
+                        "str",
+                        "mag",
+                        "skl",
+                        "spd",
+                        "lck",
+                        "def",
+                        "res",
+                        "atk",
+                        "hit",
+                        "crit",
+                        "as"
+                    ]
+                }
+            },
+            "class": {
+                "main": "database/sw/job.json",
+                "lua": [
+                    "sw",
+                    "Job"
+                ]
+            },
+            "skill": {
+                "main": "database/sw/skill.json",
+                "lua": [
+                    "sw",
+                    "Skill"
+                ]
+            },
+            "item": {
+                "main": "database/sw/item.json",
+                "lua": [
+                    "sw",
                     "Item"
                 ],
                 "int": {
