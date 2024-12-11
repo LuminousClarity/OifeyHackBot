@@ -5673,17 +5673,10 @@
             "hit": 75,
             "crit": 5,
             "avoid": 10,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "1-2"
         },
         "forge": 0,
-        "type": "axe",
-		"equip": {
-            "stats": {
-                "skl": 4
-            }
-        }
+        "type": "axe"
     },
 	"dormantandlat": {
         "name": "Dormant Andlát",
@@ -5695,9 +5688,7 @@
             "hit": 70,
             "crit": 5,
             "avoid": 10,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "axe"
@@ -5710,11 +5701,7 @@
             "rank": "E",
             "mt": 12,
             "hit": 80,
-            "crit": 0,
-            "avoid": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+			"rng": "1-2"
         },
         "forge": 0,
         "type": "tome"
@@ -5727,8 +5714,6 @@
             "rank": "E",
             "mt": 13,
             "hit": 65,
-            "crit": 0,
-            "avoid": 0,
             "rng": "1-2",
             "price": 4000,
             "sell": 1000
@@ -5746,15 +5731,15 @@
             "hit": 80,
             "crit": 10,
             "avoid": 5,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "katana",
 		"equip": {
             "stats": {
-                "str": 4
+                "spd": 1,
+				"def": -1,
+				"res": -1
             }
         }
     },
@@ -5769,12 +5754,15 @@
             "crit": 10,
             "avoid": -5,
 			"dodge": -5,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "2"
         },
         "forge": 0,
-        "type": "bow"
+        "type": "bow",
+		"equip": {
+            "stats": {
+                "lck": 5
+            }
+        }
     },
 	"friendreplacer": {
         "name": "Friend Replacer",
@@ -5787,9 +5775,7 @@
             "crit": 10,
             "avoid": -5,
 			"dodge": -5,
-            "rng": "2",
-            "price": 0,
-            "sell": 0
+            "rng": "2"
         },
         "forge": 0,
         "type": "bow"
@@ -5810,13 +5796,7 @@
             "sell": 800
         },
         "forge": 0,
-        "type": "sword",
-		"equip": {
-            "stats": {
-                "def": 2,
-				"res": 2
-            }
-        }
+        "type": "sword"
     },
 	"monado": {
         "name": "Monado",
@@ -5826,12 +5806,8 @@
             "rank": "E",
             "mt": 12,
             "hit": 80,
-            "crit": 0,
             "avoid": 15,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
@@ -5852,10 +5828,7 @@
             "hit": 85,
             "crit": 5,
             "avoid": 10,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
@@ -5868,12 +5841,8 @@
             "rank": "E",
             "mt": 1,
             "hit": 100,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 10,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "tome",
@@ -5886,12 +5855,9 @@
             "rank": "A",
             "mt": 30,
             "hit": 100,
-            "crit": 0,
             "avoid": 10,
 			"dodge": 10,
-            "rng": "1-3",
-            "price": 0,
-            "sell": 0
+            "rng": "1-3"
         },
         "forge": 0,
         "type": "breath",
@@ -5908,11 +5874,14 @@
             "avoid": -20,
 			"dodge": -10,
             "rng": "1",
-            "price": 0,
-            "sell": 0
         },
         "forge": 0,
         "type": "sword",
+		"equip": {
+            "stats": {
+                "str": 4
+            }
+        }
     },
 	"lightsaber": {
         "name": "Lightsaber",
@@ -5924,13 +5893,10 @@
             "hit": 90,
             "crit": 5,
             "avoid": 10,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
-        "type": "sword",
+        "type": "sword"
     },
 	"theforce": {
         "name": "The Force",
@@ -5940,15 +5906,18 @@
             "rank": "E",
             "mt": 11,
             "hit": 80,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 10,
             "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "sell": 5000
         },
         "forge": 0,
         "type": "tome",
+		"equip": {
+            "stats": {
+                "def": 3,
+				"res": 3
+            }
+        }
     },
 	"maerrorka": {
         "name": "Mærr Orka",
@@ -5959,14 +5928,16 @@
             "mt": 11,
             "hit": 80,
             "crit": 5,
-            "avoid": 0,
-			"dodge": 0,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+			"dodge": 10,
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "sword",
+		"equip": {
+            "stats": {
+				"res": 3
+            }
+        }
     },
 	"swordsofsolstice": {
         "name": "Swords of Solstice",
@@ -5978,13 +5949,16 @@
             "hit": 75,
             "crit": 5,
             "avoid": 10,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
+		"equip": {
+            "stats": {
+				"spd": -2,
+				"res": -1
+            }
+        }
     },
 	"yamato": {
         "name": "Yamato",
@@ -5996,13 +5970,16 @@
             "hit": 80,
             "crit": 10,
             "avoid": 5,
-			"dodge": 0,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "katana",
+		"equip": {
+            "stats": {
+				"def": -1,
+				"res": -1
+            }
+        }
     },
 	"empyrean": {
         "name": "Empyrean",
@@ -6013,16 +5990,15 @@
             "mt": 13,
             "hit": 75,
             "crit": 15,
-            "avoid": 0,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "katana",
 		"equip": {
-            "doubling_speed": -5
+			"stats": {
+            "doubling_speed": -5,
+			"str": 4
+			}
         }
     },
 	"judgement": {
@@ -6033,15 +6009,18 @@
             "rank": "C",
             "mt": 10,
             "hit": 100,
-            "crit": 0,
             "avoid": 15,
 			"dodge": 0,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "bow",
+		"equip": {
+			"stats": {
+            "def": 2,
+			"res": 2
+			}
+        }
     },
 	"callpierce": {
         "name": "Call: Pierce",
@@ -6059,7 +6038,15 @@
             "sell": 2000
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+            "str": 2,
+			"spd": 4,
+			"def": -2,
+			"res": -2
+			}
+        }
     },
 	"callmegidola": {
         "name": "Call: Megidola",
@@ -6077,7 +6064,16 @@
             "sell": 2000
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+            "mag": 2,
+			"spd": -2,
+			"lck": -2,
+			"def": 2,
+			"res": 2
+			}
+        }
     },
 	"callneocadenza": {
         "name": "Call: Neo Cadenza",
@@ -6086,10 +6082,6 @@
         "stats": {
             "rank": "B",
             "mt": 8,
-            "hit": 70,
-            "crit": 0,
-            "avoid": 0,
-			"dodge": 0,
 			"uses": 4,
             "rng": "1-3",
             "price": 4000,
@@ -6106,9 +6098,6 @@
             "rank": "C",
             "mt": 8,
             "hit": 70,
-            "crit": 0,
-            "avoid": 0,
-			"dodge": 0,
             "rng": "1-3",
             "price": 3300,
             "sell": 1100
@@ -6127,19 +6116,17 @@
             "rank": "E",
             "mt": 11,
             "hit": 80,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 15,
-            "rng": "1",
-            "price": 4000,
-            "sell": 2000
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
 		"equip": {
+			"stats": {
             "str": 2,
 			"mag": 2,
 			"def": 3
+			}
         }
     },
 	"wadoichimonji": {
@@ -6152,10 +6139,7 @@
             "hit": 85,
             "crit": 5,
             "avoid": 10,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "katana",
@@ -6170,10 +6154,7 @@
             "hit": 70,
             "crit": 15,
             "avoid": 5,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
@@ -6189,9 +6170,7 @@
             "crit": 5,
             "avoid": 10,
 			"dodge": 15,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "katana",
@@ -6203,10 +6182,6 @@
         "stats": {
             "rank": "S",
             "mt": 99,
-            "hit": 0,
-            "crit": 0,
-            "avoid": 0,
-			"dodge": 0,
 			"uses": 1,
             "rng": "1-127",
             "price": 8000,
@@ -6231,7 +6206,16 @@
             "sell": 3000
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+            "str": 4,
+			"spd": -2,
+			"lck": 4,
+			"def": 2,
+			"res": -2
+			}
+        }
     },
 	"callvacuumwave": {
         "name": "Call: Vacuum Wave",
@@ -6241,15 +6225,19 @@
             "rank": "E",
             "mt": 25,
             "hit": 80,
-            "crit": 0,
-            "avoid": 0,
-			"dodge": 0,
             "rng": "1-2",
             "price": 6000,
             "sell": 3000
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+            "mag": 4,
+			"def": -4,
+			"res": 2
+			}
+        }
     },
 	"callmegidolan": {
         "name": "Call: Megidolaon",
@@ -6259,7 +6247,6 @@
             "rank": "E",
             "mt": 25,
             "hit": 90,
-            "crit": 0,
             "avoid": -15,
 			"dodge": -15,
             "rng": "1-2",
@@ -6267,7 +6254,15 @@
             "sell": 3000
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+            "mag": 4,
+			"spd": -2,
+			"def": -2,
+			"res": 4
+			}
+        }
     },
 	"calldivineblade": {
         "name": "Call: Divine Blade",
@@ -6278,7 +6273,6 @@
             "mt": 22,
             "hit": 100,
             "crit": 10,
-            "avoid": 0,
 			"dodge": 20,
             "rng": "1",
             "price": 4000,
@@ -6286,6 +6280,14 @@
         },
         "forge": 0,
         "type": "stone",
+		"equip": {
+			"stats": {
+            "str": 4,
+			"lck": -2,
+			"def": 4,
+			"res": -4
+			}
+        }
     },
 	"crescentrose": {
         "name": "Crescent Rose",
@@ -6295,15 +6297,20 @@
             "rank": "E",
             "mt": 12,
             "hit": 80,
-            "crit": 0,
             "avoid": 10,
-			"dodge": 0,
             "rng": "1",
             "price": 2000,
             "sell": 750
         },
         "forge": 0,
         "type": "naginata",
+		"equip": {
+			"stats": {
+			"spd": 2,
+			"def": -1,
+			"res": -1
+			}
+        }
     },
 	"crescentroserange": {
         "name": "C.R (Ranged)",
@@ -6313,7 +6320,6 @@
             "rank": "E",
             "mt": 14,
             "hit": 70,
-            "crit": 0,
             "avoid": -10,
 			"dodge": -5,
             "rng": "2-3",
@@ -6331,8 +6337,6 @@
             "rank": "E",
             "mt": 7,
             "hit": 70,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 20,
             "rng": "2",
             "price": 500,
@@ -6349,8 +6353,6 @@
             "rank": "E",
             "mt": 10,
             "hit": 75,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 20,
             "rng": "2",
             "price": 1000,
@@ -6369,7 +6371,6 @@
             "hit": 80,
             "crit": 5,
             "avoid": 5,
-			"dodge": 0,
             "rng": "2",
             "price": 2000,
             "sell": 1000
@@ -6387,7 +6388,6 @@
             "hit": 85,
             "crit": 10,
             "avoid": 5,
-			"dodge": 0,
             "rng": "2",
             "price": 4000,
             "sell": 2000
@@ -6404,7 +6404,6 @@
             "mt": 15,
             "hit": 80,
             "crit": 25,
-            "avoid": 0,
 			"dodge": -10,
             "rng": "2",
             "price": 6000,
@@ -6440,7 +6439,6 @@
             "mt": 13,
             "hit": 75,
             "crit": 10,
-            "avoid": 0,
 			"dodge": 5,
             "rng": "2",
             "price": 1000,
@@ -6458,8 +6456,6 @@
             "mt": 9,
             "hit": 80,
             "crit": 10,
-            "avoid": 0,
-			"dodge": 0,
             "rng": "2",
             "price": 1000,
             "sell": 500
@@ -6475,12 +6471,8 @@
             "rank": "E",
             "mt": 11,
             "hit": 70,
-            "crit": 0,
-            "avoid": 0,
 			"dodge": 15,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "axe",
@@ -6501,7 +6493,15 @@
             "sell": 0
         },
         "forge": 0,
-        "type": "stone",
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+			"mag": 2,
+			"skl": -2,
+			"def": -2,
+			"res": 2
+			}
+        }
     },
 	"outragesol": {
         "name": "Outrage (Sol Badguy)",
@@ -6512,8 +6512,6 @@
             "mt": 12,
             "hit": 75,
             "crit": 15,
-            "avoid": 0,
-			"dodge": 0,
             "rng": "1",
             "price": 4000,
             "sell": 1000
@@ -6531,13 +6529,19 @@
             "hit": 75,
             "crit": 15,
             "avoid": -10,
-			"dodge": 0,
-            "rng": "1",
-            "price": 4000,
-            "sell": 1000
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
+		"equip": {
+			"stats": {
+			"str": 2,
+			"spd": -5,
+			"lck": -5,
+			"def": 5,
+			"res": 5
+			}
+        }
     },
 	"suzakuchokuto": {
         "name": "Suzaku Chokuto",
@@ -6549,13 +6553,18 @@
             "hit": 85,
             "crit": 10,
             "avoid": 20,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "katana",
+		"equip": {
+			"stats": {
+			"str": -4,
+			"skl": 5,
+			"spd": 5,
+			"def": -4
+			}
+        }
     },
 	"deathscythe": {
         "name": "Death Scythe",
@@ -6566,14 +6575,20 @@
             "mt": 11,
             "hit": 75,
             "crit": -20,
-            "avoid": 0,
 			"dodge": 10,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "naginata",
+		"equip": {
+			"stats": {
+			"mag": 5,
+			"skl": -2,
+			"spd": -2,
+			"lck": 10,
+			"res": -4
+			}
+        }
     },
 	"labrysaxe": {
         "name": "Labrys (axe)",
@@ -6584,11 +6599,7 @@
             "mt": 14,
             "hit": 70,
             "crit": 10,
-            "avoid": 0,
-			"dodge": 0,
-            "rng": "1",
-            "price": 0,
-            "sell": 0
+            "rng": "1"
         },
         "forge": 0,
         "type": "axe",

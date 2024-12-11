@@ -14,4 +14,7 @@
 `@Professor Byleth fe4` - Genealogy of the Holy War
 `@Professor Byleth fe2` - Gaiden
 `@Professor Byleth fe1` - Shadow Dragon and the Sword of Light
-`@Professor Byleth tow` - Thabes Overwritten
+`@Professor Byleth tow` - Awakening: Thabes Overwritten
+`@Professor Byleth sw` - Fates: Silent Waves
+`@Professor Byleth vow` - Fates: Visitor from Other Worlds
+`@Professor Byleth xp` - Fates: Xed Paths

@@ -1140,8 +1140,7 @@
         "mother": false,
         "gender": "f",
         "blood": false,
-        "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "treasurehunter",
 			"outlaw",
@@ -1237,6 +1236,43 @@
 				"pass",
 				"locktouch"
             ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+					"mag": 1,
+					"spd": 1
+                },
+                "b": {
+                },
+                "a": {
+                    "mag": 1,
+					"lck": 1
+                },
+                "s": {
+                    "lck": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "mag": 1,
+					"spd": 1
+                },
+                "b": {
+                    "mag": 1,
+					"spd": 1
+                },
+                "a": {
+                    "mag": 2,
+					"spd": 1,
+					"lck": 1
+                },
+                "s": {
+                    "mag": 2,
+					"lck": 2,
+					"spd": 1
+                }
+            }
         }
     },
     "charlotte": {
@@ -1475,7 +1511,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "poacher",
 			"archer",
@@ -2599,8 +2635,7 @@
         "mother": false,
         "gender": "m",
         "blood": false,
-        "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "heister",
 			"lancer",
@@ -2690,6 +2725,34 @@
                 "naturalcover",
 				"locktouch"
 			]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                },
+                "a": {
+                },
+                "s": {
+                    "skl": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                    "skl": 1
+                },
+                "a": {
+                    "skl": 1
+                },
+                "s": {
+                    "skl": 2
+                }
+            }
         }
     },
     "gazak": {
@@ -2703,7 +2766,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "fighter"
         ],
@@ -5289,7 +5352,7 @@
             ]
         },
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "fighter"
         ],
@@ -5381,7 +5444,7 @@
             ]
         },
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "fighter"
         ],
@@ -6262,7 +6325,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "maliglord",
 			"cavalier",
@@ -8674,7 +8737,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "apothecary",
 			"diviner",
@@ -9951,8 +10014,7 @@
         "mother": false,
         "gender": "m",
         "blood": false,
-        "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "brawler",
 			"troubadour",
@@ -10036,6 +10098,45 @@
                 "dartingblow",
 				"quickdraw"
             ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "str": 1,
+					"mag": 1
+                },
+                "b": {
+                    "spd": 1
+                },
+                "a": {
+                    "str": 1,
+					"mag": 1
+                },
+                "s": {
+                    "mag": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1,
+					"mag": 1
+                },
+                "b": {
+                    "str": 1,
+					"mag": 1,
+					"spd": 1
+                },
+                "a": {
+                    "str": 2,
+					"mag": 2,
+					"spd": 1
+                },
+                "s": {
+                    "mag": 3,
+					"str": 2,
+					"spd": 1
+                }
+            }
         }
     },
     "velouria": {
@@ -10283,8 +10384,7 @@
         "mother": false,
         "gender": "m",
         "blood": false,
-        "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "swordsman",
 			"mercenary",
@@ -10377,6 +10477,40 @@
 				"swordfaire",
 				"aegis"
             ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "str": 1,
+					"spd": 1
+                },
+                "b": {
+                },
+                "a": {
+                    "spd": 1
+                },
+                "s": {
+                    "str": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1,
+					"spd": 1
+                },
+                "b": {
+                    "str": 1,
+					"spd": 1
+                },
+                "a": {
+                    "spd": 2,
+					"str": 1
+                },
+                "s": {
+                    "str": 2,
+					"spd": 2
+                }
+            }
         }
     },
     "haitaka": {
@@ -10390,7 +10524,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "spearfighter"
         ],
@@ -10472,8 +10606,7 @@
                 "rallydefense",
                 "strongriposte"
             ]
-        },
-        "IGNORE": true
+        }
     },
     "izana": {
         "name": "Izana",
@@ -10622,7 +10755,7 @@
         "gender": "m",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "onisavage"
         ],
@@ -10707,8 +10840,7 @@
                 "dartingblow",
                 "certainblow"
             ]
-        },
-        "IGNORE": true
+        }
     },
     "rallyman": {
         "name": "Rallyman",
@@ -10812,8 +10944,7 @@
                 "rallyresistance",
                 "rallydefense"
             ]
-        },
-        "IGNORE": true
+        }
     },
     "daniela": {
         "name": "Daniela",
@@ -10826,7 +10957,7 @@
         "gender": "f",
         "blood": false,
         "pairup": false,
-        "variable": true,
+        "variable": false,
         "set": [
             "troubadour"
         ],
@@ -10911,8 +11042,7 @@
 				"pass",
 				"inspiration"
 				]
-        },
-        "IGNORE": true
+        }
     },
     "yukimura": {
         "name": "Yukimura",

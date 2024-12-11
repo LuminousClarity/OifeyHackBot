@@ -5790,7 +5790,7 @@
             "crit": 0,
             "avoid": -20,
             "dodge": 0,
-            "rng": 1,
+            "rng": "1",
             "price": 2000
         },
         "forge": 0,
@@ -5805,14 +5805,14 @@
     },
     "Urdr": {
         "name": "Urðr",
-        "desc": "Azura Only.\n Recovers HP every turn. A lance\nAzura's late mother held dearly.",
+        "desc": "Azura Only. Recovers HP every turn. A lance Azura's late mother held dearly.",
         "weapon": true,
         "stats": {
             "rank": "C",
             "mt": 7,
             "hit": 70,
 			"avoid": 5,
-            "rng": 1,
+            "rng": "1",
             "price": 2200,
             "sell": 800
         },
@@ -5822,5 +5822,1250 @@
             "effective": true,
             "stats": {"def": 1, "res": 1}
         }
-	}
+	},
+	"astraltome": {
+        "name": "Astral Tome",
+        "desc": "A Tome used by the most talented of the astral dragons. Deals more damage on critical hits, and MT x2 when counterattacking.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 70,
+            "avoid": -10,
+            "rng": "1-2",
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"eclipse": {
+        "name": "Eclipse",
+        "desc": "Dark mages only. Can strike twice. Deals extra damage on critical hits. (Mag/Skl -2 after combat.)",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 2,
+            "hit": 75,
+			"crit": 25,
+            "avoid": -5,
+			"dodge": -5,
+            "rng": "1-2",
+			"sell": 3000
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"void": {
+        "name": "Void",
+        "desc": "Dark Mages only. Can absorb enemies HP. Spd/Def -5. (-5 effective Spd PP and -3 EP.)",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 14,
+            "hit": 65,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome",
+		"stats": {
+			"sped": -5,
+			"def": -5
+		}
+    },
+	"bronzegauntlet": {
+        "name": "Bronze Gauntlet",
+        "desc": "Ddg+10. Can't inflict criticals or trigger offensive skills.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 1,
+            "hit": 90,
+			"avoid": 5,
+            "dodge": 10,
+            "rng": "1",
+            "price": 500,
+            "sell": 250
+        },
+        "forge": 1,
+        "type": "claw"
+    },
+	"irongauntlet": {
+        "name": "Iron Gauntlet",
+        "desc": "Gauntlet weapons grant crit+5 and strike twice when attacking.",
+        "weapon": true,
+        "stats": {
+            "rank": "D",
+            "mt": 2,
+            "hit": 75,
+			"crit": 5,
+			"avoid": 5,
+            "rng": "1",
+            "price": 1000,
+            "sell": 500
+        },
+        "forge": 1,
+        "type": "claw"
+    },
+	"steelgauntlet": {
+        "name": "Steel Gauntlet",
+        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd).",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 4,
+            "hit": 60,
+			"crit": 5,
+			"avoid": -5,
+            "rng": "1",
+            "price": 2000,
+            "sell": 750
+        },
+        "forge": 1,
+        "type": "claw"
+    },
+	"silvergauntlet": {
+        "name": "Silver Gauntlet",
+        "desc": "Ddg -10, Avo-15. Can't inflict criticals or trigger offensive skills.",
+        "weapon": true,
+        "stats": {
+            "rank": "B",
+            "mt": 6,
+            "hit": 65,
+			"crit": 5,
+			"avoid": 15,
+			"dodge": -10,
+            "rng": "1",
+            "price": 4000,
+            "sell": 1000
+        },
+        "forge": 1,
+        "type": "claw"
+    },
+	"killerknuckles": {
+        "name": "Killer Knuckles",
+        "desc": "Deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 3,
+            "hit": 70,
+			"crit": 25,
+			"dodge": -10,
+            "rng": "1",
+            "price": 3000,
+            "sell": 1000
+        },
+        "forge": 1,
+        "type": "claw"
+    },
+	"dogspirit": {
+        "name": "Dog Spirit",
+        "desc": "Res+2. Ignores terrain effects during combat.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 5,
+            "hit": 80,
+            "rng": "1-2",
+            "price": 3500,
+            "sell": 750
+        },
+        "forge": 1,
+        "type": "scroll",
+        "equip": {
+            "stats": {
+				"res": 2
+			}
+        }
+    },
+	"boarspirit": {
+        "name": "Boar Spirit",
+        "desc": "Skl/Lck+1. Effective against magic.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 75,
+            "rng": "1-2",
+            "price": 4500,
+            "sell": 1500
+        },
+        "forge": 1,
+        "type": "scroll",
+        "equip": {
+            "stats": {
+				"skl": 1,
+				"lck": 1
+			}
+        }
+    },
+	"missiletainn": {
+        "name": "Missiletainn",
+        "desc": "Odin only. Skill +1. The apocryphal brand?",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "crit": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {
+				"skl": 1
+			}
+		}
+    },
+	"bindingblade": {
+        "name": "Binding Blade",
+        "desc": "Bestows bonuses of Def/Res+5 upon its wielder. Effective against dragons.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 75,
+			"avoid": 5,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {
+				"def": 5,
+				"res": 5
+			}
+		}
+    },
+	"falchion": {
+        "name": "Falchion (Chrom)",
+        "desc": "Chrom only. Effective against dragons.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 75,
+			"avoid": 5,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword"
+    },
+	"roysrapier": {
+        "name": "Roy's Rapier",
+        "desc": "Magic Weapon. Cannot crit/proc skills.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 75,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword"
+    },
+	"water": {
+        "name": "Water",
+        "desc": "A tome used to cast Water spells. Debuffs Res-5 on hit. **Debuffs**:Res -5",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 75,
+            "rng": "1-2",
+            "price": 2500,
+            "sell": 500
+        },
+        "forge": 1,
+        "type": "tome"
+    },
+	"draconicbreath": {
+        "name": "Draconic Breath",
+        "desc": "The breath of an undead dragon. Cannot follow up. Spd-5.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 15,
+            "hit": 75,
+            "crit": 5,
+            "dodge": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "breath"
+    },
+	"divinestone": {
+        "name": "Divinestone",
+        "desc": "Str+5, Mag+4, Skl+3, Spd+8, Lck+3, Def+7, Res+10. Physical, manakete only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 14,
+            "hit": 90,
+            "dodge": 10,
+            "rng": "1-2",
+            "price": 6000
+        },
+        "forge": 0,
+        "type": "dragonstone",
+        "equip": {
+            "stats": {
+                "str": 5,
+                "mag": 4,
+                "skl": 3,
+                "spd": 8,
+				"lck": 3,
+				"def": 7,
+				"res": 10
+            }
+        }
+    },
+	"tikistear": {
+        "name": "Tiki's Tear",
+        "desc": " Magical. A blade forged with the breath of a Divine Dragon. Mag+5, Spd+3, Def/Res/Lck/Skl-5",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 12,
+            "hit": 65,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+    },
+	"knightslance": {
+        "name": "Knight's Lance",
+        "desc": " A lance used by a knight who protects his liege. Def/Res+3",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 75,
+            "rng": 1,
+        },
+        "forge": 0,
+        "type": "lance"
+    },
+	"lissasaxe": {
+        "name": "Lissa's Axe",
+        "desc": "An axe used by the princess of Ylisse.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 70,
+            "crit": 10,
+            "rng": 1,
+        },
+        "forge": 0,
+        "type": "axe"
+    },
+	"awakeneduror": {
+        "name": "Awakened Urðr",
+        "desc": "Azura Only. An awakened form of her lance. (Skl/Spd/Res+2 when carried)",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 80,
+			"avoid": 10,
+			"dodge": 5,
+            "rng": "1",
+        },
+        "forge": 0,
+        "type": "lance",
+        "equip": {
+            "effective": true,
+            "stats": {"def": 1, "res": 1}
+        }
+	},
+	"charemji": {
+        "name": "Charenji",
+        "desc": "The Ganglari and an unknown blade' power being used at once.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 24,
+            "hit": 100,
+			"crit": 5,
+			"avoid": 20,
+            "rng": "1-2",
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"staffofwisdon": {
+        "name": "Staff Of Wisdom",
+        "desc": "A magic staff that can cast spells. Cannot double, counter or be countered. Grants Def+4 to nearby allies after combat.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+			"mt": 14,
+			"hit": 80,
+			"crit": 10,
+			"avoid": -10,
+			"dodge": -5,
+            "rng": "2",
+            "price": 6000,
+            "sell": 4000
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"rauorrabbit": {
+        "name": "Rauðrrabbit",
+        "desc": "Absorbs target's HP.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+			"mt": 12,
+			"hit": 80,
+            "rng": "1-6",
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"wind": {
+        "name": "Wind",
+        "desc": "Effective against fliers. Good for follow-up attacks (+3 eff. Spd).",
+        "weapon": true,
+        "stats": {
+            "rank": "D",
+			"mt": 2,
+			"hit": 100,
+			"crit": 10,
+            "rng": "1-2",
+        },
+        "forge": 1,
+        "type": "tome"
+    },
+	"rapier": {
+        "name": "Rapier",
+        "desc": "Effective vs. Armored/Horseback units.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 80,
+			"avoid": -15,
+            "rng": "1",
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"amatsu": {
+        "name": "Amatsu",
+        "desc": "An otherworldy sword. Strikes twice when attacking. Spd/Skl/Lck-3.",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 12,
+            "hit": 70,
+            "rng": "1",
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {"skl": -3, "spd": -3, "lck": -3}
+        }
+	},
+	"longbow": {
+        "name": "Longbow",
+        "desc": "Sniper only. A bow that can attack from a long distance. Cannot double, crit or proc skills. Def/Res-5. Halves str until user attacks again.",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 5,
+            "hit": 30,
+			"avoid": -20,
+            "dodge": -20,
+            "rng": "3-4",
+            "price": 0,
+            "sell": 7500
+        },
+        "forge": 0,
+        "type": "bow"
+    },
+	"silentstone": {
+        "name": "Silent Stone",
+        "desc": "Skl-1, Spd-3, Lck-1, Def+2, Res-2. Magical. Absorbs HP and cannot double attack.",
+        "weapon": true,
+        "stats": {
+            "rank": "B",
+            "mt": 11,
+            "hit": 70,
+			"avoid": -20,
+            "dodge": -5,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "dragonstone",
+        "equip": {
+            "stats": {
+                "skl": -1,
+                "spd": -3,
+				"lck": -1,
+				"def": 2,
+				"res": -2
+            }
+        }
+    },
+	"silenttome": {
+        "name": "Silent Tome",
+        "desc": "A tome that casts the power of the fell dragon. (Def/Res/Spd-4 when equipped.)",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+			"mt": 15,
+			"hit": 65,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome",
+		"equip": {
+            "stats": {
+                "spd": -4,
+				"def": -4,
+				"res": -4
+            }
+        }
+    },
+	"rocktome": {
+        "name": "Rock Tome",
+        "desc": "A tome that casts rocks. Effective against mounted units. (-5 effective speed on player phase.)",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+			"mt": 6,
+			"hit": 75,
+            "rng": "1-2",
+			"buy": 3000,
+			"sell": 1000
+        },
+        "forge": 0,
+        "type": "tome",
+		"equip": {
+            "stats": {
+                "doubling_speed": -5
+            }
+        }
+    },
+	"apocalypse": {
+        "name": "Apocalypse",
+        "desc": "Dark magic. Grants user Mag+5/Spd-5. Effective against dragons. Weak against other units.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+			"mt": 14,
+			"hit": 70,
+			"avoid": -10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"dawnkatana": {
+        "name": "Dawn Katana",
+        "desc": "Str+2 when equipped. Wielder is not slowed by terrain effects when equipping the katana.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 10,
+            "hit": 75,
+			"avoid": 5,
+            "rng": "1",
+			"sell": 5000
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {"str": 2, "spd": 1, "def": -1, "res": -1}
+        }
+	},
+	"dusksword": {
+        "name": "Dusk Sword",
+        "desc": "Magic weapon. May halve damage from magical attacks. Trigger % = (Skl stat × 1.5). Def+2 when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 16,
+            "hit": 75,
+			"dodge": 5,
+            "rng": "1",
+			"sell": 5000
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {"def": 2}
+        }
+	},
+	"solkatti": {
+        "name": "Sol Katti",
+        "desc": "Bestows a bonus of +5 Resistance when equipped. Effective against Dragon and Wyvern units.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 9,
+            "hit": 90,
+			"crit": 25,
+			"dodge": -10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {"spd": 1, "res": 5}
+        }
+	},
+	"shockstick": {
+        "name": "Shockstick",
+        "desc": "Magic weapon. Mag+5 when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "B",
+            "mt": 10,
+            "hit": 75,
+			"avoid": -20,
+			"dodge": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "lance",
+        "equip": {
+            "effective": true,
+            "stats": {"mag": 5}
+        }
+	},
+	"gungnir": {
+        "name": "Gungnir",
+        "desc": "Str/Def+5 when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 14,
+            "hit": 55,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "lance",
+        "equip": {
+            "effective": true,
+            "stats": {"mag": 5}
+        }
+	},
+	"vengeance": {
+        "name": "Vengeance",
+        "desc": "An axe that's the only one of it's kind.",
+        "weapon": true,
+        "stats": {
+            "rank": "B",
+            "mt": 15,
+            "hit": 70,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "axe"
+	},
+	"dusktome": {
+        "name": "Dusk Tome",
+        "desc": "A tome that contains the power of the Dusk Dragon.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+			"mt": 11,
+			"hit": 80,
+			"crit": 5,
+			"dodge": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"beastscratch": {
+        "name": "Beastscratch",
+        "desc": "Effective against dragons. Grants Skl+8,Def-2,Res-3",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 90,
+            "rng": "1",
+			"buy": 3500
+        },
+        "forge": 0,
+        "type": "beaststone",
+        "equip": {
+            "stats": {
+                "skl": 8,
+                "def": -2,
+                "res": -3
+            }
+        }
+    },
+	"beastfang": {
+        "name": "Beastfang",
+        "desc": "Effective against armored units. Grants Spd-5, Def+7 and Res+6.",
+        "weapon": true,
+        "stats": {
+            "rank": "B",
+            "mt": 8,
+            "hit": 75,
+            "rng": "1",
+			"buy": 4000
+        },
+        "forge": 0,
+        "type": "beaststone",
+        "equip": {
+            "stats": {
+                "spd": -5,
+                "def": 7,
+                "res": 6
+            }
+        }
+    },
+	"beaststone++": {
+        "name": "Beaststone++",
+        "desc": "Skill+10, Spd+9, Def-7, Res-5, Ddg+10. Cannot crit/skill.",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 16,
+            "hit": 90,
+			"crit": 5,
+			"avoid": 10,
+			"dodge": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "beaststone",
+        "equip": {
+            "stats": {
+                "skl": 10,
+                "spd": 9,
+				"def": -7,
+                "res": -5
+            }
+        }
+    },
+	"beastclaw": {
+        "name": "Beast Claw",
+        "desc": "Def/Res-4. Enables the wielder to strike twice when attacking.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 8,
+            "hit": 80,
+			"crit": 5,
+			"avoid": 10,
+			"dodge": 10,
+            "rng": "1",
+			"buy": 8000
+        },
+        "forge": 0,
+        "type": "beaststone",
+        "equip": {
+            "stats": {
+                "skl": 8,
+                "spd": 6,
+				"def": -4,
+                "res": -4
+            }
+        }
+    },
+	"killerbeaststone": {
+        "name": "Killer Beastone",
+        "desc": "Spd+7/Def-5/Res-7. Deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 80,
+			"crit": 25,
+			"avoid": -10,
+            "rng": "1",
+			"buy": 3000
+        },
+        "forge": 0,
+        "type": "beaststone",
+        "equip": {
+            "stats": {
+                "spd": 7,
+				"def": -5,
+                "res": -7
+            }
+        }
+    },
+	"auraknuckles": {
+        "name": "Aura Knuckles",
+        "desc": "Magic weapon.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 60,
+			"crit": 5,
+			"dodge": -20,
+            "rng": "1",
+            "price": 4000,
+            "sell": 1500
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"hervor": {
+        "name": "Hervor",
+        "desc": "Elise Only. A tome for pure-hearted royals.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+			"mt": 12,
+			"hit": 90,
+			"avoid": 10,
+			"dodge": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"mokushuriken": {
+        "name": "Mokushuriken",
+        "desc": "A shuriken mostly used by the Daimyo of Mokushu.",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 8,
+            "hit": 70,
+			"avoid": 30,
+            "dodge": -25,
+            "rng": "1-2",
+            "sell": 7000
+        },
+        "forge": 0,
+        "type": "shuriken",
+        "equip": {
+            "stats": {
+                "spd": 1
+            }
+        }
+    },
+	"miasma": {
+        "name": "Miasma",
+        "desc": "Basic Dark Magic. Debuffs Def-5 on hit.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+			"mt": 8,
+			"hit": 65,
+            "rng": "1-2",
+			"buy": 2500,
+			"sell": 500
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+	"breathoffog": {
+        "name": "Breath of Fog",
+        "desc": "Str+4, Mag+6, Skl+1, Spd+9, Lck+1, Def+10, Res+7. Magical, manakete only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 14,
+            "hit": 90,
+			"dodge": 10,
+            "rng": "1-2",
+			"buy": 6000
+        },
+        "forge": 0,
+        "type": "dragonstone",
+        "equip": {
+            "stats": {
+                "str": 4,
+                "mag": 6,
+				"skl": 1,
+                "spd": 9,
+				"lck": 1,
+				"def": 10,
+				"res": 7
+            }
+        }
+    },
+	"corruptedyato": {
+        "name": "Corrupted Yato",
+        "desc": "Ddg +10. Magic Weapon. The fully realized Fire Emblem, controlled by Anankos.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 16,
+            "hit": 75,
+			"crit": 10,
+			"avoid": 10,
+			"dodge": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {"spd": 1, "def": -1, "res": -1}
+        }
+	},
+	"yatoreplica": {
+        "name": "Yato Replica",
+        "desc": "A replica of the yato. Holds similar power, but lacks the divine elements. (Str/Spd/Def/Res+2)",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 9,
+            "hit": 70,
+			"avoid": 5,
+			"dodge": -5,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {"str": 2, "spd": 2, "def": 2, "res": 2}
+        }
+	},
+	"dentpuncher": {
+        "name": "Dent Puncher",
+        "desc": "Effective against armored units. Weak against other units.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 3,
+            "hit": 75,
+			"crit": 5,
+            "rng": "1",
+            "price": 2500,
+            "sell": 850
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"scaleripper": {
+        "name": "Scale Ripper",
+        "desc": "Effective against dragon units. Weak against other units.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 3,
+            "hit": 75,
+			"crit": 5,
+            "rng": "1",
+            "price": 2500,
+            "sell": 850
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"beastkillerarts": {
+        "name": "Beast Killer Arts",
+        "desc": "Effective against beasts. Weak against nonbeast units.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 3,
+            "hit": 75,
+			"crit": 5,
+            "rng": "1",
+            "price": 2500,
+            "sell": 850
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"launcherarts": {
+        "name": "Launcher Arts",
+        "desc": "An Art that can summon a projectile. Cannot double.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 2,
+            "hit": 70,
+			"crit": 5,
+            "rng": "2",
+            "price": 1800,
+            "sell": 650
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"blessedgauntlet": {
+        "name": "Blessed Gauntlet",
+        "desc": "Def/Res-3. Effective against monsters. Restores some HP every turn.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 3,
+            "hit": 70,
+			"crit": 5,
+            "rng": "2",
+            "price": 2200,
+            "sell": 800
+        },
+        "forge": 0,
+        "type": "claw"
+    },
+	"funkeslance": {
+        "name": "Funke's Lance",
+        "desc": "Debuffs Def/Res -5.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 75,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "lance"
+	},
+	"siegfriedreplica": {
+        "name": "Siegfried Replica",
+        "desc": "Def/Res+1, Ddg+10. A replica of Siegfried.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 11,
+            "hit": 80,
+			"crit": 5,
+			"dodge": 10,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {"def": 1, "res": 1}
+        }
+	},
+	"raijintoreplica": {
+        "name": "Raijinto Replica",
+        "desc": "Str+1/Spd+2, a replica of Raijinto.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 11,
+            "hit": 80,
+			"avoid": 5,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+		"equip": {
+            "stats": {"str": 1, "spd": 2, "def": -1, "res": -1}
+        }
+	},
+	"fujinreplica": {
+        "name": "Fujin Replica",
+        "desc": "Skl+4/Res+2. A replica of Fujin Yumi.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 14,
+            "hit": 70,
+			"crit": 5,
+			"avoid": 10,
+			"rng": "2"
+        },
+        "forge": 0,
+        "type": "yumi",
+		"equip": {
+            "stats": {"skl": 4, "res": 2}
+        }
+	},
+	"bryngildrreplica": {
+        "name": "Brynhildr Replica",
+        "desc": "Lck/Res+2. A replica of Brynhildr.",
+        "weapon": true,
+        "stats": {
+            "rank": "A",
+            "mt": 12,
+            "hit": 80,
+			"crit": 5,
+			"dodge": 10,
+			"rng": "1-2"
+        },
+        "forge": 0,
+        "type": "tome",
+		"equip": {
+            "stats": {"lck": 2, "res": 2}
+        }
+	},
+	"exaltedfalchion": {
+        "name": "Exalted Falchion",
+        "desc": "Chrom only. Use this to restore 20 HP. Reduces dragonskin's effect.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 15,
+            "hit": 80,
+			"crit": 10,
+			"avoid": 5,
+			"dodge": 5,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"belovedzofia": {
+        "name": "Beloved Zofia",
+        "desc": "Grants Def+3. Recovers 20% HP when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 85,
+			"crit": 10,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {"def": 3}
+        }
+	},
+	"celicasdagger": {
+        "name": "Celica's Dagger",
+        "desc": "Recovers 10% HP when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 7,
+            "hit": 75,
+			"crit": 5,
+			"rng": "1",
+			"buy": 3000,
+			"sell": 1500
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"valentianfalchion": {
+        "name": "Valentian Falchion",
+        "desc": "Recovers 20% HP when equipped. Deals extra damage against monsters and dragons. Always doubles.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 85,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"almssword": {
+        "name": "Alm's Sword",
+        "desc": "A sword used by a boy with a strange mark. (+3 effective spd.)",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 65,
+			"rng": "1",
+			"buy": 3000,
+			"sell": 1500
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"dragonsfist": {
+        "name": "Dragon's Fist",
+        "desc": "Avo/Ddg-20. Def/Res-5.",
+        "weapon": true,
+        "stats": {
+            "rank": "S",
+            "mt": 10,
+            "hit": 70,
+			"crit": 15,
+			"avoid": -20,
+			"dodge": -20,
+			"rng": "1",
+			"sell": 4000
+        },
+        "forge": 0,
+        "type": "claw",
+		"equip": {
+            "stats": {"def": -5, "res": -5}
+        }
+	},
+	"uror": {
+        "name": "Urðr",
+        "desc": "Shigure Only. Recovers HP every turn. An axe found deep in the Kingdom of Valla.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 70,
+			"avoid": 5,
+			"rng": "1-2",
+        },
+        "forge": 0,
+        "type": "axe"
+	},
+	"liberation": {
+        "name": "Libération",
+        "desc": "Alear Only. A blade used by the Divine Dragon.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 80,
+			"crit": 5,
+			"avoid": 5,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"alearsblade": {
+        "name": "Alear's Blade",
+        "desc": "N/A",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 80,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"swordofthecreator": {
+        "name": "Sword of Creator",
+        "desc": "Byleth Only. A ranged weapon. Avo-10.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 75,
+			"avoid": -10,
+			"rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"bylethswhip": {
+        "name": "Byleth's Whip",
+        "desc": "N/A",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 6,
+            "hit": 80,
+			"rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+	},
+	"sealofrevelation": {
+        "name": "Seal of Revelation",
+        "desc": "Promotes Azura to the Revelation class.",
+        "weapon": false,
+        "stats": {
+            "use": 1,
+			"buy": 1
+        },
+        "forge": 0,
+        "type": "item"
+	},
 }
