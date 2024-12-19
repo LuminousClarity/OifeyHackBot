@@ -9008,34 +9008,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 11,
-                "str": 12,
-                "mag": 11,
+                "hp": 14,
+                "str": 15,
+                "mag": 13,
                 "skl": 12,
-                "spd": 9,
-                "lck": 9,
+                "spd": 13,
+                "lck": 10,
                 "def": 10,
-                "res": 10
+                "res": 12
             },
             "hard": {
-                "hp": 11,
-                "str": 12,
-                "mag": 11,
+                "hp": 14,
+                "str": 15,
+                "mag": 13,
                 "skl": 12,
-                "spd": 9,
-                "lck": 9,
+                "spd": 13,
+                "lck": 10,
                 "def": 10,
-                "res": 10
+                "res": 12
             },
             "lunatic": {
-                "hp": 11,
-                "str": 12,
-                "mag": 11,
+                "hp": 14,
+                "str": 15,
+                "mag": 13,
                 "skl": 12,
-                "spd": 9,
-                "lck": 9,
+                "spd": 13,
+                "lck": 10,
                 "def": 10,
-                "res": 10
+                "res": 12
             }
         },
         "growth": {
@@ -9051,17 +9051,17 @@
         "rank": {
             "normal": {
                 "axe": 96,
-				"tome": 51,
+				"tome": 96,
 				"staff": 96
             },
             "hard": {
                 "axe": 96,
-				"tome": 51,
+				"tome": 96,
 				"staff": 96
             },
             "lunatic": {
                 "axe": 96,
-				"tome": 51,
+				"tome": 96,
 				"staff": 96
             }
         },
@@ -12416,7 +12416,7 @@
             "normal": {
                 "hp": 18,
                 "str": 19,
-                "mag": 11,
+                "mag": 17,
                 "skl": 16,
                 "spd": 11,
                 "lck": 8,
