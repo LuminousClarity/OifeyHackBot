@@ -10176,53 +10176,53 @@
         ],
         "base": {
             "normal": {
-                "hp": 13,
-                "str": 8,
+                "hp": 3,
+                "str": 4,
                 "mag": 0,
-                "skl": 9,
-                "spd": 6,
-                "lck": 5,
-                "def": 4,
-                "res": 3
+                "skl": 2,
+                "spd": 2,
+                "lck": 1,
+                "def": 1,
+                "res": 0
             },
             "hard": {
-                "hp": 14,
-                "str": 9,
+                "hp": 3,
+                "str": 4,
                 "mag": 0,
-                "skl": 10,
-                "spd": 7,
-                "lck": 5,
-                "def": 6,
-                "res": 4
+                "skl": 2,
+                "spd": 2,
+                "lck": 1,
+                "def": 1,
+                "res": 0
             },
             "lunatic": {
-                "hp": 14,
-                "str": 9,
+                "hp": 3,
+                "str": 4,
                 "mag": 0,
-                "skl": 10,
-                "spd": 7,
-                "lck": 5,
-                "def": 6,
-                "res": 4
+                "skl": 2,
+                "spd": 2,
+                "lck": 1,
+                "def": 1,
+                "res": 0
             }
         },
         "cap": {
             "str": 1,
-            "mag": 0,
+            "mag": -2,
             "skl": 2,
             "spd": 2,
             "lck": -2,
-            "def": 2,
+            "def": 0,
             "res": 0
         },
         "growth": {
             "hp": 40,
-            "str": 50,
-            "mag": 5,
+            "str": 60,
+            "mag": 30,
             "skl": 45,
             "spd": 45,
-            "lck": 15,
-            "def": 35,
+            "lck": 35,
+            "def": 40,
             "res": 30
         },
         "rank": {

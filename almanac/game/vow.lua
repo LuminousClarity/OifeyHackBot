@@ -6,7 +6,7 @@ local util = almanac.util
 local Infobox = almanac.Infobox
 local Pagebox = almanac.Pagebox
 
-local pack = util.emoji.get("database/vow/emoji.json")
+local pack = util.emoji.get("database/fe14/emoji.json")
 
 local rank_exp = {
     E = 1,
@@ -99,17 +99,24 @@ local function inventory_as(data, unit, item)
 end
 --
 local function inventory_hit(data, unit, item)
-    return item.stats.hit + util.floor(unit.stats.skl * 1.5) + util.floor(unit.stats.lck / 2) + unit.job:hit_bonus()
+    return item.stats.hit + util.floor((unit.stats.skl * 1.5) + (unit.stats.lck / 2)) + unit.job:hit_bonus()
 end
 --
 local function inventory_crit(data, unit, item)
-    return item.stats.crit + math.max(util.floor((unit.stats.skl-4) / 2), 0) + unit.job:crit_bonus()
+    if (item:get_crit() == false) then
+        return 0
+    else
+        return item.stats.crit + math.max(util.floor((unit.stats.skl-4) / 2), 0) + unit.job:crit_bonus()
+    end
 end
 --
 local function inventory_followup(data, unit, item)
-    local double = item.data.equip.doubling_speed or 0
-    
-    return string.format(">= %s", 5 + double)
+    if (item:get_follow() == false) then
+        return "N/A"
+    else
+        local double = item.data.equip.doubling_speed or 0
+        return string.format(">= %s", 5 + double)
+    end
 end
 
 inventory:item_calc("atk", inventory_atk)
@@ -124,7 +131,7 @@ inventory:item_calc("\nfollow-up", inventory_followup)
 Character.__index = Character
 setmetatable(Character, workspaces.Character)
 
-Character.section = almanac.get("database/vow/cq.json")
+Character.section = almanac.get("database/fe14/cq.json")
 
 Character.helper_job_base = true
 Character.helper_job_growth = true
@@ -244,15 +251,19 @@ function Character:setup()
         self.father = tbl:new(self.father)
         self.mother = tbl:new(self.mother)
 
-        -- Swap them if gender is wrong (Avatar Child Only)
-        if self.id == self.avatar_child then
-            if self.father.id ~= self.avatar_id and self.father.data.gender ~= "m" then
-                self.father, self.mother = self.mother, self.father
 
-            elseif self.mother.id ~= self.avatar_id and self.mother.data.gender ~= "f" then
-                self.mother, self.father = self.father, self.mother
+        -- Swap them if gender is wrong (Avatar Child Only)
+       
+        
+        if self.id == self.avatar_child then       
+            if self.father.id ~= self.avatar_id and self.father.data.gender ~= "m" then             
+                self.father, self.mother = self.mother, self.father
+                
+            elseif self.mother.id ~= self.avatar_id and self.mother.data.gender ~= "f" then               
+                self.mother, self.father = self.father, self.mother      
             end
         end
+
 
         local function parent_options(parent)
             local options = {}
@@ -348,6 +359,8 @@ function Character:setup()
     self.aptitude = self.options.aptitude
     
     if self.id == self.aptitude_id or 
+        self.id == 'est' or
+        self.id == 'princemarthdlc' or
     (self:has_parents() and
     (self.mother.id == self.aptitude_id or self.father.id == self.aptitude_id)) then
         self.aptitude = not(self.aptitude)
@@ -612,6 +625,7 @@ function Character:get_growth()
 
         local function step(v1, v2)
             v1 = v1 + v2
+            
 
             return util.floor(v1 / 2)
 
@@ -621,6 +635,7 @@ function Character:get_growth()
         variable = variable:get_growth()
 
         growth = util.math.mod_stats(step, growth, variable)
+       
     end
     
     -- Avatar Boon/Bane
@@ -648,15 +663,14 @@ function Character:get_cap()
         
         local function check(data)
             for key, value in pairs(data) do
-                if value ~= 0 then
-                    changed[key] = true
-                end
+                changed[key] = true
             end
             
             return data
         end
         
         cap = check(self.father:get_cap()) + check(self.mother:get_cap())
+      
         
         -- Only add +1 if the parents are not children
         if not self.father:is_child() and not self.mother:is_child() then
@@ -1080,9 +1094,23 @@ function Character:has_parents()
 end
 
 function Character:get_variable_parent()
-    if self.data.father then
+
+
+    if self.id == self.avatar_child then 
+     
+        if self.mother.id == 'corrin' then
+           
+            return self.father
+        elseif self.father.id == 'corrin' then
+           
+            return self.mother
+        end
+    end
+
+
+    if self.data.father then      
         return self.mother
-    else
+    else    
         return self.father
     end
 end
@@ -1178,10 +1206,9 @@ end
 
 -- Fancy Infobox colors
 local box_color = {
-    cq = 0xa85c32,
+    cq = 0x745196,
     br = 0x963e3e,
-    rev = 0x2f7575,
-	vow = 0xa85c32
+    rev = 0x2f7575
 }
 
 function Character:apply_color(infobox)
@@ -1332,6 +1359,15 @@ function Item:get_name()
     return name
 end
 
+
+function Item:get_crit()
+    return self.data.crit
+end
+
+function Item:get_follow()
+    return self.data.follow
+end
+
 ---------------------------------------------------
 -- Redirect --
 ---------------------------------------------------
@@ -1340,7 +1376,7 @@ setmetatable(Redirect, almanac.Workspace)
 
 Redirect.section = almanac.get("database/vow/redirect.json")
 
-Redirect.redirect = true
+Redirect.redirect = false
 
 function Redirect:default_options()
     return {route = false}
@@ -1353,7 +1389,8 @@ end
 local redirect_table = {
     cq = Conquest,
     br = Birthright,
-    rev = Revelation
+    rev = Revelation,
+	vow = Vow
 }
 
 function Redirect:show()
@@ -1405,7 +1442,7 @@ Conquest.route = "cq"
 Birthright.__index = Birthright
 setmetatable(Birthright, Character)
 
-Birthright.section = almanac.get("database/vow/br.json")
+Birthright.section = almanac.get("database/fe14/br.json")
 
 Birthright.route = "br"
 
@@ -1413,7 +1450,7 @@ Birthright.route = "br"
 Revelation.__index = Revelation
 setmetatable(Revelation, Character)
 
-Revelation.section = almanac.get("database/vow/rev.json")
+Revelation.section = almanac.get("database/fe14/rev.json")
 
 Revelation.route = "rev"
 
