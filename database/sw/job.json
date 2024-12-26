@@ -6282,15 +6282,15 @@
         "name": "Azure Songster",
         "promo": [],
         "base": {
-            "hp": 17,
-            "str": 6,
-            "mag": 5,
+            "hp": 18,
+            "str": 7,
+            "mag": 6,
             "skl": 7,
-            "spd": 9,
+            "spd": 11,
             "lck": 5,
-            "def": 3,
-            "res": 6,
-            "mov": 5
+            "def": 6,
+            "res": 8,
+            "mov": 8
         },
         "cap": {
             "hp": 55,
