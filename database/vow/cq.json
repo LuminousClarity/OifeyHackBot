@@ -7721,13 +7721,13 @@
             "res": 2
         },
         "growth": {
-            "hp": 45,
-            "str": 40,
+            "hp": 50,
+            "str": 45,
             "mag": 50,
             "skl": 45,
             "spd": 40,
-            "lck": 45,
-            "def": 35,
+            "lck": 30,
+            "def": 40,
             "res": 35
         },
         "rank": {
@@ -8119,13 +8119,13 @@
         },
         "cap": {
 			"hp": 0,
-            "str": 0,
-            "mag": 0,
+            "str": 2,
+            "mag": -2,
             "skl": 1,
-            "spd": 3,
+            "spd": 0,
             "lck": 0,
-            "def": -3,
-            "res": 0
+            "def": 2,
+            "res": -1
         },
         "growth": {
             "hp": 50,
@@ -8346,34 +8346,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 3,
-                "str": 5,
-                "mag": 2,
-                "skl": 2,
-                "spd": 3,
-                "lck": 4,
-                "def": 2,
-                "res": 6
+                "hp": 4,
+                "str": 6,
+                "mag": 3,
+                "skl": 3,
+                "spd": 4,
+                "lck": 5,
+                "def": 3,
+                "res": 7
             },
             "hard": {
-                "hp": 3,
-                "str": 5,
-                "mag": 2,
-                "skl": 2,
-                "spd": 3,
-                "lck": 4,
-                "def": 2,
-                "res": 6
+                "hp": 4,
+                "str": 6,
+                "mag": 3,
+                "skl": 3,
+                "spd": 4,
+                "lck": 5,
+                "def": 3,
+                "res": 7
             },
             "lunatic": {
-                "hp": 3,
-                "str": 5,
-                "mag": 2,
-                "skl": 2,
-                "spd": 3,
-                "lck": 4,
-                "def": 2,
-                "res": 6
+                "hp": 4,
+                "str": 6,
+                "mag": 3,
+                "skl": 3,
+                "spd": 4,
+                "lck": 5,
+                "def": 3,
+                "res": 7
             }
         },
         "cap": {
@@ -8387,13 +8387,13 @@
             "res": -1
         },
         "growth": {
-            "hp": 60,
+            "hp": 55,
             "str": 50,
             "mag": 30,
-            "skl": 50,
-            "spd": 45,
-            "lck": 20,
-            "def": 40,
+            "skl": 45,
+            "spd": 55,
+            "lck": 30,
+            "def": 30,
             "res": 40
         },
         "rank": {
