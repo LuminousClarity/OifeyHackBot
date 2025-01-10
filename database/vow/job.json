@@ -5052,11 +5052,11 @@
 			"crit": 10
 		},
         "cap": {
-            "hp": 50,
-            "str": 32,
+            "hp": 55,
+            "str": 33,
             "mag": 25,
             "skl": 33,
-            "spd": 30,
+            "spd": 32,
             "lck": 35,
             "def": 32,
             "res": 27
@@ -5073,13 +5073,13 @@
         },
         "growth": {
             "hp": 10,
-            "str": 10,
-            "mag": 15,
+            "str": 15,
+            "mag": 0,
             "skl": 5,
-            "spd": 5,
-            "lck": 10,
-            "def": 0,
-            "res": 20
+            "spd": 10,
+            "lck": 15,
+            "def": 15,
+            "res": 5
         },
         "pairup": {
 			"hp": 0,
@@ -5333,13 +5333,13 @@
             "mov": 6
         },
         "cap": {
-            "hp": 70,
-            "str": 40,
+            "hp": 65,
+            "str": 37,
             "mag": 25,
-            "skl": 30,
+            "skl": 32,
             "spd": 30,
-            "lck": 40,
-            "def": 27,
+            "lck": 36,
+            "def": 35,
             "res": 30
         },
         "generic": {
@@ -5353,10 +5353,10 @@
             "res": 30
         },
         "growth": {
-            "hp": 20,
+            "hp": 15,
             "str": 20,
             "mag": 0,
-            "skl": 5,
+            "skl": 10,
             "spd": 5,
             "lck": 10,
             "def": 15,
@@ -5364,12 +5364,12 @@
         },
         "pairup": {
 			"hp": 0,
-            "str": 5,
+            "str": 4,
             "mag": 0,
             "skl": 0,
             "spd": 0,
-            "lck": 4,
-            "def": 0,
+            "lck": 2,
+            "def": 4,
             "res": 0,
             "mov": 0
         },
@@ -5474,12 +5474,12 @@
 		},
         "cap": {
             "hp": 65,
-            "str": 33,
-            "mag": 30,
-            "skl": 34,
-            "spd": 32,
-            "lck": 30,
-            "def": 35,
+            "str": 35,
+            "mag": 28,
+            "skl": 32,
+            "spd": 36,
+            "lck": 35,
+            "def": 30,
             "res": 32
         },
         "generic": {
@@ -5494,12 +5494,12 @@
         },
         "growth": {
             "hp": 10,
-            "str": 20,
+            "str": 15,
             "mag": 10,
             "skl": 5,
-            "spd": 5,
+            "spd": 20,
             "lck": 15,
-            "def": 15,
+            "def": 5,
             "res": 10
         },
         "pairup": {
@@ -5519,7 +5519,7 @@
         },
         "skill": {
             "rendheaven": 1,
-            "dragonward": 10,
+            "solidarity": 10,
 			"staffsavant": 25,
 			"counter": 35
         }
