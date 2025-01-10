@@ -5892,7 +5892,7 @@
             "mt": 7,
             "hit": 90,
             "crit": 5,
-            "avoid": 10,
+            "avoid": 20,
             "rng": "1"
         },
         "forge": 0,
@@ -5900,7 +5900,7 @@
     },
 	"theforce": {
         "name": "The Force",
-        "desc": "Cannot kill foes with >1 HP. Cannot crit, trigger offensive skills, or follow up. A mysterious power from another world. Kenobi only. +3 Def/Res, +10 Ddg.",
+        "desc": "Cannot kill foes with >1 HP. Cannot crit, trigger offensive skills, or follow up. Doubles Mt on attack. A strange power from a galaxy far, far away.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -5914,8 +5914,8 @@
         "type": "tome",
 		"equip": {
             "stats": {
-                "def": 3,
-				"res": 3
+                "def": 4,
+				"res": 4
             }
         }
     },
