@@ -5839,8 +5839,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 1,
-            "hit": 100,
+            "mt": 4,
+            "hit": 90,
 			"dodge": 10,
             "rng": "1-2"
         },
@@ -5940,7 +5940,7 @@
         }
     },
 	"swordsofsolstice": {
-        "name": "Swords of Solstice",
+        "name": "Dojikiri",
         "desc": "Two legendary swords as one. +10 Ddg. +4 Str/Def when carried. Strikes twice when attacking.",
         "weapon": true,
         "stats": {
@@ -5966,7 +5966,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 5,
             "hit": 80,
             "crit": 10,
             "avoid": 5,
@@ -6131,11 +6131,11 @@
     },
 	"wadoichimonji": {
         "name": "Wado Ichimonji",
-        "desc": "Enables the wielder to strike twice when attacking. Deals extra damage on critical hits and effective against swords/katanas.",
+        "desc": "Enables the wielder to strike twice when attacking. Doubles Mt when wielder's Skill is higher then enemy's. Deals extra damage on critical hits and effective against swords/katanas.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 8,
+            "mt": 5,
             "hit": 85,
             "crit": 5,
             "avoid": 10,
@@ -6318,7 +6318,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 14,
+            "mt": 12,
             "hit": 70,
             "avoid": -10,
 			"dodge": -5,
@@ -6335,8 +6335,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
-            "hit": 70,
+            "mt": 11,
+            "hit": 90,
 			"dodge": 20,
             "rng": "2",
             "price": 500,
@@ -6505,11 +6505,11 @@
     },
 	"outragesol": {
         "name": "Outrage (Sol Badguy)",
-        "desc": "+2 Str/Skl when carried. Strikes twice when attacking and deals extra damage on critical hits.",
+        "desc": "+2 Str/Skl when carried. Strikes twice when attacking and deals extra damage on critical hits. -3 Def/Res when used.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 12,
+            "mt": 7,
             "hit": 75,
             "crit": 15,
             "rng": "1",
@@ -6518,34 +6518,42 @@
         },
         "forge": 0,
         "type": "axe",
+		"equip": {
+			"stats": {
+			"str": 2,
+			"skl": 2,
+			"def": -3,
+			"res": -3
+			}
+        }
     },
 	"manderville": {
         "name": "Manderville",
-        "desc": "+2 Str, +5 Def/Res, -5 Spd/Lck. Deals extra damage on critical hits.",
+        "desc": "+5 Str, +10 Def, -5 Spd/Lck. Deals extra damage on critical hits.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 12,
-            "hit": 75,
-            "crit": 15,
-            "avoid": -10,
+            "hit": 80,
+            "crit": 10,
+            "avoid": -15,
             "rng": "1"
         },
         "forge": 0,
         "type": "sword",
 		"equip": {
 			"stats": {
-			"str": 2,
+			"str": 5,
 			"spd": -5,
 			"lck": -5,
-			"def": 5,
-			"res": 5
+			"def": 10,
+			"res": 0
 			}
         }
     },
 	"suzakuchokuto": {
         "name": "Suzaku Chokuto",
-        "desc": "+5 Skl/Spd, -4 Str/Def. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Wielder may survive lethal attacks if their HP > 1. Trigger % = (Lck stat).",
+        "desc": "+7 Skl/Spd, -4 Str, -3 Def/Res. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Wielder may survive lethal attacks if their HP > 1. Trigger % = (Lck stat).",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6560,15 +6568,16 @@
 		"equip": {
 			"stats": {
 			"str": -4,
-			"skl": 5,
-			"spd": 5,
-			"def": -4
+			"skl": 7,
+			"spd": 7,
+			"def": -3,
+			"res": -3
 			}
         }
     },
 	"deathscythe": {
         "name": "Death Scythe",
-        "desc": "+5 Mag, +10 Lck, -2 Skl/Spd, -4 Res. A magic weapon. Absorbs target's HP. Effective against monsters.",
+        "desc": "+5 Mag, -2 Skl/Spd, +10 Res. A magic weapon. Absorbs target's HP. Effective against monsters.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6585,8 +6594,7 @@
 			"mag": 5,
 			"skl": -2,
 			"spd": -2,
-			"lck": 10,
-			"res": -4
+			"res": 10
 			}
         }
     },
