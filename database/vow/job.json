@@ -6087,4 +6087,70 @@
 			"immobilize": 35
         }
     },
+	"thief": {
+        "name": "Thief",
+        "promo": [
+		"assassin",
+		"bowknight"
+	],
+        "base": {
+            "hp": 16,
+            "str": 3,
+            "mag": 0,
+            "skl": 8,
+            "spd": 8,
+            "lck": 1,
+            "def": 3,
+            "res": 3,
+            "mov": 5
+        },
+        "cap": {
+            "hp": 35,
+            "str": 17,
+            "mag": 15,
+            "skl": 25,
+            "spd": 25,
+            "lck": 18,
+            "def": 19,
+            "res": 20
+        },
+        "generic": {
+            "hp": 60,
+            "str": 45,
+            "mag": 0,
+            "skl": 65,
+            "spd": 65,
+            "lck": 25,
+            "def": 35,
+            "res": 50
+        },
+        "growth": {
+            "hp": 5,
+            "str": 5,
+            "mag": 0,
+            "skl": 20,
+            "spd": 20,
+            "lck": 0,
+            "def": 5,
+            "res": 15
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 1,
+            "spd": 3,
+            "lck": 0,
+            "def": 0,
+            "res": 0,
+            "mov": 1
+        },
+        "rank": {
+			"dagger": 96
+		},
+        "skill": {
+            "locktouch": 1,
+            "profiteer": 10
+        }
+    },
 }
