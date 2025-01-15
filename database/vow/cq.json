@@ -503,7 +503,7 @@
     },
     "beruka": {
         "name": "Beruka",
-        "job": "wyvernrider",
+        "job": "thief",
         "portrait": "beruka.png",
         "lvl": 9,
         "personal": "opportunist",
@@ -524,6 +524,7 @@
         },
         "variable": false,
         "set": [
+	    "thief",
             "wyvernrider",
             "fighter"
         ],
