@@ -6153,4 +6153,342 @@
             "profiteer": 10
         }
     },
+	"assassin": {
+        "name": "Assassin",
+        "promo": [],
+        "base": {
+            "hp": 17,
+            "str": 7,
+            "mag": 0,
+            "skl": 10,
+            "spd": 11,
+            "lck": 2,
+            "def": 6,
+            "res": 6,
+            "mov": 6
+        },
+	"bonus": {
+	    "hit": 5,
+	    "crit": 5,
+	    "avoid": 5,
+	    "dodge": 5
+	},
+        "cap": {
+            "hp": 55,
+            "str": 29,
+            "mag": 21,
+            "skl": 35,
+            "spd": 35,
+            "lck": 30,
+            "def": 28,
+            "res": 32
+        },
+        "generic": {
+            "hp": 75,
+            "str": 50,
+            "mag": 0,
+            "skl": 65,
+            "spd": 65,
+            "lck": 25,
+            "def": 35,
+            "res": 65
+        },
+        "growth": {
+            "hp": 5,
+            "str": 10,
+            "mag": 0,
+            "skl": 20,
+            "spd": 20,
+            "lck": 0,
+            "def": 10,
+            "res": 15
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 0,
+            "skl": 3,
+            "spd": 3,
+            "lck": 0,
+            "def": 0,
+            "res": 0,
+            "mov": 1
+        },
+        "rank": {
+			"dagger": 251,
+			"bow": 96
+		},
+        "skill": {
+            "lethality": 5,
+            "shurikenfaire": 10
+        }
+    },
+	"swordknight": {
+        "name": "Sword Knight",
+        "promo": [
+		"marshall",
+		"greatknight"
+	],
+        "base": {
+            "hp": 19,
+            "str": 8,
+            "mag": 0,
+            "skl": 5,
+            "spd": 3,
+            "lck": 3,
+            "def": 8,
+            "res": 1,
+            "mov": 4
+        },
+        "cap": {
+            "hp": 45,
+            "str": 22,
+            "mag": 15,
+            "skl": 22,
+            "spd": 19,
+            "lck": 22,
+            "def": 24,
+            "res": 20
+        },
+        "generic": {
+            "hp": 80,
+            "str": 55,
+            "mag": 0,
+            "skl": 45,
+            "spd": 25,
+            "lck": 30,
+            "def": 50,
+            "res": 30
+        },
+        "growth": {
+            "hp": 20,
+            "str": 20,
+            "mag": 0,
+            "skl": 15,
+            "spd": 5,
+            "lck": 10,
+            "def": 20,
+            "res": 0
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 4,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+			"sword": 96
+		},
+        "skill": {
+            "heavyblade": 1,
+            "naturalcover": 10
+        }
+    },
+	"marshall": {
+        "name": "Marshall",
+        "promo": [],
+        "base": {
+            "hp": 22,
+            "str": 11,
+            "mag": 0,
+            "skl": 7,
+            "spd": 3,
+            "lck": 4,
+            "def": 12,
+            "res": 3,
+            "mov": 5
+        },
+        "cap": {
+            "hp": 67,
+            "str": 37,
+            "mag": 20,
+            "skl": 32,
+            "spd": 28,
+            "lck": 30,
+            "def": 37,
+            "res": 32
+        },
+        "generic": {
+            "hp": 95,
+            "str": 65,
+            "mag": 0,
+            "skl": 55,
+            "spd": 25,
+            "lck": 30,
+            "def": 70,
+            "res": 45
+        },
+        "growth": {
+            "hp": 25,
+            "str": 20,
+            "mag": 0,
+            "skl": 15,
+            "spd": 0,
+            "lck": 10,
+            "def": 20,
+            "res": 5
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 3,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 5,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+			"sword": 161,
+			"lance": 96,
+			"axe": 96
+		},
+        "skill": {
+            "pavise": 5,
+            "grislywound": 10
+        }
+    },
+	"commoner": {
+        "name": "Commoner",
+        "promo": [
+		"duchess",
+		"adventurer"
+	],
+        "base": {
+            "hp": 16,
+            "str": 3,
+            "mag": 3,
+            "skl": 5,
+            "spd": 5,
+            "lck": 4,
+            "def": 2,
+            "res": 5,
+            "mov": 5
+        },
+	"bonus": {
+	    "dodge": 10
+        "cap": {
+            "hp": 35,
+            "str": 21,
+            "mag": 18,
+            "skl": 20,
+            "spd": 22,
+            "lck": 23,
+            "def": 22,
+            "res": 19
+        },
+        "generic": {
+            "hp": 65,
+            "str": 50,
+            "mag": 35,
+            "skl": 45,
+            "spd": 45,
+            "lck": 25,
+            "def": 45,
+            "res": 40
+        },
+        "growth": {
+            "hp": 10,
+            "str": 10,
+            "mag": 0,
+            "skl": 10,
+            "spd": 15,
+            "lck": 10,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 4,
+            "def": 0,
+            "res": 2,
+            "mov": 0
+        },
+        "rank": {
+			"lance": 51,
+			"bow": 51
+		},
+        "skill": {
+            "miracle": 1,
+            "demoiselle": 10
+        }
+    },
+	"duchess": {
+        "name": "Duchess",
+        "promo": [],
+        "base": {
+            "hp": 18,
+            "str": 7,
+            "mag": 6,
+            "skl": 8,
+            "spd": 7,
+            "lck": 2,
+            "def": 6,
+            "res": 8,
+            "mov": 6
+        },
+	"bonus": {
+	    "hit": 10,
+	    "dodge": 10
+        "cap": {
+            "hp": 60,
+            "str": 32,
+            "mag": 30,
+            "skl": 33,
+            "spd": 31,
+            "lck": 35,
+            "def": 28,
+            "res": 32
+        },
+        "generic": {
+            "hp": 75,
+            "str": 65,
+            "mag": 55,
+            "skl": 50,
+            "spd": 45,
+            "lck": 50,
+            "def": 40,
+            "res": 55
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 15,
+            "skl": 20,
+            "spd": 20,
+            "lck": 5,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 2,
+            "skl": 0,
+            "spd": 2,
+            "lck": 4,
+            "def": 0,
+            "res": 2,
+            "mov": 0
+        },
+        "rank": {
+			"lance": 161,
+			"bow": 161,
+			"staff": 161
+		},
+        "skill": {
+            "rallyspectrum": 5,
+            "renewal": 10
+        }
+    }
 }
