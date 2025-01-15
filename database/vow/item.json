@@ -5939,14 +5939,14 @@
             }
         }
     },
-	"swordsofsolstice": {
+	"dojikiri": {
         "name": "Dojikiri",
-        "desc": "Two legendary swords as one. +10 Ddg. +4 Str/Def when carried. Strikes twice when attacking.",
+        "desc": "Cannot double, but enables wielder to strike twice when attacking. Grants allies  within two spaces Def+4 for one turn after attacking. +4 Def/Res when equipped.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 9,
-            "hit": 75,
+            "mt": 11,
+            "hit": 85,
             "crit": 5,
             "avoid": 10,
             "rng": "1"
@@ -5955,8 +5955,8 @@
         "type": "sword",
 		"equip": {
             "stats": {
-				"spd": -2,
-				"res": -1
+				"def": 4,
+				"res": 4
             }
         }
     },
@@ -6024,11 +6024,11 @@
     },
 	"callpierce": {
         "name": "Call: Pierce",
-        "desc": "Summons Ose. Cannot make follow-up attacks. On a hit, lower foe's Str/Def (recovers 1/turn). User takes 15% max HP damage after use. Str+2, Spd+4, Def/Res-2. Kotone only.",
+        "desc": "Summons Ose. Cannot make follow-up attacks. On a hit, lower foe's Str/Def (recovers 1/turn). User takes 10% max HP damage after use. Str+2, Spd+4, Def/Res-2. Kotone only.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 18,
+            "mt": 20,
             "hit": 85,
             "crit": 15,
             "avoid": 20,
@@ -6041,7 +6041,7 @@
         "type": "dragonstone",
 		"equip": {
 			"stats": {
-            "str": 2,
+            		"str": 2,
 			"spd": 4,
 			"def": -2,
 			"res": -2
@@ -6054,7 +6054,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 20,
+            "mt": 23,
             "hit": 75,
             "crit": 0,
             "avoid": -10,
@@ -6192,11 +6192,11 @@
     },
 	"callbraveblade": {
         "name": "Call: Brave Blade",
-        "desc": "Summons Siegfried. Cannot make follow up attacks. Deals Colossal Physical damage with high critical chance. User takes 24% max HP damage after use. Kotone only. Str/Lck+4, Def+2, Spd/Res-2.",
+        "desc": "Summons Siegfried. Cannot make follow up attacks. Deals Colossal Physical damage with high critical chance. User takes 20% max HP damage after use. Effective against Dragons. Str/Lck+4, Def+2, Spd/Res-2.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 25,
+            "mt": 29,
             "hit": 75,
             "crit": 40,
             "avoid": -10,
@@ -6209,7 +6209,7 @@
         "type": "dragonstone",
 		"equip": {
 			"stats": {
-            "str": 4,
+           		"str": 4,
 			"spd": -2,
 			"lck": 4,
 			"def": 2,
@@ -6223,7 +6223,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 25,
+            "mt": 29,
             "hit": 80,
             "rng": "1-2",
             "price": 6000,
@@ -6245,7 +6245,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 25,
+            "mt": 29,
             "hit": 90,
             "avoid": -15,
 			"dodge": -15,
@@ -6264,17 +6264,17 @@
 			}
         }
     },
-	"calldivineblade": {
-        "name": "Call: Divine Blade",
-        "desc": "Summons Futsunushi. Cannot make follow up attacks. Deals Colossal Physical damage with high accuracy, and on hit, lowers foe's Str/Mag (recovers 1/turn). User takes 24% max HP damage after use. Kotone only. Str/Def+4, Lck-2, Res-4.",
+	"callheavensblade": {
+        "name": "Call: Heaven's Blade",
+        "desc": "Summons Michael. Cannot make follow up attacks. Deals Colossal Physical damage and on hit, lowers foe's Str/Mag (recovers 1/turn).  User takes 20% max HP damage after use. Effective against Monsters and Automations. Str/Def+4, Lck-2, Res-4.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 22,
+            "mt": 25,
             "hit": 100,
             "crit": 10,
-			"dodge": 20,
-            "rng": "1",
+	    "dodge": 20,
+            "rng": "1-2",
             "price": 4000,
             "sell": 2000
         },
@@ -6483,7 +6483,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 18,
+            "mt": 20,
             "hit": 70,
             "crit": 0,
             "avoid": 0,
@@ -6500,6 +6500,29 @@
 			"skl": -2,
 			"def": -2,
 			"res": 2
+			}
+        }
+    },
+	"callbeastweaver": {
+        "name": "Call: Beast Weaver",
+        "desc": "Summons Ariadne. Cannot make follow-up attacks. Deals Colossal damage to one foe. After use in combat, lowers wielder's HP by 20% of maximum and Str is halved until unit attacks again. Str/Spd/Lck+2, Def -2.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 32,
+            "hit": 90,
+            "rng": "1-2",
+            "price": 0,
+            "sell": 0
+        },
+        "forge": 0,
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+			"str": 2,
+			"spd": 2,
+			"lck": 2,
+			"def": -2
 			}
         }
     },
