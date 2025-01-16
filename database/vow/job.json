@@ -6167,12 +6167,12 @@
             "res": 6,
             "mov": 6
         },
-	"bonus": {
+		"bonus": {
 	    "hit": 5,
 	    "crit": 5,
 	    "avoid": 5,
 	    "dodge": 5
-	},
+		},
         "cap": {
             "hp": 55,
             "str": 29,
@@ -6204,7 +6204,7 @@
             "res": 15
         },
         "pairup": {
-	    "hp": 0,
+			"hp": 0,
             "str": 0,
             "mag": 0,
             "skl": 3,
@@ -6271,7 +6271,7 @@
             "res": 0
         },
         "pairup": {
-	    "hp": 0,
+			"hp": 0,
             "str": 2,
             "mag": 0,
             "skl": 0,
@@ -6334,7 +6334,7 @@
             "res": 5
         },
         "pairup": {
-	    "hp": 0,
+			"hp": 0,
             "str": 3,
             "mag": 0,
             "skl": 0,
@@ -6373,7 +6373,8 @@
         },
 	"bonus": {
 	    "dodge": 10
-        "cap": {
+		},
+		"cap": {
             "hp": 35,
             "str": 21,
             "mag": 18,
@@ -6404,7 +6405,7 @@
             "res": 10
         },
         "pairup": {
-	    "hp": 0,
+			"hp": 0,
             "str": 0,
             "mag": 2,
             "skl": 0,
@@ -6437,9 +6438,10 @@
             "res": 8,
             "mov": 6
         },
-	"bonus": {
+		"bonus": {
 	    "hit": 10,
-	    "dodge": 10
+	    "dodge": 10,
+		},
         "cap": {
             "hp": 60,
             "str": 32,
@@ -6471,7 +6473,7 @@
             "res": 10
         },
         "pairup": {
-	    "hp": 0,
+			"hp": 0,
             "str": 0,
             "mag": 2,
             "skl": 0,
@@ -6490,5 +6492,5 @@
             "rallyspectrum": 5,
             "renewal": 10
         }
-    }
+    },
 }
