@@ -3,7 +3,7 @@
         "name": "Anna",
         "job": "trickster",
         "portrait": "anna.png",
-        "lvl": 29,
+        "lvl": 33,
         "personal": "makeakilling",
         "father": false,
         "mother": false,
@@ -37,34 +37,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 15,
-                "str": 14,
-                "mag": 20,
-                "skl": 10,
-                "spd": 19,
-                "lck": 23,
-                "def": 12,
-                "res": 22
+                "hp": 17,
+                "str": 16,
+                "mag": 22,
+                "skl": 12,
+                "spd": 22,
+                "lck": 26,
+                "def": 13,
+                "res": 25
             },
             "hard": {
-                "hp": 15,
-                "str": 14,
-                "mag": 20,
-                "skl": 10,
-                "spd": 19,
-                "lck": 23,
-                "def": 12,
-                "res": 22
+                "hp": 17,
+                "str": 16,
+                "mag": 22,
+                "skl": 12,
+                "spd": 22,
+                "lck": 26,
+                "def": 13,
+                "res": 25
             },
             "lunatic": {
-                "hp": 15,
-                "str": 14,
-                "mag": 20,
-                "skl": 10,
-                "spd": 19,
-                "lck": 23,
-                "def": 12,
-                "res": 22
+                "hp": 17,
+                "str": 16,
+                "mag": 22,
+                "skl": 12,
+                "spd": 22,
+                "lck": 26,
+                "def": 13,
+                "res": 25
             }
         },
         "cap": {
@@ -665,7 +665,7 @@
         "base": {
             "normal": {
                 "hp": 21,
-                "str": 12,
+                "str": 14,
                 "mag": 0,
                 "skl": 13,
                 "spd": 5,
@@ -675,7 +675,7 @@
             },
             "hard": {
                 "hp": 21,
-                "str": 12,
+                "str": 14,
                 "mag": 0,
                 "skl": 13,
                 "spd": 5,
@@ -685,7 +685,7 @@
             },
             "lunatic": {
                 "hp": 21,
-                "str": 12,
+                "str": 14,
                 "mag": 0,
                 "skl": 13,
                 "spd": 5,
@@ -705,7 +705,7 @@
         },
         "growth": {
             "hp": 50,
-            "str": 40,
+            "str": 50,
             "mag": 0,
             "skl": 50,
             "spd": 10,
@@ -3020,33 +3020,33 @@
         ],
         "base": {
             "normal": {
-                "hp": 4,
-                "str": 7,
+                "hp": 6,
+                "str": 9,
                 "mag": 0,
                 "skl": 9,
                 "spd": 7,
                 "lck": 4,
-                "def": 4,
+                "def": 6,
                 "res": 8
             },
             "hard": {
-                "hp": 4,
-                "str": 7,
+                "hp": 6,
+                "str": 9,
                 "mag": 0,
                 "skl": 9,
                 "spd": 7,
                 "lck": 4,
-                "def": 4,
+                "def": 6,
                 "res": 8
             },
             "lunatic": {
-                "hp": 4,
-                "str": 7,
+                "hp": 6,
+                "str": 9,
                 "mag": 0,
                 "skl": 9,
                 "spd": 7,
                 "lck": 4,
-                "def": 4,
+                "def": 6,
                 "res": 8
             }
         },
@@ -3132,19 +3132,19 @@
                 "magic2",
 				"futuresight",
 				"rallymagic",
-				"hp5"
+				"airsuperiority"
             ],
             "hard": [
                 "magic2",
 				"futuresight",
 				"rallymagic",
-				"hp5"
+				"airsuperiority"
             ],
             "lunatic": [
                 "magic2",
 				"futuresight",
 				"rallymagic",
-				"hp5"
+				"airsuperiority"
             ]
         },
         "variable": false,
@@ -3268,17 +3268,17 @@
             "normal": [
                 "duelistsblow",
                 "vantage",
-				"gamble"
+				"heavyblade"
             ],
             "hard": [
                 "duelistsblow",
                 "vantage",
-				"gamble"
+				"heavyblade"
             ],
             "lunatic": [
                 "duelistsblow",
                 "vantage",
-				"gamble"
+				"heavyblade"
             ]
         },
         "variable": false,
@@ -3291,9 +3291,9 @@
                 "hp": 13,
                 "str": 9,
                 "mag": 0,
-                "skl": 5,
-                "spd": 9,
-                "lck": 9,
+                "skl": 3,
+                "spd": 7,
+                "lck": 7,
                 "def": 11,
                 "res": 2
             },
@@ -3301,9 +3301,9 @@
                 "hp": 13,
                 "str": 9,
                 "mag": 0,
-                "skl": 5,
-                "spd": 9,
-                "lck": 9,
+                "skl": 3,
+                "spd": 7,
+                "lck": 7,
                 "def": 11,
                 "res": 2
             },
@@ -3311,9 +3311,9 @@
                 "hp": 13,
                 "str": 9,
                 "mag": 0,
-                "skl": 5,
-                "spd": 9,
-                "lck": 9,
+                "skl": 3,
+                "spd": 7,
+                "lck": 7,
                 "def": 11,
                 "res": 2
             }
@@ -4242,17 +4242,17 @@
             "normal": [
                 "locktouch",
                 "poisonstrike",
-				"shurikenbreaker"
+				"sealstrength"
             ],
             "hard": [
                 "locktouch",
                 "poisonstrike",
-				"shurikenbreaker"
+				"sealstrength"
             ],
             "lunatic": [
                 "locktouch",
                 "poisonstrike",
-				"shurikenbreaker"
+				"sealstrength"
             ]
         },
         "variable": false,
@@ -4262,33 +4262,33 @@
         ],
         "base": {
             "normal": {
-                "hp": 8,
-                "str": 14,
+                "hp": 9,
+                "str": 16,
                 "mag": 0,
                 "skl": 4,
-                "spd": 5,
+                "spd": 7,
                 "lck": 6,
-                "def": 5,
+                "def": 3,
                 "res": 10
             },
             "hard": {
-                "hp": 8,
-                "str": 14,
+                "hp": 9,
+                "str": 16,
                 "mag": 0,
                 "skl": 4,
-                "spd": 5,
+                "spd": 7,
                 "lck": 6,
-                "def": 5,
+                "def": 3,
                 "res": 10
             },
             "lunatic": {
-                "hp": 8,
-                "str": 14,
+                "hp": 9,
+                "str": 16,
                 "mag": 0,
                 "skl": 4,
-                "spd": 5,
+                "spd": 7,
                 "lck": 6,
-                "def": 5,
+                "def": 3,
                 "res": 10
             }
         },
@@ -6443,31 +6443,31 @@
         ],
         "base": {
             "normal": {
-                "hp": 6,
+                "hp": 8,
                 "str": 10,
                 "mag": 7,
                 "skl": 9,
-                "spd": 9,
+                "spd": 12,
                 "lck": 7,
                 "def": 8,
                 "res": 9
             },
             "hard": {
-                "hp": 6,
+                "hp": 8,
                 "str": 10,
                 "mag": 7,
                 "skl": 9,
-                "spd": 9,
+                "spd": 12,
                 "lck": 7,
                 "def": 8,
                 "res": 9
             },
             "lunatic": {
-                "hp": 6,
+                "hp": 8,
                 "str": 10,
                 "mag": 7,
                 "skl": 9,
-                "spd": 9,
+                "spd": 12,
                 "lck": 7,
                 "def": 8,
                 "res": 9
@@ -6641,9 +6641,9 @@
     },
     "nyx": {
         "name": "Nyx",
-        "job": "sorcerer",
+        "job": "witch",
         "portrait": "nyx.png",
-        "lvl": 1,
+        "lvl": 22,
         "personal": "countercurse",
         "father": false,
         "mother": false,
@@ -6652,22 +6652,23 @@
         "skill": {
             "normal": [
                 "heartseeker",
-				"maleficaura",
-				"toxicbrew"
+				"witchsbrew",
+				"shadowgift"
             ],
             "hard": [
                 "heartseeker",
-				"maleficaura",
-				"toxicbrew"
+				"witchsbrew",
+				"shadowgift"
             ],
             "lunatic": [
                 "heartseeker",
-				"maleficaura",
-				"toxicbrew"
+				"witchsbrew",
+				"shadowgift"
             ]
         },
         "variable": false,
         "set": [
+	    "witch",
             "darkmage",
             "outlaw"
         ],
@@ -6675,30 +6676,30 @@
             "normal": {
                 "hp": 10,
                 "str": 3,
-                "mag": 18,
+                "mag": 14,
                 "skl": 6,
-                "spd": 17,
-                "lck": 6,
+                "spd": 19,
+                "lck": 7,
                 "def": 5,
                 "res": 14
             },
             "hard": {
                 "hp": 10,
                 "str": 3,
-                "mag": 18,
+                "mag": 14,
                 "skl": 6,
-                "spd": 17,
-                "lck": 6,
+                "spd": 19,
+                "lck": 7,
                 "def": 5,
                 "res": 14
             },
             "lunatic": {
                 "hp": 10,
                 "str": 3,
-                "mag": 18,
+                "mag": 14,
                 "skl": 6,
-                "spd": 17,
-                "lck": 6,
+                "spd": 19,
+                "lck": 7,
                 "def": 5,
                 "res": 14
             }
@@ -6724,13 +6725,13 @@
         },
         "rank": {
             "normal": {
-                "tome": 96
+                "tome": 161
             },
             "hard": {
-                "tome": 96
+                "tome": 161
             },
             "lunatic": {
-                "tome": 96
+                "tome": 161
             }
         },
         "pairup": {
@@ -6806,9 +6807,9 @@
                 "str": 8,
                 "mag": 3,
                 "skl": 5,
-                "spd": 6,
+                "spd": 7,
                 "lck": 9,
-                "def": 8,
+                "def": 10,
                 "res": 6
             },
             "hard": {
@@ -6816,9 +6817,9 @@
                 "str": 8,
                 "mag": 3,
                 "skl": 5,
-                "spd": 6,
+                "spd": 7,
                 "lck": 9,
-                "def": 8,
+                "def": 10,
                 "res": 6
             },
             "lunatic": {
@@ -6826,9 +6827,9 @@
                 "str": 8,
                 "mag": 3,
                 "skl": 5,
-                "spd": 6,
+                "spd": 7,
                 "lck": 9,
-                "def": 8,
+                "def": 10,
                 "res": 6
             }
         },
@@ -7168,30 +7169,30 @@
         ],
         "base": {
             "normal": {
-                "hp": 6,
+                "hp": 8,
                 "str": 2,
-                "mag": 12,
-                "skl": 9,
+                "mag": 14,
+                "skl": 11,
                 "spd": 8,
                 "lck": 6,
                 "def": 4,
                 "res": 11
             },
             "hard": {
-                "hp": 6,
+                "hp": 8,
                 "str": 2,
-                "mag": 12,
-                "skl": 9,
+                "mag": 14,
+                "skl": 11,
                 "spd": 8,
                 "lck": 6,
                 "def": 4,
                 "res": 11
             },
             "lunatic": {
-                "hp": 6,
+                "hp": 8,
                 "str": 2,
-                "mag": 12,
-                "skl": 9,
+                "mag": 14,
+                "skl": 11,
                 "spd": 8,
                 "lck": 6,
                 "def": 4,
@@ -7764,7 +7765,7 @@
         "variable": false,
         "set": [
             "onisavage",
-            "ninja"
+            "samurai"
         ],
         "base": {
             "normal": {
@@ -7772,7 +7773,7 @@
                 "str": 7,
                 "mag": 4,
                 "skl": 6,
-                "spd": 7,
+                "spd": 5,
                 "lck": 6,
                 "def": 7,
                 "res": 3
@@ -7782,7 +7783,7 @@
                 "str": 7,
                 "mag": 4,
                 "skl": 6,
-                "spd": 7,
+                "spd": 5,
                 "lck": 6,
                 "def": 7,
                 "res": 3
@@ -7792,7 +7793,7 @@
                 "str": 7,
                 "mag": 4,
                 "skl": 6,
-                "spd": 7,
+                "spd": 5,
                 "lck": 6,
                 "def": 7,
                 "res": 3
@@ -7812,7 +7813,7 @@
             "str": 40,
             "mag": 25,
             "skl": 50,
-            "spd": 35,
+            "spd": 25,
             "lck": 35,
             "def": 45,
             "res": 20
@@ -8134,7 +8135,7 @@
                 "str": 11,
                 "mag": 9,
                 "skl": 10,
-                "spd": 7,
+                "spd": 8,
                 "lck": 10,
                 "def": 8,
                 "res": 7
@@ -8144,7 +8145,7 @@
                 "str": 11,
                 "mag": 9,
                 "skl": 10,
-                "spd": 7,
+                "spd": 8,
                 "lck": 10,
                 "def": 8,
                 "res": 7
@@ -8154,7 +8155,7 @@
                 "str": 11,
                 "mag": 9,
                 "skl": 10,
-                "spd": 7,
+                "spd": 8,
                 "lck": 10,
                 "def": 8,
                 "res": 7
@@ -8867,13 +8868,13 @@
         "base": {
             "normal": {
                 "hp": 11,
-                "str": 10,
+                "str": 12,
                 "mag": 0,
                 "skl": 10,
                 "spd": 18,
                 "lck": 9,
-                "def": 7,
-                "res": 9
+                "def": 9,
+                "res": 11
             },
             "hard": {
                 "hp": 11,
@@ -9443,30 +9444,30 @@
                 "str": 13,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 9,
-                "def": 13,
-                "res": 8
+                "def": 15,
+                "res": 10
             },
             "hard": {
                 "hp": 17,
                 "str": 13,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 9,
-                "def": 13,
-                "res": 8
+                "def": 15,
+                "res": 10
             },
             "lunatic": {
                 "hp": 17,
                 "str": 13,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 9,
-                "def": 13,
-                "res": 8
+                "def": 15,
+                "res": 10
             }
         },
         "cap": {
@@ -9772,13 +9773,13 @@
         "variable": false,
         "set": [
             "skyknight",
-            "samurai"
+            "monk"
         ],
         "base": {
             "normal": {
                 "hp": 8,
                 "str": 8,
-                "mag": 4,
+                "mag": 6,
                 "skl": 10,
                 "spd": 3,
                 "lck": 4,
@@ -9788,7 +9789,7 @@
             "hard": {
                 "hp": 8,
                 "str": 8,
-                "mag": 4,
+                "mag": 6,
                 "skl": 10,
                 "spd": 3,
                 "lck": 4,
@@ -9798,7 +9799,7 @@
             "lunatic": {
                 "hp": 8,
                 "str": 8,
-                "mag": 4,
+                "mag": 6,
                 "skl": 10,
                 "spd": 3,
                 "lck": 4,
@@ -9818,7 +9819,7 @@
         "growth": {
             "hp": 55,
             "str": 40,
-            "mag": 40,
+            "mag": 15,
             "skl": 50,
             "spd": 15,
             "lck": 25,
@@ -10645,9 +10646,9 @@
             "normal": {
                 "hp": 13,
                 "str": 7,
-                "mag": 9,
+                "mag": 11,
                 "skl": 10,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
                 "def": 8,
                 "res": 13
@@ -10655,9 +10656,9 @@
             "hard": {
                 "hp": 13,
                 "str": 7,
-                "mag": 9,
+                "mag": 11,
                 "skl": 10,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
                 "def": 8,
                 "res": 13
@@ -10665,9 +10666,9 @@
             "lunatic": {
                 "hp": 13,
                 "str": 7,
-                "mag": 9,
+                "mag": 11,
                 "skl": 10,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
                 "def": 8,
                 "res": 13
@@ -10685,9 +10686,9 @@
         "growth": {
             "hp": 45,
             "str": 15,
-            "mag": 35,
+            "mag": 50,
             "skl": 55,
-            "spd": 30,
+            "spd": 45,
             "lck": 45,
             "def": 35,
             "res": 35
@@ -12380,7 +12381,7 @@
         "name": "Arete",
         "job": "strategist",
         "portrait": "arete.png",
-        "lvl": 8,
+        "lvl": 13,
         "personal": "voiceofpeace",
         "father": false,
         "mother": false,
@@ -12414,43 +12415,43 @@
         ],
         "base": {
             "normal": {
-                "hp": 18,
-                "str": 19,
-                "mag": 17,
-                "skl": 16,
-                "spd": 11,
-                "lck": 8,
-                "def": 13,
-                "res": 9
+                "hp": 20,
+                "str": 22,
+                "mag": 20,
+                "skl": 17,
+                "spd": 15,
+                "lck": 11,
+                "def": 14,
+                "res": 12
             },
             "hard": {
-                "hp": 18,
-                "str": 19,
-                "mag": 17,
-                "skl": 16,
-                "spd": 11,
-                "lck": 8,
-                "def": 13,
-                "res": 9
+                "hp": 20,
+                "str": 22,
+                "mag": 20,
+                "skl": 17,
+                "spd": 15,
+                "lck": 11,
+                "def": 14,
+                "res": 12
             },
             "lunatic": {
-                "hp": 18,
-                "str": 19,
-                "mag": 17,
-                "skl": 16,
-                "spd": 11,
-                "lck": 8,
-                "def": 13,
-                "res": 9
+                "hp": 20,
+                "str": 22,
+                "mag": 20,
+                "skl": 17,
+                "spd": 15,
+                "lck": 11,
+                "def": 14,
+                "res": 12
             }
         },
         "cap": {
             "str": 2,
             "mag": 0,
-            "skl": 0,
+            "skl": -2,
             "spd": 0,
             "lck": 2,
-            "def": -1,
+            "def": -3,
             "res": 2
         },
         "growth": {
@@ -12467,17 +12468,17 @@
             "normal": {
                 "lance": 161,
 				"tome": 129,
-				"staff": 96
+				"staff": 161
             },
             "hard": {
                 "lance": 161,
 				"tome": 129,
-				"staff": 96
+				"staff": 161
             },
             "lunatic": {
                 "lance": 161,
 				"tome": 129,
-				"staff": 96
+				"staff": 161
             }
         },
         "pairup": {
@@ -12763,7 +12764,7 @@
         "job": "younglion",
         "portrait": "roy.png",
         "lvl": 10,
-        "personal": false,
+        "personal": "fieryblood",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -12860,7 +12861,7 @@
         "job": "greatlord",
         "portrait": "chrom.png",
         "lvl": 30,
-        "personal": false,
+        "personal": "rightfulking",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -12963,7 +12964,7 @@
         "job": "warcleric",
         "portrait": "lissa.png",
         "lvl": 30,
-        "personal": false,
+        "personal": "lilyspoise",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -13066,7 +13067,7 @@
         "job": "guardianknight",
         "portrait": "frederick.png",
         "lvl": 30,
-        "personal": false,
+        "personal": "chivalry",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -13171,8 +13172,8 @@
         "name": "Celica",
         "job": "zofianprincess",
         "portrait": "celica.png",
-        "lvl": 30,
-        "personal": false,
+        "lvl": 33,
+        "personal": "shadowgift",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -13206,34 +13207,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 21,
-                "str": 18,
-                "mag": 22,
-                "skl": 11,
-                "spd": 18,
-                "lck": 13,
-                "def": 10,
-                "res": 13
+                "hp": 23,
+                "str": 19,
+                "mag": 24,
+                "skl": 12,
+                "spd": 19,
+                "lck": 15,
+                "def": 11,
+                "res": 15
             },
             "hard": {
-                "hp": 21,
-                "str": 18,
-                "mag": 22,
-                "skl": 11,
-                "spd": 18,
-                "lck": 13,
-                "def": 10,
-                "res": 13
+                "hp": 23,
+                "str": 19,
+                "mag": 24,
+                "skl": 12,
+                "spd": 19,
+                "lck": 15,
+                "def": 11,
+                "res": 15
             },
             "lunatic": {
-                "hp": 21,
-                "str": 18,
-                "mag": 22,
-                "skl": 11,
-                "spd": 18,
-                "lck": 13,
-                "def": 10,
-                "res": 13
+                "hp": 23,
+                "str": 19,
+                "mag": 24,
+                "skl": 12,
+                "spd": 19,
+                "lck": 15,
+                "def": 11,
+                "res": 15
             }
         },
         "cap": {
@@ -13277,8 +13278,8 @@
         "name": "Alm",
         "job": "valentianhero",
         "portrait": "alm.png",
-        "lvl": 30,
-        "personal": false,
+        "lvl": 33,
+        "personal": "forager",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -13312,33 +13313,33 @@
         ],
         "base": {
             "normal": {
-                "hp": 27,
-                "str": 20,
+                "hp": 28,
+                "str": 22,
                 "mag": 0,
-                "skl": 18,
-                "spd": 17,
-                "lck": 15,
-                "def": 22,
+                "skl": 19,
+                "spd": 18,
+                "lck": 16,
+                "def": 24,
                 "res": 4
             },
             "hard": {
-                "hp": 27,
-                "str": 20,
+                "hp": 28,
+                "str": 22,
                 "mag": 0,
-                "skl": 18,
-                "spd": 17,
-                "lck": 15,
-                "def": 22,
+                "skl": 19,
+                "spd": 18,
+                "lck": 16,
+                "def": 24,
                 "res": 4
             },
             "lunatic": {
-                "hp": 27,
-                "str": 20,
+                "hp": 28,
+                "str": 22,
                 "mag": 0,
-                "skl": 18,
-                "spd": 17,
-                "lck": 15,
-                "def": 22,
+                "skl": 19,
+                "spd": 18,
+                "lck": 16,
+                "def": 24,
                 "res": 4
             }
         },
@@ -13381,7 +13382,7 @@
         "job": "sage",
         "portrait": "rainbowsage.png",
         "lvl": 38,
-        "personal": false,
+        "personal": "divineshield",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -13567,6 +13568,321 @@
             },
             "lunatic": {
                 "lance": 96
+
+             }
+           }
+        },
+	        			   "shade": {
+		"name": "Shade",
+        "job": "witch",
+        "portrait": "shade.png",
+        "lvl": 25,
+        "personal": "calm",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "heartseeker",
+                "witchsbrew",
+				"shadowgift",
+				"toxicbrew"
+            ],
+            "hard": [
+                "heartseeker",
+                "witchsbrew",
+				"shadowgift",
+				"toxicbrew"
+		    ],
+            "lunatic": [
+                "heartseeker",
+                "witchsbrew",
+				"shadowgift",
+				"toxicbrew"
+				]
+        },
+        "pairup": false,
+        "variable": false,
+        "set": [
+            "witch",
+			"darkmage",
+			"troubadour"
+        ],
+        "base": {
+            "normal": {
+                "hp": 13,
+                "str": 6,
+                "mag": 18,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 9,
+                "res": 15
+            },
+            "hard": {
+                "hp": 13,
+                "str": 6,
+                "mag": 18,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 9,
+                "res": 15
+            },
+            "lunatic": {
+                "hp": 13,
+                "str": 6,
+                "mag": 18,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 9,
+                "res": 15
+            }
+        },
+        "cap": {
+            "str": -2,
+            "mag": 3,
+            "skl": 0,
+            "spd": -3,
+            "lck": 0,
+            "def": 0,
+            "res": 1
+        },
+        "growth": {
+            "hp": 45,
+            "str": 20,
+            "mag": 60,
+            "skl": 40,
+            "spd": 30,
+            "lck": 55,
+            "def": 20,
+            "res": 40
+        },
+        "rank": {
+            "normal": {
+                "tome": 161
+            },
+            "hard": {
+                "tome": 161
+
+            },
+            "lunatic": {
+                "tome": 161
+
+             }
+           }
+        },
+		  "lonqu": {
+		"name": "Lon'qu",
+        "job": "dreadfighter",
+        "portrait": "lon'qu.png",
+        "lvl": 36,
+        "personal": "triplethreat",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "sealstrength",
+                "ironwill",
+				"wardomgblow",
+				"aggressor",
+				"dartingblow"
+            ],
+            "hard": [
+                "sealstrength",
+                "ironwill",
+				"wardomgblow",
+				"aggressor",
+				"dartingblow"
+		    ],
+            "lunatic": [
+                "sealstrength",
+                "ironwill",
+				"wardomgblow",
+				"aggressor",
+				"dartingblow"
+				]
+        },
+        "pairup": false,
+        "variable": false,
+        "set": [
+            "dreadfighter",
+			"thief"
+        ],
+        "base": {
+            "normal": {
+                "hp": 23,
+                "str": 19,
+                "mag": 8,
+                "skl": 20,
+                "spd": 21,
+                "lck": 13,
+                "def": 14,
+                "res": 16
+            },
+            "hard": {
+                "hp": 23,
+                "str": 19,
+                "mag": 8,
+                "skl": 20,
+                "spd": 21,
+                "lck": 13,
+                "def": 14,
+                "res": 16
+            },
+            "lunatic": {
+                "hp": 23,
+                "str": 19,
+                "mag": 8,
+                "skl": 20,
+                "spd": 21,
+                "lck": 13,
+                "def": 14,
+                "res": 16
+            }
+        },
+        "cap": {
+            "str": 0,
+            "mag": 0,
+            "skl": 3,
+            "spd": 3,
+            "lck": 0,
+            "def": -3,
+            "res": -2
+        },
+        "growth": {
+            "hp": 40,
+            "str": 35,
+            "mag": 20,
+            "skl": 50,
+            "spd": 50,
+            "lck": 55,
+            "def": 25,
+            "res": 20
+        },
+        "rank": {
+            "normal": {
+                "sword": 161,
+				"axe": 161,
+				"hidden": 161
+            },
+            "hard": {
+                "sword": 161,
+				"axe": 161,
+				"hidden": 161
+            },
+            "lunatic": {
+                "sword": 161,
+				"axe": 161,
+				"hidden": 161
+             }
+           }
+        },
+		"jake": {
+		"name": "Jake",
+        "job": "ballistician",
+        "portrait": "jake.png",
+        "lvl": 35,
+        "personal": "makeakilling",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "surefooted",
+                "rifledbarrel",
+				"survey",
+				"opportunityshot",
+				"waryfighter"
+            ],
+            "hard": [
+                "surefooted",
+                "rifledbarrel",
+				"survey",
+				"opportunityshot",
+				"waryfighter"
+		    ],
+            "lunatic": [
+                "surefooted",
+                "rifledbarrel",
+				"survey",
+				"opportunityshot",
+				"waryfighter"
+				]
+        },
+        "pairup": false,
+        "variable": false,
+        "set": [
+            "ballistician",
+			"outlaw",
+			"wyvernrider"
+        ],
+        "base": {
+            "normal": {
+                "hp": 34,
+                "str": 23,
+                "mag": 0,
+                "skl": 19,
+                "spd": 11,
+                "lck": 14,
+                "def": 25,
+                "res": 7
+            },
+            "hard": {
+                "hp": 34,
+                "str": 23,
+                "mag": 0,
+                "skl": 19,
+                "spd": 11,
+                "lck": 14,
+                "def": 25,
+                "res": 7
+            },
+            "lunatic": {
+                "hp": 34,
+                "str": 23,
+                "mag": 0,
+                "skl": 19,
+                "spd": 11,
+                "lck": 14,
+                "def": 25,
+                "res": 7
+            }
+        },
+        "cap": {
+            "str": 0,
+            "mag": -1,
+            "skl": 2,
+            "spd": -3,
+            "lck": 0,
+            "def": 5,
+            "res": -2
+        },
+        "growth": {
+            "hp": 40,
+            "str": 50,
+            "mag": 0,
+            "skl": 65,
+            "spd": 30,
+            "lck": 40,
+            "def": 65,
+            "res": 15
+        },
+        "rank": {
+            "normal": {
+                "bow": 251
+            },
+            "hard": {
+                "bow": 251
+
+            },
+            "lunatic": {
+                "bow": 251
 
              }
            }
