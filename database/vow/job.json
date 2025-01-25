@@ -6493,4 +6493,74 @@
             "renewal": 10
         }
     },
+	"conqueror": {
+        "name": "Conqueror",
+        "promo": [],
+        "base": {
+            "hp": 20,
+            "str": 7,
+            "mag": 6,
+            "skl": 8,
+            "spd": 7,
+            "lck": 3,
+            "def": 6,
+            "res": 5,
+            "mov": 6
+        },
+		"bonus": {
+	    "hit": 10,
+	    "dodge": 10,
+		},
+        "cap": {
+            "hp": 60,
+            "str": 33,
+            "mag": 35,
+            "skl": 32,
+            "spd": 30,
+            "lck": 30,
+            "def": 32,
+            "res": 32
+        },
+        "generic": {
+            "hp": 85,
+            "str": 60,
+            "mag": 60,
+            "skl": 45,
+            "spd": 50,
+            "lck": 25,
+            "def": 45,
+            "res": 45
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 15,
+            "skl": 15,
+            "spd": 10,
+            "lck": 5,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+			"hp": 0,
+            "str": 3,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 2,
+            "res": 1,
+            "mov": 0
+        },
+        "rank": {
+			"axe": 161,
+			"tome": 161
+		},
+        "skill": {
+            "vantage": 5,
+            "ignis": 10,
+			"axefaire": 25,
+			"awakening": 35
+        }
+    },
 }

@@ -7390,6 +7390,137 @@
             }
         }
     },
+	"gonar": {
+        "name": "Gonar",
+        "job": "conqueror",
+        "portrait": "gonar.png",
+        "lvl": 1,
+        "personal": "winddisciple",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "pairup": true,
+        "variable": false,
+        "set": [
+            "conqueror",
+			"fighter",
+			"darkmage"
+        ],
+        "base": {
+            "normal": {
+                "hp": 3,
+                "str": 2,
+                "mag": 2,
+                "skl": 4,
+                "spd": 2,
+                "lck": 2,
+                "def": 4,
+                "res": 4
+            },
+            "hard": {
+                "hp": 3,
+                "str": 2,
+                "mag": 2,
+                "skl": 4,
+                "spd": 2,
+                "lck": 2,
+                "def": 4,
+                "res": 4
+            },
+            "lunatic": {
+                "hp": 3,
+                "str": 2,
+                "mag": 2,
+                "skl": 4,
+                "spd": 2,
+                "lck": 2,
+                "def": 4,
+                "res": 4
+            }
+        },
+        "cap": {
+			"hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": -1,
+            "def": 1,
+            "res": 1
+        },
+        "growth": {
+            "hp": 55,
+            "str": 50,
+            "mag": 50,
+            "skl": 40,
+            "spd": 35,
+            "lck": 25,
+            "def": 35,
+            "res": 35
+        },
+        "rank": {
+            "normal": {
+                "axe": 21,
+				"tome": 21
+            },
+            "hard": {
+                "axe": 21,
+				"tome": 21
+            },
+            "lunatic": {
+                "axe": 21,
+				"tome": 21
+            }
+        },
+        "skill": {
+            "normal": [
+                "winddisciple",
+				"vantage"
+            ],
+            "hard": [
+                "winddisciple",
+				"vantage"
+            ],
+            "lunatic": [
+                "winddisciple",
+				"vantage"
+            ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "def": 1
+                },
+                "a": {
+                    "skl": 1
+                },
+                "s": {}
+            },
+            "bonus": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "str": 1,
+                    "def": 1
+                },
+                "a": {
+                    "str": 1,
+                    "def": 1,
+					"skl": 1
+                },
+                "s": {
+                    "str": 1,
+                    "def": 1,
+					"skl": 1
+                }
+            }
+        }
+    },
 	"iroryu": {
         "name": "Iroryu",
         "job": "sageofwar",
