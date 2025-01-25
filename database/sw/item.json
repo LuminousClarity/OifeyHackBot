@@ -1704,7 +1704,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 10,
             "hit": 80,
             "avoid": 15,
 			"dodge": 15,
@@ -2076,7 +2076,7 @@
         "stats": {
             "rank": "E",
             "mt": 9,
-            "hit": 65,
+            "hit": 75,
 			"avoid": -10,
 			"dodge": -10,
             "rng": 3
@@ -5541,8 +5541,8 @@
         "forge": 0,
         "type": "item"
     },
-    "falchion": {
-        "name": "Falchion",
+    "falchionmarth": {
+        "name": "Falchion (Marth)",
         "desc": "Ddg+10. Effective vs. dragons. When equipped, use to restore 10 HP.",
         "weapon": true,
         "stats": {
@@ -6037,7 +6037,7 @@
 			}
 		}
     },
-	"falchion": {
+	"falchionchrom": {
         "name": "Falchion (Chrom)",
         "desc": "Chrom only. Effective against dragons.",
         "weapon": true,
@@ -6941,12 +6941,12 @@
         "type": "sword"
 	},
 	"valentianfalchion": {
-        "name": "Valentian Falchion",
+        "name": "Falchion (Alm)",
         "desc": "Recovers 20% HP when equipped. Deals extra damage against monsters and dragons. Always doubles.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 10,
             "hit": 85,
 			"rng": "1"
         },
@@ -6989,7 +6989,7 @@
         }
 	},
 	"uror": {
-        "name": "Urðr",
+        "name": "Urðr (Shigure)",
         "desc": "Shigure Only. Recovers HP every turn. An axe found deep in the Kingdom of Valla.",
         "weapon": true,
         "stats": {
