@@ -1319,10 +1319,8 @@
     "shadowgift": {
         "name": "Shadowgift",
         "emoji": "<:fe14_shadowgift:673646080382074881>",
-        "desc": "Enables non-dark mages to use dark magic.",
-        "reference": {
-            "Class": "Witch (Lv. 1)"
-        }
+        "desc": "Enables the ability to use weapons that are locked to specific classes in any class.",
+        "reference": {}
     },
     "shelter": {
         "name": "Shelter",
