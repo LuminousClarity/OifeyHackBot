@@ -1808,5 +1808,13 @@
         "desc": "Grants a random item, weapon or amount of gold after defeating an enemy.",
         "emoji": "",
         "reference": {}
+    },
+	    "rightfulking": {
+        "name": "Rightful King",
+        "emoji": "<:fe14_hoshidanunity:673644448214941697>",
+        "desc": "Increases the trigger rate of this unit's skills by 10%.",
+        "reference": {
+            "Class": "Hoshido Noble (Lv. 15)"
+        }
     }
 }
