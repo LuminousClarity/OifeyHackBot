@@ -13886,6 +13886,137 @@
 
              }
            }
+        },
+	 "laslowearly": {
+        "name": "Laslow (early)",
+        "job": "mercenary",
+        "portrait": "laslow.png",
+        "lvl": 14,
+        "personal": "fancyfootwork",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "goodfortune",
+                "strongriposte",
+				"rallyspeed"
+            ],
+            "hard": [
+                "goodfortune",
+                "strongriposte",
+				"rallyspeed"
+            ],
+            "lunatic": [
+                "goodfortune",
+                "strongriposte",
+				"rallyspeed"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "mercenary",
+            "ninja"
+        ],
+        "base": {
+            "normal": {
+                "hp": 12,
+                "str": 11,
+                "mag": 0,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 6,
+                "res": 5
+            },
+            "hard": {
+                "hp": 12,
+                "str": 11,
+                "mag": 0,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 6,
+                "res": 5
+            },
+            "lunatic": {
+                "hp": 12,
+                "str": 11,
+                "mag": 0,
+                "skl": 11,
+                "spd": 8,
+                "lck": 12,
+                "def": 6,
+                "res": 5
+            }
+        },
+        "cap": {
+            "str": 1,
+            "mag": 0,
+            "skl": 2,
+            "spd": -1,
+            "lck": 1,
+            "def": -1,
+            "res": -1
+        },
+        "growth": {
+            "hp": 50,
+            "str": 45,
+            "mag": 0,
+            "skl": 45,
+            "spd": 30,
+            "lck": 55,
+            "def": 35,
+            "res": 25
+        },
+        "rank": {
+            "normal": {
+                "sword": 96
+            },
+            "hard": {
+                "sword": 96
+            },
+            "lunatic": {
+                "sword": 96
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                    "str": 1
+                },
+                "a": {
+                    "lck": 1
+                },
+                "s": {
+                    "str": 1,
+                    "lck": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                    "skl": 1,
+                    "str": 1
+                },
+                "a": {
+                    "skl": 1,
+                    "str": 1,
+                    "lck": 1
+                },
+                "s": {
+                    "skl": 1,
+                    "str": 2,
+                    "lck": 2
+                }
+            }
         }
+    }
 }
  
