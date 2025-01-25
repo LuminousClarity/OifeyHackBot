@@ -311,13 +311,13 @@
             "crit": 5
         },
         "cap": {
-            "hp": 50,
+            "hp": 60,
             "str": 39,
             "mag": 25,
             "skl": 31,
             "spd": 25,
             "lck": 32,
-            "def": 27,
+            "def": 37,
             "res": 26
         },
         "growth": {
@@ -5536,13 +5536,13 @@
         "name": "Wyvern Master",
         "promo": [],
         "base": {
-            "hp": 19,
-            "str": 7,
+            "hp": 21,
+            "str": 10,
             "mag": 0,
-            "skl": 4,
+            "skl": 7,
             "spd": 5,
             "lck": 3,
-            "def": 7,
+            "def": 10,
             "res": 0,
             "mov": 8
         },
