@@ -1123,9 +1123,9 @@
             "hidden": 96
         },
         "skill": {
-            "evenkeel": 1,
+            "sealmagic": 1,
             "ironwill": 10,
-            "clarity": 25,
+            "wardingblow": 25,
             "aggressor": 35
         }
     },

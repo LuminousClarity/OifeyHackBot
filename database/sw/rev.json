@@ -13688,21 +13688,21 @@
             "normal": [
                 "sealstrength",
                 "ironwill",
-				"wardomgblow",
+				"wardingblow",
 				"aggressor",
 				"dartingblow"
             ],
             "hard": [
                 "sealstrength",
                 "ironwill",
-				"wardomgblow",
+				"wardingblow",
 				"aggressor",
 				"dartingblow"
 		    ],
             "lunatic": [
                 "sealstrength",
                 "ironwill",
-				"wardomgblow",
+				"wardingblow",
 				"aggressor",
 				"dartingblow"
 				]
@@ -13710,8 +13710,7 @@
         "pairup": false,
         "variable": false,
         "set": [
-            "dreadfighter",
-			"thief"
+            "dreadfighter"
         ],
         "base": {
             "normal": {
