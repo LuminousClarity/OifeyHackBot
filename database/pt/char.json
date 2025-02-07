@@ -1612,13 +1612,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -2748,13 +2748,13 @@
          }
       },
       "cap":{
-         "str":1,
-         "mag":0,
-         "skl":1,
-         "spd":1,
-         "lck":1,
-         "def":-1,
-         "res":-1
+         "str":2,
+         "mag":1,
+         "skl":2,
+         "spd":2,
+         "lck":2,
+         "def":0,
+         "res":0
       },
       "growth":{
          "hp":45,
@@ -3086,13 +3086,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -5412,13 +5412,13 @@
          }
       },
       "cap":{
-         "str":2,
-         "mag":-2,
-         "skl":2,
-         "spd":-2,
-         "lck":0,
-         "def":2,
-         "res":0
+         "str":3,
+         "mag":-1,
+         "skl":3,
+         "spd":-1,
+         "lck":1,
+         "def":3,
+         "res":1
       },
       "growth":{
          "hp":60,
@@ -5450,15 +5450,15 @@
       "skill":{
          "normal":[
             "discipline",
-            "outdoorfighter"
+            "tantivy"
          ],
          "hard":[
             "discipline",
-            "outdoorfighter"
+            "tantivy"
          ],
          "lunatic":[
             "discipline",
-            "outdoorfighter"
+            "tantivy"
          ]
       }
    },
@@ -5772,13 +5772,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -6678,13 +6678,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -7696,43 +7696,43 @@
       "base":{
          "normal":{
             "hp":3,
-            "str":2,
+            "str":4,
             "mag":0,
             "skl":3,
             "spd":3,
             "lck":3,
-            "def":1,
+            "def":3,
             "res":2
          },
          "hard":{
             "hp":3,
-            "str":2,
+            "str":4,
             "mag":0,
             "skl":3,
             "spd":3,
             "lck":3,
-            "def":1,
+            "def":3,
             "res":2
          },
          "lunatic":{
             "hp":3,
-            "str":2,
+            "str":4,
             "mag":0,
             "skl":3,
             "spd":3,
             "lck":3,
-            "def":1,
+            "def":3,
             "res":2
          }
       },
       "cap":{
-         "str":1,
-         "mag":0,
-         "skl":1,
-         "spd":-2,
-         "lck":-2,
-         "def":3,
-         "res":0
+         "str":2,
+         "mag":1,
+         "skl":2,
+         "spd":-1,
+         "lck":-1,
+         "def":4,
+         "res":1
       },
       "growth":{
          "hp":50,
@@ -7880,13 +7880,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -8274,13 +8274,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -9279,7 +9279,7 @@
       "set":[
          "cleric",
          "pegasusknight",
-         "troubadour"
+         "darkmage"
       ],
       "base":{
          "normal":{
@@ -9290,7 +9290,7 @@
             "spd":0,
             "lck":8,
             "def":2,
-            "res":-2
+            "res":0
          },
          "hard":{
             "hp":1,
@@ -9300,7 +9300,7 @@
             "spd":0,
             "lck":8,
             "def":2,
-            "res":-2
+            "res":0
          },
          "lunatic":{
             "hp":1,
@@ -9310,17 +9310,17 @@
             "spd":0,
             "lck":8,
             "def":2,
-            "res":-2
+            "res":0
          }
       },
       "cap":{
-         "str":-2,
-         "mag":2,
-         "skl":-1,
-         "spd":0,
-         "lck":2,
-         "def":-1,
-         "res":1
+         "str":-1,
+         "mag":3,
+         "skl":0,
+         "spd":1,
+         "lck":3,
+         "def":0,
+         "res":2
       },
       "growth":{
          "hp":35,
@@ -9334,13 +9334,13 @@
       },
       "rank":{
          "normal":{
-            "staff":1
+            "staff":6
          },
          "hard":{
-            "staff":1
+            "staff":6
          },
          "lunatic":{
-            "staff":1
+            "staff":6
          }
       },
       "skill":{
@@ -9661,13 +9661,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"father",
@@ -11338,42 +11338,42 @@
          "normal":{
             "hp":2,
             "str":0,
-            "mag":2,
+            "mag":4,
             "skl":2,
             "spd":3,
             "lck":6,
-            "def":1,
-            "res":1
+            "def":2,
+            "res":2
          },
          "hard":{
             "hp":2,
             "str":0,
-            "mag":2,
+            "mag":4,
             "skl":2,
             "spd":3,
             "lck":6,
-            "def":1,
-            "res":1
+            "def":2,
+            "res":2
          },
          "lunatic":{
             "hp":2,
             "str":0,
-            "mag":2,
+            "mag":4,
             "skl":2,
             "spd":3,
             "lck":6,
-            "def":1,
-            "res":1
+            "def":2,
+            "res":2
          }
       },
       "cap":{
-         "str":-2,
-         "mag":3,
-         "skl":1,
-         "spd":1,
-         "lck":0,
-         "def":-2,
-         "res":0
+         "str":-1,
+         "mag":4,
+         "skl":2,
+         "spd":2,
+         "lck":1,
+         "def":-1,
+         "res":1
       },
       "growth":{
          "hp":35,
@@ -11512,13 +11512,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-1,
+         "mag":-1,
+         "skl":-1,
+         "spd":-1,
+         "lck":-1,
+         "def":-1,
+         "res":-1
       },
       "pairup":false,
       "variable":false,
@@ -11806,13 +11806,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -12491,13 +12491,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -13370,13 +13370,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -15862,13 +15862,13 @@
       "gender":"f",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
@@ -16565,43 +16565,43 @@
       "base":{
          "normal":{
             "hp":4,
-            "str":2,
+            "str":3,
             "mag":0,
             "skl":2,
-            "spd":0,
+            "spd":2,
             "lck":5,
-            "def":1,
+            "def":2,
             "res":1
          },
          "hard":{
             "hp":4,
-            "str":2,
+            "str":3,
             "mag":0,
             "skl":2,
-            "spd":0,
+            "spd":2,
             "lck":5,
-            "def":1,
+            "def":2,
             "res":1
          },
          "lunatic":{
             "hp":4,
-            "str":2,
+            "str":3,
             "mag":0,
             "skl":2,
-            "spd":0,
+            "spd":2,
             "lck":5,
-            "def":1,
+            "def":2,
             "res":1
          }
       },
       "cap":{
-         "str":2,
-         "mag":-1,
-         "skl":1,
-         "spd":0,
-         "lck":-2,
-         "def":2,
-         "res":-1
+         "str":3,
+         "mag":0,
+         "skl":2,
+         "spd":1,
+         "lck":-1,
+         "def":3,
+         "res":0
       },
       "growth":{
          "hp":50,
@@ -16654,47 +16654,47 @@
       "set":[
          "cavalier",
          "myrmidon",
-         "wyvernrider"
+         "barbarian"
       ],
       "base":{
          "normal":{
             "hp":2,
-            "str":1,
+            "str":3,
             "mag":1,
             "skl":3,
             "spd":2,
             "lck":6,
-            "def":0,
+            "def":2,
             "res":2
          },
          "hard":{
             "hp":2,
-            "str":1,
+            "str":3,
             "mag":1,
             "skl":3,
             "spd":2,
             "lck":6,
-            "def":0,
+            "def":2,
             "res":2
          },
          "lunatic":{
             "hp":2,
-            "str":1,
+            "str":3,
             "mag":1,
             "skl":3,
             "spd":2,
             "lck":6,
-            "def":0,
+            "def":2,
             "res":2
          }
       },
       "cap":{
-         "str":-1,
-         "mag":-1,
-         "skl":2,
-         "spd":2,
+         "str":1,
+         "mag":0,
+         "skl":3,
+         "spd":3,
          "lck":0,
-         "def":-1,
+         "def":1,
          "res":0
       },
       "growth":{
@@ -16753,43 +16753,43 @@
       "base":{
          "normal":{
             "hp":2,
-            "str":2,
+            "str":3,
             "mag":1,
-            "skl":4,
+            "skl":5,
             "spd":3,
             "lck":8,
             "def":1,
-            "res":1
+            "res":3
          },
          "hard":{
             "hp":2,
-            "str":2,
+            "str":3,
             "mag":1,
-            "skl":4,
+            "skl":5,
             "spd":3,
             "lck":8,
             "def":1,
-            "res":1
+            "res":3
          },
          "lunatic":{
             "hp":2,
-            "str":2,
+            "str":3,
             "mag":1,
-            "skl":4,
+            "skl":5,
             "spd":3,
             "lck":8,
             "def":1,
-            "res":1
+            "res":3
          }
       },
       "cap":{
-         "str":-2,
-         "mag":0,
-         "skl":2,
-         "spd":3,
-         "lck":0,
-         "def":-2,
-         "res":1
+         "str":-1,
+         "mag":1,
+         "skl":3,
+         "spd":4,
+         "lck":1,
+         "def":-1,
+         "res":2
       },
       "growth":{
          "hp":35,
@@ -17539,43 +17539,43 @@
       "base":{
          "normal":{
             "hp":4,
-            "str":1,
+            "str":2,
             "mag":0,
-            "skl":3,
+            "skl":5,
             "spd":1,
             "lck":4,
-            "def":1,
+            "def":2,
             "res":0
          },
          "hard":{
             "hp":4,
-            "str":1,
+            "str":2,
             "mag":0,
-            "skl":3,
+            "skl":5,
             "spd":1,
             "lck":4,
-            "def":1,
+            "def":2,
             "res":0
          },
          "lunatic":{
             "hp":4,
-            "str":1,
+            "str":2,
             "mag":0,
-            "skl":3,
+            "skl":5,
             "spd":1,
             "lck":4,
-            "def":1,
+            "def":2,
             "res":0
          }
       },
       "cap":{
-         "str":3,
-         "mag":-2,
-         "skl":1,
-         "spd":1,
-         "lck":-1,
-         "def":0,
-         "res":-2
+         "str":4,
+         "mag":-1,
+         "skl":3,
+         "spd":2,
+         "lck":0,
+         "def":2,
+         "res":-1
       },
       "growth":{
          "hp":60,
@@ -17721,48 +17721,48 @@
       "set":[
          "archer",
          "wyvernrider",
-         "mage"
+         "myrmidon"
       ],
       "base":{
          "normal":{
             "hp":3,
-            "str":1,
+            "str":3,
             "mag":0,
             "skl":1,
-            "spd":-1,
+            "spd":1,
             "lck":7,
             "def":1,
             "res":1
          },
          "hard":{
             "hp":3,
-            "str":1,
+            "str":3,
             "mag":0,
             "skl":1,
-            "spd":-1,
+            "spd":1,
             "lck":7,
             "def":1,
             "res":1
          },
          "lunatic":{
             "hp":3,
-            "str":1,
+            "str":3,
             "mag":0,
             "skl":1,
-            "spd":-1,
+            "spd":1,
             "lck":7,
             "def":1,
             "res":1
          }
       },
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":2,
-         "spd":2,
-         "lck":-1,
-         "def":-2,
-         "res":0
+         "str":1,
+         "mag":1,
+         "skl":3,
+         "spd":3,
+         "lck":0,
+         "def":-1,
+         "res":1
       },
       "growth":{
          "hp":35,
@@ -17998,13 +17998,13 @@
       "gender":"m",
       "blood":false,
       "cap":{
-         "str":0,
-         "mag":0,
-         "skl":0,
-         "spd":0,
-         "lck":0,
-         "def":0,
-         "res":0
+         "str":-2,
+         "mag":-2,
+         "skl":-2,
+         "spd":-2,
+         "lck":-2,
+         "def":-2,
+         "res":-2
       },
       "pairup":false,
       "influence":"mother",
