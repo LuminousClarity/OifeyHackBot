@@ -370,7 +370,7 @@
     },
     "azama": {
         "name": "Azama",
-        "job": "greatmaster",
+        "job": "martialmaster",
         "portrait": "azama.png",
         "lvl": 1,
         "personal": "divineretribution",
@@ -380,23 +380,24 @@
         "blood": false,
         "skill": {
             "normal": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"deathblow"
             ],
             "hard": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"deathblow"
             ],
             "lunatic": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"deathblow"
             ]
         },
         "variable": false,
         "set": [
+	    "martialmonk",
             "monk",
             "apothecary"
         ],
@@ -454,16 +455,19 @@
         "rank": {
             "normal": {
                 "staff": 96,
-				"lance": 51
+				"sword": 51,
+		                "claw": 96
             },
             "hard": {
                 "staff": 96,
-				"lance": 51
-            },
+				"sword": 51,
+		                "claw": 96     
+	    },
             "lunatic": {
                 "staff": 96,
-				"lance": 51
-            }
+				"sword": 51,
+		                "claw": 96    
+	}
         },
         "pairup": {
             "raw": {
@@ -6086,7 +6090,7 @@
     },
     "mitama": {
         "name": "Mitama",
-        "job": "shrinemaiden",
+        "job": "martialmonk",
         "portrait": "mitama.png",
         "lvl": 10,
         "personal": "haiku",
@@ -6105,18 +6109,18 @@
         },
         "skill": {
             "normal": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"livetoserve"
             ],
             "hard": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"livetoserve"
             ],
             "lunatic": [
-                "miracle",
-                "rallyluck",
+                "luck4",
+                "poisonstrike",
 				"livetoserve"
             ]
         },
@@ -6124,37 +6128,37 @@
         "influence": "father",
         "variable": false,
         "set": [
-            "shrinemaiden"
+            "martialmonk"
         ],
         "base": {
             "normal": {
                 "hp": 6,
-                "str": 7,
+                "str": 8,
                 "mag": 6,
                 "skl": 6,
                 "spd": 8,
                 "lck": 10,
-                "def": 3,
+                "def": 4,
                 "res": 5
             },
             "hard": {
                 "hp": 6,
-                "str": 7,
+                "str": 8,
                 "mag": 6,
                 "skl": 6,
                 "spd": 8,
                 "lck": 10,
-                "def": 3,
+                "def": 4,
                 "res": 5
             },
             "lunatic": {
                 "hp": 6,
-                "str": 7,
+                "str": 8,
                 "mag": 6,
                 "skl": 6,
                 "spd": 8,
                 "lck": 10,
-                "def": 3,
+                "def": 4,
                 "res": 5
             }
         },
@@ -6170,13 +6174,16 @@
         },
         "rank": {
             "normal": {
-                "staff": 51
+                "staff": 51,
+		"claw": 51
             },
             "hard": {
-                "staff": 51
+                "staff": 51,
+		"claw": 51
             },
             "lunatic": {
-                "staff": 51
+                "staff": 51,
+		"claw": 51
             }
         },
         "autolevel": {
@@ -8672,7 +8679,7 @@
             "normal": {
                 "hp": 7,
                 "str": 4,
-                "mag": 3,
+                "mag": 4,
                 "skl": 6,
                 "spd": 7,
                 "lck": 10,
@@ -8682,7 +8689,7 @@
             "hard": {
                 "hp": 7,
                 "str": 4,
-                "mag": 3,
+                "mag": 4,
                 "skl": 6,
                 "spd": 7,
                 "lck": 10,
@@ -8692,7 +8699,7 @@
             "lunatic": {
                 "hp": 7,
                 "str": 4,
-                "mag": 3,
+                "mag": 4,
                 "skl": 6,
                 "spd": 7,
                 "lck": 10,
@@ -10188,7 +10195,7 @@
                 "str": 6,
                 "mag": 0,
                 "skl": 6,
-                "spd": 6,
+                "spd": 5,
                 "lck": 11,
                 "def": 9,
                 "res": 8
@@ -10198,7 +10205,7 @@
                 "str": 6,
                 "mag": 0,
                 "skl": 6,
-                "spd": 6,
+                "spd": 5,
                 "lck": 11,
                 "def": 9,
                 "res": 8
@@ -10208,7 +10215,7 @@
                 "str": 6,
                 "mag": 0,
                 "skl": 6,
-                "spd": 6,
+                "spd": 5,
                 "lck": 11,
                 "def": 9,
                 "res": 8
@@ -12690,8 +12697,8 @@
         "variable": false,
         "set": [
             "grandmaster",
-			"darkmage",
-			"lancer"
+			"lancer",
+			"darkmage"
         ],
         "base": {
             "normal": {
@@ -13710,7 +13717,8 @@
         "pairup": false,
         "variable": false,
         "set": [
-            "dreadfighter"
+            "dreadfighter",
+	    "thief"
         ],
         "base": {
             "normal": {
