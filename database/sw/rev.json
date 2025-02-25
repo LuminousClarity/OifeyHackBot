@@ -14024,6 +14024,413 @@
                 }
             }
         }
+    },
+	 "hinokaalt": {
+        "name": "Hinoka (Alt)",
+        "job": "kinshiknight",
+        "portrait": "hinoka.png",
+        "lvl": 3,
+        "personal": "rallyingcry",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": true,
+        "skill": {
+            "normal": [
+                "dartingblow",
+                "camaraderie",
+				"dualstriker"
+            ],
+            "hard": [
+                "dartingblow",
+                "camaraderie",
+				"dualstriker"
+            ],
+            "lunatic": [
+                "dartingblow",
+                "camaraderie",
+				"dualstriker"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "skyknight",
+            "spearfighter"
+        ],
+        "base": {
+            "normal": {
+                "hp": 14,
+                "str": 13,
+                "mag": 5,
+                "skl": 17,
+                "spd": 14,
+                "lck": 14,
+                "def": 9,
+                "res": 11
+            },
+            "hard": {
+                "hp": 14,
+                "str": 13,
+                "mag": 5,
+                "skl": 17,
+                "spd": 14,
+                "lck": 14,
+                "def": 9,
+                "res": 11
+            },
+            "lunatic": {
+                "hp": 14,
+                "str": 13,
+                "mag": 5,
+                "skl": 17,
+                "spd": 14,
+                "lck": 14,
+                "def": 9,
+                "res": 11
+            }
+        },
+        "cap": {
+            "str": 1,
+            "mag": -1,
+            "skl": -1,
+            "spd": 1,
+            "lck": 0,
+            "def": -1,
+            "res": 2
+        },
+        "growth": {
+            "hp": 45,
+            "str": 45,
+            "mag": 25,
+            "skl": 40,
+            "spd": 45,
+            "lck": 40,
+            "def": 35,
+            "res": 40
+        },
+        "rank": {
+            "normal": {
+                "lance": 96,
+				"bow": 51
+            },
+            "hard": {
+                "lance": 96,
+				"bow": 51
+            },
+            "lunatic": {
+                "lance": 96,
+				"bow": 51
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "res": 1
+                },
+                "b": {
+                    "lck": 1
+                },
+                "a": {
+                    "str": 1
+                },
+                "s": {
+                    "spd": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "res": 1
+                },
+                "b": {
+                    "res": 1,
+                    "lck": 1
+                },
+                "a": {
+                    "res": 1,
+                    "lck": 1,
+                    "str": 1
+                },
+                "s": {
+                    "res": 2,
+                    "lck": 1,
+                    "str": 1,
+                    "spd": 1
+                }
+            }
+        }
+    },
+	 "hayatoalt": {
+        "name": "Hayato (Alt)",
+        "job": "basara",
+        "portrait": "hayato.png",
+        "lvl": 5,
+        "personal": "pride",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "magic2",
+				"futuresight",
+				"rendheaven",
+				"airsuperiority"
+            ],
+            "hard": [
+                "magic2",
+				"futuresight",
+				"rendheaven",
+				"airsuperiority"
+            ],
+            "lunatic": [
+                "magic2",
+				"futuresight",
+				"rendheaven",
+				"airsuperiority"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "diviner",
+            "onisavage"
+        ],
+        "base": {
+            "normal": {
+                "hp": 17,
+                "str": 13,
+                "mag": 13,
+                "skl": 9,
+                "spd": 15,
+                "lck": 24,
+                "def": 12,
+                "res": 9
+            },
+            "hard": {
+                "hp": 17,
+                "str": 13,
+                "mag": 13,
+                "skl": 9,
+                "spd": 15,
+                "lck": 24,
+                "def": 12,
+                "res": 9
+            },
+            "lunatic": {
+                "hp": 17,
+                "str": 13,
+                "mag": 13,
+                "skl": 9,
+                "spd": 15,
+                "lck": 24,
+                "def": 12,
+                "res": 9
+            }
+        },
+        "cap": {
+            "str": 0,
+            "mag": 1,
+            "skl": -1,
+            "spd": 2,
+            "lck": 1,
+            "def": -1,
+            "res": -1
+        },
+        "growth": {
+            "hp": 50,
+            "str": 30,
+            "mag": 40,
+            "skl": 30,
+            "spd": 45,
+            "lck": 60,
+            "def": 40,
+            "res": 20
+        },
+        "rank": {
+            "normal": {
+                "tome": 96,
+				"lance": 51
+            },
+            "hard": {
+                "tome": 96,
+				"lance": 51
+            },
+            "lunatic": {
+                "tome": 96,
+				"lance": 51
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "spd": 1
+                },
+                "b": {
+                    "lck": 1
+                },
+                "a": {
+                    "mag": 1
+                },
+                "s": {
+                    "spd": 1,
+                    "lck": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "spd": 1
+                },
+                "b": {
+                    "spd": 1,
+                    "lck": 1
+                },
+                "a": {
+                    "spd": 1,
+                    "lck": 1,
+                    "mag": 1
+                },
+                "s": {
+                    "spd": 2,
+                    "lck": 2,
+                    "mag": 1
+                }
+            }
+        }
+    },
+	 "scarletalt": {
+        "name": "Scarlet (Alt)",
+        "job": "maligknight",
+        "portrait": "scarlet.png",
+        "lvl": 3,
+        "personal": "inextremis",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "strength2",
+                "lunge",
+				"strongriposte"
+            ],
+            "hard": [
+                "strength2",
+                "lunge",
+				"strongriposte"
+            ],
+            "lunatic": [
+                "strength2",
+                "lunge",
+				"strongriposte"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "wyvernrider",
+            "outlaw",
+            "knight"
+        ],
+        "base": {
+            "normal": {
+                "hp": 12,
+                "str": 13,
+                "mag": 9,
+                "skl": 8,
+                "spd": 12,
+                "lck": 10,
+                "def": 11,
+                "res": 9
+            },
+            "hard": {
+                "hp": 12,
+                "str": 13,
+                "mag": 9,
+                "skl": 8,
+                "spd": 12,
+                "lck": 10,
+                "def": 11,
+                "res": 9
+            },
+            "lunatic": {
+                "hp": 12,
+                "str": 13,
+                "mag": 9,
+                "skl": 8,
+                "spd": 12,
+                "lck": 10,
+                "def": 11,
+                "res": 9
+            }
+        },
+        "cap": {
+            "str": 2,
+            "mag": 0,
+            "skl": 0,
+            "spd": 1,
+            "lck": -1,
+            "def": 1,
+            "res": -2
+        },
+        "growth": {
+            "hp": 30,
+            "str": 45,
+            "mag": 20,
+            "skl": 40,
+            "spd": 50,
+            "lck": 40,
+            "def": 25,
+            "res": 20
+        },
+        "rank": {
+            "normal": {
+                "tome": 51,
+                "axe": 96
+            },
+            "hard": {
+                "tome": 51,
+                "axe": 96
+            },
+            "lunatic": {
+                "tome": 51,
+                "axe": 96
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "spd": 1
+                },
+                "a": {
+                    "def": 1
+                },
+                "s": {
+                    "str": 1,
+                    "skl": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "str": 1,
+                    "spd": 1
+                },
+                "a": {
+                    "str": 1,
+                    "spd": 1,
+                    "def": 1
+                },
+                "s": {
+                    "str": 2,
+                    "spd": 1,
+                    "def": 1,
+                    "skl": 1
+                }
+            }
+        }
     }
 }
- 
