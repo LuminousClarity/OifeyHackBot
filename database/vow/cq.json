@@ -7726,7 +7726,7 @@
             "skl": 60,
             "spd": 40,
             "lck": 60,
-            "def": 45,
+            "def": 30,
             "res": 20
         },
         "rank": {
@@ -8473,8 +8473,8 @@
         "variable": false,
         "set": [
             "godcleaver",
-			"spearfighter",
-			"skyknight"
+			"swordknight",
+			"samurai"
         ],
         "base": {
             "normal": {
@@ -9014,7 +9014,7 @@
                 "skl": 13,
                 "spd": 12,
                 "lck": 12,
-                "def": 16,
+                "def": 13,
                 "res": 8
             },
             "hard": {
@@ -9024,7 +9024,7 @@
                 "skl": 13,
                 "spd": 12,
                 "lck": 12,
-                "def": 16,
+                "def": 13,
                 "res": 8
             },
             "lunatic": {
@@ -9034,7 +9034,7 @@
                 "skl": 13,
                 "spd": 12,
                 "lck": 12,
-                "def": 16,
+                "def": 13,
                 "res": 8
             }
         },
@@ -9049,9 +9049,9 @@
             "res": -2
         },
         "growth": {
-            "hp": 35,
+            "hp": 45,
             "str": 55,
-            "mag": 15,
+            "mag": 25,
             "skl": 50,
             "spd": 45,
             "lck": 35,
@@ -9139,7 +9139,7 @@
         "variable": false,
         "set": [
             "darkslayer",
-			"mercenary",
+			"swordknight",
 			"ninja"
         ],
         "base": {
