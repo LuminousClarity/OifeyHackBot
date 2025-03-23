@@ -4365,7 +4365,7 @@
     "kanaf": {
         "name": "Kana",
         "job": "hoshidonoble",
-        "portrait": "kana_f.png",
+        "portrait": "kana.png",
         "lvl": 10,
         "personal": "draconicheir",
         "father": "corrin",
@@ -4470,7 +4470,7 @@
   "kanam": {
         "name": "Kanna",
         "job": "nohrnoble",
-        "portrait": "kana_m.png",
+        "portrait": "kanna.png",
         "lvl": 10,
         "personal": "draconicheir",
         "father": "corrin",
@@ -8402,7 +8402,7 @@
             "normal": {
                 "hp": 11,
                 "str": 14,
-                "mag": 3,
+                "mag": 13,
                 "skl": 8,
                 "spd": 13,
                 "lck": 11,
@@ -8412,7 +8412,7 @@
             "hard": {
                 "hp": 11,
                 "str": 14,
-                "mag": 3,
+                "mag": 13,
                 "skl": 8,
                 "spd": 13,
                 "lck": 11,
@@ -8422,7 +8422,7 @@
             "lunatic": {
                 "hp": 11,
                 "str": 14,
-                "mag": 3,
+                "mag": 13,
                 "skl": 8,
                 "spd": 13,
                 "lck": 11,
@@ -8442,7 +8442,7 @@
         "growth": {
             "hp": 30,
             "str": 45,
-            "mag": 20,
+            "mag": 40,
             "skl": 40,
             "spd": 50,
             "lck": 40,
@@ -12903,7 +12903,7 @@
         "base": {
             "normal": {
                 "hp": 19,
-                "str": 16,
+                "str": 17,
                 "mag": 3,
                 "skl": 20,
                 "spd": 18,
@@ -12913,7 +12913,7 @@
             },
             "hard": {
                 "hp": 19,
-                "str": 16,
+                "str": 17,
                 "mag": 3,
                 "skl": 20,
                 "spd": 18,
@@ -12923,7 +12923,7 @@
             },
             "lunatic": {
                 "hp": 19,
-                "str": 16,
+                "str": 17,
                 "mag": 3,
                 "skl": 20,
                 "spd": 18,
@@ -13007,7 +13007,7 @@
             "normal": {
                 "hp": 14,
                 "str": 13,
-                "mag": 21,
+                "mag": 18,
                 "skl": 15,
                 "spd": 21,
                 "lck": 22,
@@ -13017,7 +13017,7 @@
             "hard": {
                 "hp": 14,
                 "str": 13,
-                "mag": 21,
+                "mag": 18,
                 "skl": 15,
                 "spd": 21,
                 "lck": 22,
@@ -13027,7 +13027,7 @@
             "lunatic": {
                 "hp": 14,
                 "str": 13,
-                "mag": 21,
+                "mag": 18,
                 "skl": 15,
                 "spd": 21,
                 "lck": 22,
@@ -14334,7 +14334,7 @@
             "normal": {
                 "hp": 12,
                 "str": 13,
-                "mag": 9,
+                "mag": 15,
                 "skl": 8,
                 "spd": 12,
                 "lck": 10,
@@ -14344,7 +14344,7 @@
             "hard": {
                 "hp": 12,
                 "str": 13,
-                "mag": 9,
+                "mag": 15,
                 "skl": 8,
                 "spd": 12,
                 "lck": 10,
@@ -14354,7 +14354,7 @@
             "lunatic": {
                 "hp": 12,
                 "str": 13,
-                "mag": 9,
+                "mag": 15,
                 "skl": 8,
                 "spd": 12,
                 "lck": 10,
@@ -14374,7 +14374,7 @@
         "growth": {
             "hp": 30,
             "str": 45,
-            "mag": 20,
+            "mag": 40,
             "skl": 40,
             "spd": 50,
             "lck": 40,
