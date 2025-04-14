@@ -9625,4 +9625,262 @@
             }
         }
     },
+    	"melia": {
+        "name": "Melia",
+        "job": "royalsummoner",
+        "portrait": "melia.png",
+        "lvl": 16,
+        "personal": "maleficaura",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "pairup": true,
+        "variable": false,
+        "set": [
+            "royalsummoner",
+	    "diviner",
+	    "sorcerer"
+        ],
+        "base": {
+            "normal": {
+                "hp": 15,
+                "str": 6,
+                "mag": 14,
+                "skl": 12,
+                "spd": 14,
+                "lck": 12,
+                "def": 11,
+                "res": 20
+            },
+            "hard": {
+                "hp": 15,
+                "str": 6,
+                "mag": 14,
+                "skl": 12,
+                "spd": 14,
+                "lck": 12,
+                "def": 11,
+                "res": 20
+            },
+            "lunatic": {
+                "hp": 15,
+                "str": 6,
+                "mag": 14,
+                "skl": 12,
+                "spd": 14,
+                "lck": 12,
+                "def": 11,
+                "res": 20
+            }
+        },
+        "cap": {
+			"hp": 0,
+            "str": 0,
+            "mag": 3,
+            "skl": 2,
+            "spd": -2,
+            "lck": -1,
+            "def": -2,
+            "res": 1
+        },
+        "growth": {
+            "hp": 45,
+            "str": 5,
+            "mag": 60,
+            "skl": 45,
+            "spd": 60,
+            "lck": 50,
+            "def": 25,
+            "res": 45
+        },
+        "rank": {
+            "normal": {
+                "tome": 96
+            },
+            "hard": {
+                "tome": 96
+            },
+            "lunatic": {
+                "tome": 96
+            }
+        },
+        "skill": {
+            "normal": [
+                "toxicbrew",
+		"certainblow"
+            ],
+            "hard": [
+                "toxicbrew",
+		"certainblow"
+            ],
+            "lunatic": [
+                "toxicbrew",
+		"certainblow"
+            ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "spd": 1
+                },
+                "a": {
+                    "skl": 1
+                },
+                "s": {
+                    "str": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "mag": 1
+                },
+                "b": {
+                    "mag": 1,
+                    "skl": 1
+                },
+                "a": {
+                    "mag": 1,
+                    "skl": 1,
+		    "res": 1
+                },
+                "s": {
+                    "mag": 2,
+                    "skl": 1,
+		    "res": 2
+                }
+            }
+        }
+    },
+    	"chad": {
+        "name": "Chad Jack",
+        "job": "palico",
+        "portrait": "chad.png",
+        "lvl": 16,
+        "personal": "perfectionist",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "pairup": true,
+        "variable": false,
+        "set": [
+            "palico"
+        ],
+        "base": {
+            "normal": {
+                "hp": 21,
+                "str": 15,
+                "mag": 3,
+                "skl": 9,
+                "spd": 14,
+                "lck": 14,
+                "def": 10,
+                "res": 9
+            },
+            "hard": {
+                "hp": 21,
+                "str": 15,
+                "mag": 3,
+                "skl": 9,
+                "spd": 14,
+                "lck": 14,
+                "def": 10,
+                "res": 9
+            },
+            "lunatic": {
+                "hp": 21,
+                "str": 15,
+                "mag": 3,
+                "skl": 9,
+                "spd": 14,
+                "lck": 14,
+                "def": 10,
+                "res": 9
+            }
+        },
+        "cap": {
+	    "hp": 0,
+            "str": 2,
+            "mag": -1,
+            "skl": 0,
+            "spd": 2,
+            "lck": 0,
+            "def": -2,
+            "res": -2
+        },
+        "growth": {
+            "hp": 40,
+            "str": 55,
+            "mag": 25,
+            "skl": 40,
+            "spd": 60,
+            "lck": 60,
+            "def": 30,
+            "res": 15
+        },
+        "rank": {
+            "normal": {
+                "tome": 96
+            },
+            "hard": {
+                "tome": 96
+            },
+            "lunatic": {
+                "tome": 96
+            }
+        },
+        "skill": {
+            "normal": [
+                "elbowroom",
+		"salvageblow"
+            ],
+            "hard": [
+                "elbowroom",
+		"salvageblow"
+            ],
+            "lunatic": [
+                "elbowroom",
+		"salvageblow"
+            ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "lck": 1
+                },
+                "b": {
+                    "spd": 1
+                },
+                "a": {
+                    "skl": 1
+                },
+                "s": {
+                    "str": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "str": 1,
+                    "lck": 1
+                },
+                "a": {
+                    "str": 1,
+                    "lck": 1,
+		    "def": 1
+                },
+                "s": {
+                    "str": 2,
+                    "lck": 2,
+		    "def": 1
+                }
+            }
+        }
+    },
 }
