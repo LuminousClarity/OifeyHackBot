@@ -5800,7 +5800,7 @@
     },
 	"monado": {
         "name": "Monado",
-        "desc": "+4 Lck/+2 Spd. Shulk's weapon. When equipped, use to restore 15 HP. Effective against automations and monsters.",
+        "desc": "+4 Lck/Spd. Effective against monsters & automations. When equipped, survive lethal attacks if HP > 1 and can be used to restore 15 HP. Trigger % = (Lck stat)",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -5904,7 +5904,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 11,
+            "mt": 9,
             "hit": 80,
 			"dodge": 10,
             "rng": "1-2",
@@ -5966,8 +5966,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 5,
-            "hit": 80,
+            "mt": 6,
+            "hit": 85,
             "crit": 10,
             "avoid": 5,
             "rng": "1-2"
@@ -5981,9 +5981,9 @@
             }
         }
     },
-	"empyrean": {
-        "name": "Empyrean",
-        "desc": "Good for follow-up attacks (+5 eff. Spd). When equipped, survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
+	"alastor": {
+        "name": "Alastor",
+        "desc": "Good for follow-up attacks (+5 eff. Spd). When equipped, grants +4 Str and user can survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
         "weapon": true,
         "stats": {
             "rank": "C",
@@ -6314,14 +6314,14 @@
     },
 	"crescentroserange": {
         "name": "C.R (Ranged)",
-        "desc": "Crescent Rose for farther targets. Effective against armor/fliers.",
+        "desc": "Crescent Rose for farther targets. Effective against armor/fliers. Makes follow-up attacks more difficult (-3 effective Spd).",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 12,
+            "mt": 7,
             "hit": 70,
             "avoid": -10,
-			"dodge": -5,
+	    "dodge": -5,
             "rng": "2-3",
             "price": 2000,
             "sell": 750
@@ -6368,7 +6368,7 @@
         "stats": {
             "rank": "E",
             "mt": 11,
-            "hit": 80,
+            "hit": 85,
             "crit": 5,
             "avoid": 5,
             "rng": "2",
@@ -6384,8 +6384,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 13,
-            "hit": 85,
+            "mt": 12,
+            "hit": 80,
             "crit": 10,
             "avoid": 5,
             "rng": "2",
@@ -6402,7 +6402,7 @@
         "stats": {
             "rank": "E",
             "mt": 15,
-            "hit": 80,
+            "hit": 70,
             "crit": 25,
 			"dodge": -10,
             "rng": "2",
@@ -6412,17 +6412,17 @@
         "forge": 0,
         "type": "bow",
     },
-	"deserteagle": {
-        "name": "Desert Eagle",
+	"laserrevolver": {
+        "name": "Laser Revolver",
         "desc": "An unstable prototype that shoots energy. Effective against fliers, beaststones, monsters, armor, and automations.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 22,
+            "mt": 19,
             "hit": 60,
             "crit": 15,
             "avoid": -10,
-			"dodge": -10,
+	    "dodge": -10,
             "rng": "2",
             "price": 8000,
             "sell": 4000
@@ -6630,6 +6630,20 @@
             "mt": 14,
             "hit": 70,
             "crit": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "axe",
+    },
+	"fatalisblade": {
+        "name": "Fatalis Blade",
+        "desc": "Restores 15% of wielder's maximum HP after combat they initiated. Wielder is not slowed by terrain effects. +2 Str/Spd when carried.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 75,
+            "avoid": 15,
             "rng": "1"
         },
         "forge": 0,
