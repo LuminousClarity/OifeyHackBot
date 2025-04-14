@@ -8014,15 +8014,15 @@
         "skill": {
             "normal": [
                 "inextremis",
-				"clarity"
+				"vantage"
             ],
             "hard": [
                 "inextremis",
-				"clarity"
+				"vantage"
             ],
             "lunatic": [
                 "inextremis",
-				"clarity"
+				"vantage"
             ]
         },
 		"pairup": {
@@ -8065,7 +8065,7 @@
         "name": "Kotone",
         "job": "seesleader",
         "portrait": "kotone.png",
-        "lvl": 15,
+        "lvl": 13,
         "personal": "potentpotion",
         "father": false,
         "mother": false,
@@ -8080,34 +8080,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 10,
-                "str": 15,
-                "mag": 14,
-                "skl": 12,
+                "hp": 5,
+                "str": 7,
+                "mag": 7,
+                "skl": 5,
                 "spd": 9,
-                "lck": 13,
-                "def": 10,
-                "res": 10
+                "lck": 7,
+                "def": 6,
+                "res": 6
             },
             "hard": {
-                "hp": 10,
-                "str": 15,
-                "mag": 14,
-                "skl": 12,
+                "hp": 5,
+                "str": 7,
+                "mag": 7,
+                "skl": 5,
                 "spd": 9,
-                "lck": 13,
-                "def": 10,
-                "res": 10
+                "lck": 7,
+                "def": 6,
+                "res": 6
             },
             "lunatic": {
-                "hp": 10,
-                "str": 15,
-                "mag": 14,
-                "skl": 12,
+                "hp": 5,
+                "str": 7,
+                "mag": 7,
+                "skl": 5,
                 "spd": 9,
-                "lck": 13,
-                "def": 10,
-                "res": 10
+                "lck": 7,
+                "def": 6,
+                "res": 6
             }
         },
         "cap": {
@@ -8993,7 +8993,7 @@
         "name": "Tara",
         "job": "demonhunter",
         "portrait": "tara.png",
-        "lvl": 15,
+        "lvl": 13,
         "personal": "hoshidanunity",
         "father": false,
         "mother": false,
@@ -9008,34 +9008,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 15,
-                "str": 10,
-                "mag": 8,
-                "skl": 13,
-                "spd": 12,
-                "lck": 12,
-                "def": 13,
-                "res": 8
+                "hp": 11,
+                "str": 6,
+                "mag": 4,
+                "skl": 9,
+                "spd": 7,
+                "lck": 8,
+                "def": 7,
+                "res": 5
             },
             "hard": {
-                "hp": 15,
-                "str": 10,
-                "mag": 8,
-                "skl": 13,
-                "spd": 12,
-                "lck": 12,
-                "def": 13,
-                "res": 8
+                "hp": 11,
+                "str": 6,
+                "mag": 4,
+                "skl": 9,
+                "spd": 7,
+                "lck": 8,
+                "def": 7,
+                "res": 5
             },
             "lunatic": {
-                "hp": 15,
-                "str": 10,
-                "mag": 8,
-                "skl": 13,
-                "spd": 12,
-                "lck": 12,
-                "def": 13,
-                "res": 8
+                "hp": 11,
+                "str": 6,
+                "mag": 4,
+                "skl": 9,
+                "spd": 7,
+                "lck": 8,
+                "def": 7,
+                "res": 5
             }
         },
         "cap": {
@@ -9078,15 +9078,15 @@
         "skill": {
             "normal": [
                 "duelistsblow",
-				"aether"
+		"aether"
             ],
             "hard": [
                 "duelistsblow",
-				"aether"
+		"aether"
             ],
             "lunatic": [
                 "duelistsblow",
-				"aether"
+		"aether"
             ]
         },
 		"pairup": {
@@ -9129,7 +9129,7 @@
         "name": "Vergil",
         "job": "darkslayer",
         "portrait": "vergil.png",
-        "lvl": 15,
+        "lvl": 13,
         "personal": "replicate",
         "father": false,
         "mother": false,
@@ -9144,34 +9144,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 10,
-                "str": 10,
-                "mag": 12,
-                "skl": 8,
-                "spd": 12,
-                "lck": 11,
-                "def": 9,
-                "res": 16
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 4,
+                "spd": 8,
+                "lck": 6,
+                "def": 5,
+                "res": 7
             },
             "hard": {
-                "hp": 10,
-                "str": 10,
-                "mag": 12,
-                "skl": 8,
-                "spd": 12,
-                "lck": 11,
-                "def": 9,
-                "res": 16
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 4,
+                "spd": 8,
+                "lck": 6,
+                "def": 5,
+                "res": 7
             },
             "lunatic": {
-                "hp": 10,
-                "str": 10,
-                "mag": 12,
-                "skl": 8,
-                "spd": 12,
-                "lck": 11,
-                "def": 9,
-                "res": 16
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 4,
+                "spd": 8,
+                "lck": 6,
+                "def": 5,
+                "res": 7
             }
         },
         "cap": {
@@ -9208,15 +9208,15 @@
         "skill": {
             "normal": [
                 "defender",
-				"astra"
+		"astra"
             ],
             "hard": [
                 "defender",
-				"astra"
+		"astra"
             ],
             "lunatic": [
                 "defender",
-				"astra"
+		"astra"
             ]
         },
 		"pairup": false,
