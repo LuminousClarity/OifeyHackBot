@@ -2847,6 +2847,64 @@
             "counter": 15
         }
     },
+	"witch": {
+        "name": "Witch",
+        "promo": [],
+        "base": {
+            "hp": 17,
+            "str": 0,
+            "mag": 10,
+            "skl": 5,
+            "spd": 9,
+            "lck": 3,
+            "def": 4,
+            "res": 5,
+            "mov": 6
+        },
+        "bonus": {
+            "crit": 10,
+            "avoid": 10
+        },
+        "cap": {
+            "hp": 50,
+            "str": 25,
+            "mag": 36,
+            "skl": 27,
+            "spd": 34,
+            "lck": 28,
+            "def": 26,
+            "res": 29
+        },
+        "growth": {
+            "hp": 5,
+            "str": 0,
+            "mag": 25,
+            "skl": 5,
+            "spd": 20,
+            "lck": 5,
+            "def": 0,
+            "res": 10
+        },
+        "pairup": {
+            "str": 0,
+            "mag": 5,
+            "skl": 0,
+            "spd": 3,
+            "lck": 0,
+            "def": 0,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+            "tome": 251
+        },
+        "skill": {
+            "shadowgift": 1,
+            "witchsbrew": 10,
+            "warp": 25,
+            "toxicbrew": 35
+        }
+    },
     "wyvernlord": {
         "name": "Wyvern Lord",
         "promo": [],
