@@ -6692,8 +6692,7 @@
             "mov": 1
         },
         "rank": {
-	    "axe": 161,
-	    "tome": 161
+	    "axe": 251
 	},
         "skill": {
             "elbowroom": 5,
