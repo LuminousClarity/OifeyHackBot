@@ -9696,30 +9696,30 @@
         },
         "rank": {
             "normal": {
-                "tome": 96
-		"staff": 1
+                "tome": 96,
+				"staff": 1
             },
             "hard": {
-                "tome": 96
-		"staff": 1
+                "tome": 96,
+				"staff": 1
             },
             "lunatic": {
-                "tome": 96
-		"staff": 1
+                "tome": 96,
+				"staff": 1
             }
         },
         "skill": {
             "normal": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ],
             "hard": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ],
             "lunatic": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ]
         },
 		"pairup": {
