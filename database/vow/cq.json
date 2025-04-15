@@ -9697,12 +9697,15 @@
         "rank": {
             "normal": {
                 "tome": 96
+		"staff": 1
             },
             "hard": {
                 "tome": 96
+		"staff": 1
             },
             "lunatic": {
                 "tome": 96
+		"staff": 1
             }
         },
         "skill": {
@@ -9824,13 +9827,13 @@
         },
         "rank": {
             "normal": {
-                "tome": 96
+                "axe": 96
             },
             "hard": {
-                "tome": 96
+                "axe": 96
             },
             "lunatic": {
-                "tome": 96
+                "axe": 96
             }
         },
         "skill": {
