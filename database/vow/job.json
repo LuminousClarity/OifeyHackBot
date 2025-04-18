@@ -6701,4 +6701,74 @@
 	    "savageblow": 35
         }
     },
+	"starpraetorian": {
+        "name": "Star Praetorian",
+        "promo": [],
+        "base": {
+            "hp": 20,
+            "str": 8,
+            "mag": 0,
+            "skl": 10,
+            "spd": 8,
+            "lck": 3,
+            "def": 7,
+            "res": 2,
+            "mov": 6
+        },
+	"bonus": {
+	    "crit": 10,
+	    "avoid": 10,
+	},
+        "cap": {
+            "hp": 60,
+            "str": 30,
+            "mag": 25,
+            "skl": 35,
+            "spd": 35,
+            "lck": 30,
+            "def": 29,
+            "res": 33
+        },
+        "generic": {
+            "hp": 75,
+            "str": 55,
+            "mag": 25,
+            "skl": 70,
+            "spd": 65,
+            "lck": 45,
+            "def": 40,
+            "res": 25
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 0,
+            "skl": 20,
+            "spd": 15,
+            "lck": 5,
+            "def": 10,
+            "res": 0
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 3,
+            "spd": 3,
+            "lck": 0,
+            "def": 0,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+	    "sword": 161,
+	    "hidden": 161
+	},
+        "skill": {
+            "sealspeed": 5,
+            "sol": 10,
+	    "sealstrength": 25,
+	    "grislywound": 35
+        }
+    },
 }
