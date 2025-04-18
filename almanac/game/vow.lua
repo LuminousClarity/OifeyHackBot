@@ -1434,7 +1434,7 @@ end
 Conquest.__index = Conquest
 setmetatable(Conquest, Character)
 
-Conquest.section = almanac.get("database/vow/cq.json")
+Conquest.section = almanac.get("database/fe14/cq.json")
 
 Conquest.route = "cq"
 
@@ -1458,7 +1458,7 @@ Revelation.route = "rev"
 Vow.__index = Vow
 setmetatable(Vow, Character)
 
-Vow.section = almanac.get("database/vow/cq.json")
+Vow.section = almanac.get("database/vow/vow.json")
 
 Vow.route = "vow"
 

@@ -1,10 +1,10 @@
 {
-    "ar": {
+    "aif": {
         "name": "Awakening Remake",
         "default": "unit",
         "alias": [
             "fear",
-            "ar"
+            "aif"
         ],
         "random": {
             "pool": "database/ar/ar.json",
@@ -359,7 +359,7 @@
             "vow"
         ],
         "random": {
-            "pool": "database/vow/cq.json",
+            "pool": "database/vow/vow.json",
             "add": [
                 "fates"
             ]
@@ -367,7 +367,7 @@
         "color": "0xa85c32",
         "data": {
             "unit": {
-                "main": "database/vow/cq.json",
+                "main": "database/vow/vow.json",
                 "add": [
                     "class",
                     "weapon"
@@ -403,10 +403,10 @@
                 },
                 "entry": {
                     "class": "database/vow/job.json",
-                    "father": "database/vow/cq.json",
-                    "mother": "database/vow/cq.json",
+                    "father": "database/vow/vow.json",
+                    "mother": "database/vow/vow.json",
                     "offspring": "database/vow/job.json",
-                    "thirdgen": "database/vow/cq.json",
+                    "thirdgen": "database/vow/vow.json",
                     "weapon": "database/vow/item.json"
                 },
                 "int": {

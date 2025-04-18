@@ -758,6 +758,104 @@
             }
         }
     },
+	 "caeldori": {
+        "name": "Caeldori",
+        "job": "skyknight",
+        "portrait": "caeldori.png",
+        "lvl": 10,
+        "personal": "prodigy",
+        "father": "subaki",
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "cap": {
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 0,
+            "res": 0
+        },
+        "skill": {
+            "normal": [
+                "dartingblow",
+                "camaraderie"
+            ],
+            "hard": [
+                "dartingblow",
+                "camaraderie"
+            ],
+            "lunatic": [
+                "dartingblow",
+                "camaraderie"
+            ]
+        },
+        "pairup": false,
+        "influence": "father",
+        "variable": false,
+        "set": [
+            "skyknight"
+        ],
+        "base": {
+            "normal": {
+                "hp": 8,
+                "str": 8,
+                "mag": 3,
+                "skl": 5,
+                "spd": 6,
+                "lck": 9,
+                "def": 5,
+                "res": 6
+            },
+            "hard": {
+                "hp": 8,
+                "str": 8,
+                "mag": 3,
+                "skl": 5,
+                "spd": 6,
+                "lck": 9,
+                "def": 5,
+                "res": 6
+            },
+            "lunatic": {
+                "hp": 8,
+                "str": 8,
+                "mag": 3,
+                "skl": 5,
+                "spd": 6,
+                "lck": 9,
+                "def": 5,
+                "res": 6
+            }
+        },
+        "growth": {
+            "hp": 55,
+            "str": 35,
+            "mag": 15,
+            "skl": 40,
+            "spd": 40,
+            "lck": 45,
+            "def": 35,
+            "res": 20
+        },
+        "rank": {
+            "normal": {
+                "lance": 21
+            },
+            "hard": {
+                "lance": 21
+            },
+            "lunatic": {
+                "lance": 21
+            }
+        },
+        "autolevel": {
+            "type": "child",
+            "join": 8,
+            "default": 8
+        }
+    },
     "candace": {
         "name": "Candace",
         "job": "adventurer",
@@ -6388,6 +6486,130 @@
             "type": "child",
             "join": 8,
             "default": 8
+        }
+    },
+	"subaki": {
+        "name": "Subaki",
+        "job": "skyknight",
+        "portrait": "subaki.png",
+        "lvl": 5,
+        "personal": "perfectionist",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "dartingblow"
+            ],
+            "hard": [
+                "dartingblow"
+            ],
+            "lunatic": [
+                "dartingblow"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "skyknight",
+            "samurai"
+        ],
+        "base": {
+            "normal": {
+                "hp": 6,
+                "str": 5,
+                "mag": 0,
+                "skl": 8,
+                "spd": 3,
+                "lck": 3,
+                "def": 7,
+                "res": 4
+            },
+            "hard": {
+                "hp": 6,
+                "str": 5,
+                "mag": 0,
+                "skl": 8,
+                "spd": 3,
+                "lck": 3,
+                "def": 7,
+                "res": 4
+            },
+            "lunatic": {
+                "hp": 6,
+                "str": 5,
+                "mag": 0,
+                "skl": 8,
+                "spd": 3,
+                "lck": 3,
+                "def": 7,
+                "res": 4
+            }
+        },
+        "cap": {
+            "str": -1,
+            "mag": 0,
+            "skl": 2,
+            "spd": -2,
+            "lck": -1,
+            "def": 3,
+            "res": -1
+        },
+        "growth": {
+            "hp": 55,
+            "str": 30,
+            "mag": 20,
+            "skl": 50,
+            "spd": 20,
+            "lck": 25,
+            "def": 45,
+            "res": 5
+        },
+        "rank": {
+            "normal": {
+                "lance": 21
+            },
+            "hard": {
+                "lance": 21
+            },
+            "lunatic": {
+                "lance": 21
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "def": 1
+                },
+                "b": {
+                    "skl": 1
+                },
+                "a": {
+                    "def": 1
+                },
+                "s": {
+                    "skl": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "def": 1
+                },
+                "b": {
+                    "def": 1,
+                    "skl": 1
+                },
+                "a": {
+                    "def": 2,
+                    "skl": 1
+                },
+                "s": {
+                    "def": 2,
+                    "skl": 2,
+                    "res": 1
+                }
+            }
         }
     },
     "velouria": {
