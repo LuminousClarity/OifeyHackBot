@@ -856,6 +856,138 @@
             "default": 8
         }
     },
+	"cathy": {
+        "name": "Cathy",
+        "job": "starpraetorian",
+        "portrait": "cathy.png",
+        "lvl": 5,
+        "personal": "pass",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "pass",
+                "sealspeed"
+            ],
+            "hard": [
+                "pass",
+                "sealspeed"
+            ],
+            "lunatic": [
+                "pass",
+                "sealspeed"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "starpraetorian",
+			"nohrprincess",
+			"ninja"
+        ],
+        "base": {
+            "normal": {
+                "hp": 6,
+                "str": 2,
+                "mag": 0,
+                "skl": 2,
+                "spd": 3,
+                "lck": 3,
+                "def": 3,
+                "res": 6
+            },
+            "hard": {
+                "hp": 6,
+                "str": 2,
+                "mag": 0,
+                "skl": 2,
+                "spd": 3,
+                "lck": 3,
+                "def": 3,
+                "res": 6
+            },
+            "lunatic": {
+                "hp": 6,
+                "str": 2,
+                "mag": 0,
+                "skl": 2,
+                "spd": 3,
+                "lck": 3,
+                "def": 3,
+                "res": 6
+            }
+        },
+        "cap": {
+            "str": -1,
+            "mag": -2,
+            "skl": 2,
+            "spd": 3,
+            "lck": 0,
+            "def": -1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 45,
+            "str": 40,
+            "mag": 25,
+            "skl": 50,
+            "spd": 50,
+            "lck": 40,
+            "def": 30,
+            "res": 25
+        },
+        "rank": {
+            "normal": {
+				"hidden": 21,
+                "sword": 21
+            },
+            "hard": {
+                "hidden": 21,
+                "sword": 21
+            },
+            "lunatic": {
+                "hidden": 21,
+                "sword": 21
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "def": 1
+                },
+                "a": {
+                    "spd": 1
+                },
+                "s": {
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "str": 1,
+					"def": 1
+                },
+                "a": {
+                    "str": 1,
+                    "def": 1,
+					"spd": 1
+                },
+                "s": {
+                    "str": 1,
+                    "def": 1,
+					"spd": 1,
+					"res": 1
+                }
+            }
+        }
+    },
     "candace": {
         "name": "Candace",
         "job": "adventurer",
@@ -7889,7 +8021,7 @@
         "lvl": 9,
         "personal": "elbowroom",
         "father": false,
-        "mother": true,
+        "mother": false,
         "gender": "f",
         "blood": false,
         "pairup": true,
@@ -10098,145 +10230,14 @@
                 "a": {
                     "str": 1,
                     "lck": 1,
-		    "def": 1
+					"def": 1
                 },
                 "s": {
                     "str": 2,
                     "lck": 2,
-		    "def": 1
+					"def": 1
                 }
             }
         }
-    },
-    	"cathy": {
-        "name": "Cathy",
-        "job": "starpraetorian",
-        "portrait": "cathy.png",
-        "lvl": 5,
-        "personal": "pass",
-        "father": false,
-        "mother": true,
-        "gender": "f",
-        "blood": false,
-        "pairup": true,
-        "variable": false,
-        "set": [
-            "starpraetorian",
-	    "nohrprincess",
-	    "ninja"
-        ],
-        "base": {
-            "normal": {
-                "hp": 6,
-                "str": 2,
-                "mag": 0,
-                "skl": 2,
-                "spd": 3,
-                "lck": 3,
-                "def": 3,
-                "res": 6
-            },
-            "hard": {
-                "hp": 6,
-                "str": 2,
-                "mag": 0,
-                "skl": 2,
-                "spd": 3,
-                "lck": 3,
-                "def": 3,
-                "res": 6
-            },
-            "lunatic": {
-                "hp": 6,
-                "str": 2,
-                "mag": 0,
-                "skl": 2,
-                "spd": 3,
-                "lck": 3,
-                "def": 3,
-                "res": 6
-            }
-        },
-        "cap": {
-	    "hp": 0,
-            "str": -1,
-            "mag": -2,
-            "skl": 2,
-            "spd": 3,
-            "lck": 0,
-            "def": -1,
-            "res": 0
-        },
-        "growth": {
-	    "hp": 0,
-            "str": -1,
-            "mag": -2,
-            "skl": 2,
-            "spd": 3,
-            "lck": 0,
-            "def": -1,
-            "res": 0
-        },
-        "rank": {
-            "normal": {
-                "sword": 21,
-		"hidden": 21
-            },
-            "hard": {
-                "sword": 21,
-		"hidden": 21
-            },
-            "lunatic": {
-                "sword": 21,
-		"hidden": 21
-            }
-        },
-        "skill": {
-            "normal": [
-                "sealspeed"
-            ],
-            "hard": [
-                "sealspeed"
-            ],
-            "lunatic": [
-                "sealspeed"
-            ]
-        },
-		"pairup": {
-            "raw": {
-                "c": {
-                    "lck": 1
-                },
-                "b": {
-                    "spd": 1
-                },
-                "a": {
-                    "skl": 1
-                },
-                "s": {
-                    "str": 1
-                }
-            },
-            "bonus": {
-                "c": {
-                    "str": 1
-                },
-                "b": {
-                    "str": 1,
-                    "def": 1
-                },
-                "a": {
-                    "str": 1,
-                    "def": 1,
-		    "spd": 1
-                },
-                "s": {
-                    "str": 1,
-                    "def": 1,
-		    "spd": 1,
-		    "res": 1
-                }
-            }
-        }
-    },
+	},
 }
