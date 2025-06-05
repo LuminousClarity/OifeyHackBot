@@ -856,7 +856,8 @@
             "rank": "E",
             "mt": 11,
             "hit": 80,
-            "avoid": 5,
+            "avoid": 10,
+	    "crit": 5,
             "rng": "1-2"
         },
         "forge": 0,
@@ -3317,7 +3318,7 @@
         "weapon": true,
         "stats": {
             "rank": "C",
-            "mt": 6,
+            "mt": 8,
             "hit": 85,
             "avoid": -10,
             "rng": 2
@@ -3641,7 +3642,7 @@
         "stats": {
             "rank": "E",
             "mt": 14,
-            "hit": 70,
+            "hit": 85,
             "crit": 5,
             "avoid": 10,
             "rng": 2
@@ -4103,7 +4104,7 @@
     },
     "ratspirit": {
         "name": "Rat Spirit",
-        "desc": "Skill+1, Ddg+10. Can't inflict criticals or trigger offensive skills.",
+        "desc": "Skill/Luck+2, Ddg+10. Can't inflict criticals or trigger offensive skills.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -7068,4 +7069,54 @@
         "forge": 0,
         "type": "item"
 	},
+    "dragonshard": {
+        "name": "Dragonshard",
+        "desc": "Spd+2, Skill-4, Def-3, Res-3. Magical.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 70,
+            "avoid": -10,
+            "dodge": 0,
+            "rng": 1-2,
+            "price": 4000
+        },
+        "forge": 0,
+        "type": "dragonstone",
+        "equip": {
+            "stats": {
+                "skl": -4,
+                "spd": 2,
+                "def": -3,
+                "res": -3
+            },
+            "magical": true
+        }
+    },
+    "dragonshardplus": {
+        "name": "Dragonshard+",
+        "desc": "Spd+4, Skl/Def/Res-5. Magical.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 80,
+            "avoid": -10,
+            "dodge": 0,
+            "rng": 1-2,
+            "price": 7000
+        },
+        "forge": 0,
+        "type": "dragonstone",
+        "equip": {
+            "stats": {
+                "skl": -5,
+                "spd": 2,
+                "def": -5,
+                "res": -5
+            },
+            "magical": true
+        }
+    },
 }
