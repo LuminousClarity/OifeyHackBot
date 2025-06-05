@@ -398,8 +398,8 @@
         "variable": false,
         "set": [
 	    "martialmonk",
-            "monk",
-            "apothecary"
+            "apothecary",
+            "monk"
         ],
         "base": {
             "normal": {
@@ -4267,30 +4267,30 @@
         "base": {
             "normal": {
                 "hp": 9,
-                "str": 16,
+                "str": 14,
                 "mag": 0,
                 "skl": 4,
-                "spd": 7,
+                "spd": 9,
                 "lck": 6,
                 "def": 3,
                 "res": 10
             },
             "hard": {
                 "hp": 9,
-                "str": 16,
+                "str": 14,
                 "mag": 0,
                 "skl": 4,
-                "spd": 7,
+                "spd": 9,
                 "lck": 6,
                 "def": 3,
                 "res": 10
             },
             "lunatic": {
                 "hp": 9,
-                "str": 16,
+                "str": 14,
                 "mag": 0,
                 "skl": 4,
-                "spd": 7,
+                "spd": 9,
                 "lck": 6,
                 "def": 3,
                 "res": 10
@@ -4386,19 +4386,19 @@
                 "nobility",
                 "dragonfang",
 				"draconichex",
-				"hp5"
+				"rallystrength"
             ],
             "hard": [
                 "nobility",
                 "dragonfang",
 				"draconichex",
-				"hp5"
+				"rallystrength"
             ],
             "lunatic": [
                 "nobility",
                 "dragonfang",
 				"draconichex",
-				"hp5"
+				"rallystrength"
             ]
         },
         "pairup": false,
@@ -4491,19 +4491,19 @@
                 "nobility",
                 "dragonfang",
 				"solidarity",
-				"hp5"
+				"rallymagic"
             ],
             "hard": [
                 "nobility",
                 "dragonfang",
 				"solidarity",
-				"hp5"
+				"rallymagic"
             ],
             "lunatic": [
                 "nobility",
                 "dragonfang",
 				"solidarity",
-				"hp5"
+				"rallymagic"
             ]
         },
         "pairup": false,
@@ -4872,7 +4872,7 @@
         ],
         "base": {
             "normal": {
-                "hp": 7,
+                "hp": 12,
                 "str": 6,
                 "mag": 0,
                 "skl": 5,
@@ -4909,7 +4909,7 @@
             "skl": 45,
             "spd": 50,
             "lck": 45,
-            "def": 40,
+            "def": 50,
             "res": 15
         },
         "rank": {
@@ -5943,30 +5943,30 @@
                 "str": 6,
                 "mag": 4,
                 "skl": 10,
-                "spd": 4,
+                "spd": 6,
                 "lck": 10,
-                "def": 4,
-                "res": 2
+                "def": 6,
+                "res": 4
             },
             "hard": {
                 "hp": 8,
                 "str": 6,
                 "mag": 4,
                 "skl": 10,
-                "spd": 4,
+                "spd": 6,
                 "lck": 10,
-                "def": 4,
-                "res": 2
+                "def": 6,
+                "res": 4
             },
             "lunatic": {
                 "hp": 8,
                 "str": 6,
                 "mag": 4,
                 "skl": 10,
-                "spd": 4,
+                "spd": 6,
                 "lck": 10,
-                "def": 4,
-                "res": 2
+                "def": 6,
+                "res": 4
             }
         },
         "growth": {
@@ -6335,9 +6335,8 @@
         "variable": false,
         "set": [
             "maliglord",
-			"cavalier",
-			"darkmage"
-        ],
+			"wyvernrider"
+	],
         "base": {
             "normal": {
                 "hp": 10,
@@ -6659,17 +6658,17 @@
         "skill": {
             "normal": [
                 "heartseeker",
-				"witchsbrew",
+				"paragon",
 				"shadowgift"
             ],
             "hard": [
                 "heartseeker",
-				"witchsbrew",
+				"paragon",
 				"shadowgift"
             ],
             "lunatic": [
                 "heartseeker",
-				"witchsbrew",
+				"paragon",
 				"shadowgift"
             ]
         },
@@ -10282,34 +10281,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 19,
+                "hp": 21,
                 "str": 15,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 9,
                 "lck": 16,
-                "def": 16,
-                "res": 1
+                "def": 18,
+                "res": 3
             },
             "hard": {
-                "hp": 19,
+                "hp": 21,
                 "str": 15,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 9,
                 "lck": 16,
-                "def": 16,
-                "res": 1
+                "def": 18,
+                "res": 3
             },
             "lunatic": {
-                "hp": 19,
+                "hp": 21,
                 "str": 15,
                 "mag": 3,
                 "skl": 11,
-                "spd": 8,
+                "spd": 9,
                 "lck": 16,
-                "def": 16,
-                "res": 1
+                "def": 18,
+                "res": 3
             }
         },
         "cap": {
@@ -13486,10 +13485,10 @@
            }
         },
 			   "child": {
-        "name": "Child",
-        "job": "villager",
+        "name": "Corrin Jr.",
+        "job": "masterofarms",
         "portrait": "child.png",
-        "lvl": 20,
+        "lvl": 5,
         "personal": false,
         "father": false,
         "mother": false,
@@ -13498,15 +13497,18 @@
         "skill": {
             "normal": [
                 "aptitude",
-                "underdog"
+                "underdog",
+		"rallyspectrum"
             ],
             "hard": [
                 "aptitude",
-                "underdog"
+                "underdog",
+		"rallyspectrum"
 		    ],
             "lunatic": [
                 "aptitude",
-                "underdog"
+                "underdog",
+		"rallyspectrum"
 				]
         },
         "pairup": false,
@@ -13516,34 +13518,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 7,
-                "str": 10,
-                "mag": 1,
-                "skl": 7,
-                "spd": 10,
-                "lck": 6,
-                "def": 8,
-                "res": 5
+                "hp": 10,
+                "str": 12,
+                "mag": 10,
+                "skl": 9,
+                "spd": 13,
+                "lck": 11,
+                "def": 11,
+                "res": 8
             },
             "hard": {
-                "hp": 7,
-                "str": 10,
-                "mag": 1,
-                "skl": 7,
-                "spd": 10,
-                "lck": 6,
-                "def": 8,
-                "res": 5
+                "hp": 10,
+                "str": 12,
+                "mag": 10,
+                "skl": 9,
+                "spd": 13,
+                "lck": 11,
+                "def": 11,
+                "res": 8
             },
             "lunatic": {
-                "hp": 7,
-                "str": 10,
-                "mag": 1,
-                "skl": 7,
-                "spd": 10,
-                "lck": 6,
-                "def": 8,
-                "res": 5
+                "hp": 10,
+                "str": 12,
+                "mag": 10,
+                "skl": 9,
+                "spd": 13,
+                "lck": 11,
+                "def": 11,
+                "res": 8
             }
         },
         "cap": {
@@ -13556,12 +13558,12 @@
             "res": 0
         },
         "growth": {
-            "hp": 30,
-            "str": 35,
-            "mag": 15,
-            "skl": 20,
-            "spd": 30,
-            "lck": 15,
+            "hp": 40,
+            "str": 40,
+            "mag": 40,
+            "skl": 25,
+            "spd": 40,
+            "lck": 30,
             "def": 20,
             "res": 15
         },
@@ -13594,19 +13596,19 @@
                 "heartseeker",
                 "witchsbrew",
 				"shadowgift",
-				"toxicbrew"
+				"paragon"
             ],
             "hard": [
                 "heartseeker",
                 "witchsbrew",
 				"shadowgift",
-				"toxicbrew"
+				"paragon"
 		    ],
             "lunatic": [
                 "heartseeker",
                 "witchsbrew",
 				"shadowgift",
-				"toxicbrew"
+				"paragon"
 				]
         },
         "pairup": false,
@@ -13618,34 +13620,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 13,
+                "hp": 15,
                 "str": 6,
                 "mag": 18,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
-                "def": 9,
-                "res": 15
+                "def": 11,
+                "res": 17
             },
             "hard": {
-                "hp": 13,
+                "hp": 15,
                 "str": 6,
                 "mag": 18,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
-                "def": 9,
-                "res": 15
+                "def": 11,
+                "res": 17
             },
             "lunatic": {
-                "hp": 13,
+                "hp": 15,
                 "str": 6,
                 "mag": 18,
                 "skl": 11,
-                "spd": 8,
+                "spd": 10,
                 "lck": 12,
-                "def": 9,
-                "res": 15
+                "def": 11,
+                "res": 17
             }
         },
         "cap": {
@@ -13653,18 +13655,18 @@
             "mag": 3,
             "skl": 0,
             "spd": -3,
-            "lck": 0,
+            "lck": 2,
             "def": 0,
             "res": 1
         },
         "growth": {
             "hp": 45,
             "str": 20,
-            "mag": 60,
+            "mag": 65,
             "skl": 40,
             "spd": 30,
             "lck": 55,
-            "def": 20,
+            "def": 30,
             "res": 40
         },
         "rank": {
