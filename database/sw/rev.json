@@ -2192,17 +2192,17 @@
         "rank": {
             "normal": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"tome": 40
             },
             "hard": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"tome": 40
             },
             "lunatic": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"tome": 40
             }
         },
@@ -4050,17 +4050,17 @@
         "rank": {
             "normal": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"sword": 40
             },
             "hard": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"sword": 40
             },
             "lunatic": {
                 "hidden": 51,
-                "staff": 51,
+                "staff": 96,
 				"sword": 40
             }
         },
