@@ -6131,15 +6131,15 @@
     },
 	"wadoichimonji": {
         "name": "Wado Ichimonji",
-        "desc": "Enables the wielder to strike twice when attacking. Doubles Mt when wielder's Skill is higher then enemy's. Deals extra damage on critical hits and effective against swords/katanas.",
+        "desc": "Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking.  Deals extra damage on critical hits. Effective against swords/katanas.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 5,
+            "mt": 8,
             "hit": 85,
             "crit": 5,
             "avoid": 10,
-            "rng": "1"
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "katana",
@@ -6150,11 +6150,11 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 11,
-            "hit": 70,
+            "mt": 10,
+            "hit": 85,
             "crit": 15,
             "avoid": 5,
-            "rng": "1"
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "sword",
@@ -6180,12 +6180,12 @@
         "desc": "All allies in the map heal to full HP and user receives Lck+4 and +2 to all other stats until the end of battle. Aerith only.",
         "weapon": false,
         "stats": {
-            "rank": "S",
+            "rank": "B",
             "mt": 99,
 			"uses": 1,
             "rng": "1-127",
-            "price": 8000,
-            "sell": 4000
+            "price": 6000,
+            "sell": 3000
         },
         "forge": 0,
         "type": "staff",
@@ -6368,7 +6368,7 @@
         "stats": {
             "rank": "E",
             "mt": 11,
-            "hit": 85,
+            "hit": 80,
             "crit": 5,
             "avoid": 5,
             "rng": "2",
@@ -6566,8 +6566,8 @@
         "type": "sword",
 		"equip": {
 			"stats": {
-			"str": 5,
-			"spd": -5,
+			"str": 4,
+			"spd": -3,
 			"lck": -5,
 			"def": 10,
 			"res": 0
