@@ -8568,8 +8568,8 @@
         "variable": false,
         "set": [
             "unit31",
-			"onisavage",
-			"wyvernrider"
+			"wyvernrider",
+			"onisavage"
         ],
         "base": {
             "normal": {
@@ -9260,13 +9260,13 @@
         },
         "cap": {
 			"hp": 0,
-            "str": 0,
-            "mag": 0,
+            "str": 3,
+            "mag": -1,
             "skl": 0,
             "spd": 0,
             "lck": 0,
-            "def": 0,
-            "res": 0
+            "def": 2,
+            "res": -1
         },
         "growth": {
             "hp": 50,
@@ -9415,18 +9415,18 @@
         "rank": {
             "normal": {
                 "sword": 51,
-				"bow": 51,
-				"stone": 21
+		"bow": 51,
+		"stone": 21
             },
             "hard": {
                 "sword": 51,
-				"bow": 51,
-				"stone": 21
+		"bow": 51,
+		"stone": 21
             },
             "lunatic": {
                 "sword": 51,
-				"bow": 51,
-				"stone": 21
+		"bow": 51,
+		"stone": 21
             }
         },
         "skill": {
@@ -9994,7 +9994,7 @@
         "set": [
             "royalsummoner",
 	    "diviner",
-	    "sorcerer"
+	    "darkmage"
         ],
         "base": {
             "normal": {
@@ -10029,7 +10029,7 @@
             }
         },
         "cap": {
-			"hp": 0,
+	    "hp": 0,
             "str": 0,
             "mag": 3,
             "skl": 2,
@@ -10065,30 +10065,31 @@
         "skill": {
             "normal": [
                 "toxicbrew",
-				"certainblow"
+		"certainblow"
             ],
             "hard": [
                 "toxicbrew",
-				"certainblow"
+		"certainblow"
             ],
             "lunatic": [
                 "toxicbrew",
-				"certainblow"
+		"certainblow"
             ]
         },
 		"pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "mag": 1
                 },
                 "b": {
-                    "spd": 1
-                },
-                "a": {
                     "skl": 1
                 },
+                "a": {
+                    "res": 1
+                },
                 "s": {
-                    "str": 1
+                    "mag": 1,
+		    "res": 1
                 }
             },
             "bonus": {
@@ -10125,7 +10126,8 @@
         "pairup": true,
         "variable": false,
         "set": [
-            "palico"
+            "palico",
+	    "nyanurai"
         ],
         "base": {
             "normal": {
@@ -10207,16 +10209,17 @@
 		"pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "str": 1
                 },
                 "b": {
-                    "spd": 1
+                    "lck": 1
                 },
                 "a": {
-                    "skl": 1
+                    "def": 1
                 },
                 "s": {
-                    "str": 1
+                    "str": 1,
+		    "lck": 1
                 }
             },
             "bonus": {
@@ -10230,14 +10233,293 @@
                 "a": {
                     "str": 1,
                     "lck": 1,
-					"def": 1
+		    "def": 1
                 },
                 "s": {
                     "str": 2,
                     "lck": 2,
-					"def": 1
+		    "def": 1
                 }
             }
         }
-	},
+    },
+    	"yukiko": {
+        "name": "Yukiko",
+        "job": "scarletprincess",
+        "portrait": "yukiko.png",
+        "lvl": 13,
+        "personal": "calm",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "pairup": true,
+        "variable": false,
+        "set": [
+            "scarletprincess",
+	    "shrinemaiden",
+	    "troubadour"
+        ],
+        "base": {
+            "normal": {
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 10,
+                "spd": 10,
+                "lck": 8,
+                "def": 10,
+                "res": 10
+            },
+            "hard": {
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 10,
+                "spd": 10,
+                "lck": 8,
+                "def": 10,
+                "res": 10
+            },
+            "lunatic": {
+                "hp": 8,
+                "str": 7,
+                "mag": 7,
+                "skl": 10,
+                "spd": 10,
+                "lck": 8,
+                "def": 10,
+                "res": 10
+            }
+        },
+        "cap": {
+	    "hp": 0,
+            "str": -2,
+            "mag": 2,
+            "skl": 1,
+            "spd": 0,
+            "lck": -1,
+            "def": 0,
+            "res": 1
+        },
+        "growth": {
+            "hp": 40,
+            "str": 45,
+            "mag": 55,
+            "skl": 45,
+            "spd": 40,
+            "lck": 25,
+            "def": 35,
+            "res": 40
+        },
+        "rank": {
+            "normal": {
+                "dagger": 21,
+		"staff": 21,
+		"stone": 51
+            },
+            "hard": {
+                "dagger": 21,
+		"staff": 21,
+		"stone": 51
+            },
+            "lunatic": {
+                "dagger": 21,
+		"staff": 21,
+		"stone": 51
+            }
+        },
+        "skill": {
+            "normal": [
+                "magic2",
+		"sealresistance"
+            ],
+            "hard": [
+                "magic2",
+		"sealresistance"
+            ],
+            "lunatic": [
+                "magic2",
+		"sealresistance"
+            ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "mag": 1
+                },
+                "b": {
+                    "skl": 1
+                },
+                "a": {
+                    "res": 1
+                },
+                "s": {
+		    "mag": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "mag": 1
+                },
+                "b": {
+                    "mag": 1,
+                    "skl": 1
+                },
+                "a": {
+                    "mag": 1,
+                    "skl": 1,
+		    "res": 1
+                },
+                "s": {
+                    "mag": 2,
+                    "skl": 1,
+		    "res": 2
+                }
+            }
+        }
+    },
+    	"melina": {
+        "name": "Melina",
+        "job": "kindlingmaiden",
+        "portrait": "melina.png",
+        "lvl": 30,
+        "personal": "amaterasau",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "pairup": true,
+        "variable": false,
+        "set": [
+            "kindlinngmaiden",
+	    "thief",
+	    "troubadour"
+        ],
+        "base": {
+            "normal": {
+                "hp": 32,
+                "str": 21,
+                "mag": 25,
+                "skl": 20,
+                "spd": 19,
+                "lck": 19,
+                "def": 18,
+                "res": 24
+            },
+            "hard": {
+                "hp": 32,
+                "str": 21,
+                "mag": 25,
+                "skl": 20,
+                "spd": 19,
+                "lck": 19,
+                "def": 18,
+                "res": 24
+            },
+            "lunatic": {
+                "hp": 32,
+                "str": 21,
+                "mag": 25,
+                "skl": 20,
+                "spd": 19,
+                "lck": 19,
+                "def": 18,
+                "res": 24
+            }
+        },
+        "cap": {
+	    "hp": 0,
+            "str": 3,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 0,
+            "res": 0
+        },
+        "growth": {
+            "hp": 40,
+            "str": 45,
+            "mag": 65,
+            "skl": 45,
+            "spd": 50,
+            "lck": 35,
+            "def": 30,
+            "res": 40
+        },
+        "rank": {
+            "normal": {
+                "dagger": 96,
+		"staff": 96,
+		"tome": 96
+            },
+            "hard": {
+                "dagger": 96,
+		"staff": 96,
+		"tome": 96
+            },
+            "lunatic": {
+                "dagger": 96,
+		"staff": 96,
+		"tome": 96
+            }
+        },
+        "skill": {
+            "normal": [
+                "ironwill",
+		"ignis",
+		"pass",
+		"shadowgift"
+            ],
+            "hard": [
+                "ironwill",
+		"ignis",
+		"pass",
+		"shadowgift"
+            ],
+            "lunatic": [
+                "ironwill",
+		"ignis",
+		"pass",
+		"shadowgift"
+            ]
+        },
+		"pairup": {
+            "raw": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "res": 1
+                },
+                "a": {
+                    "str": 1
+                },
+                "s": {
+		    "spd": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "str": 1
+                },
+                "b": {
+                    "str": 1,
+                    "res": 1
+                },
+                "a": {
+                    "str": 2,
+		    "res": 1
+                },
+                "s": {
+                    "str": 2,
+                    "spd": 1,
+		    "res": 2
+                }
+            }
+        }
+    },
 }
