@@ -6906,7 +6906,7 @@
         "rank": {
 	    "hidden": 96,
 	    "staff": 96,
-	    "stone:" 161
+	    "stone": 161
 	},
         "skill": {
             "magic2": 5,
@@ -6978,7 +6978,7 @@
         "rank": {
 	    "hidden": 251,
 	    "staff": 251,
-	    "tome:" 161
+	    "tome": 161
 	},
         "skill": {
             "ironwill": 5,
