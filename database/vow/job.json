@@ -6901,7 +6901,7 @@
             "lck": 0,
             "def": 0,
             "res": 2,
-            "mov": 2
+            "mov": 0
         },
         "rank": {
 	    "hidden": 96,
