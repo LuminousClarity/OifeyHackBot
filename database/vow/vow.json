@@ -10385,7 +10385,7 @@
         "job": "kindlingmaiden",
         "portrait": "melina.png",
         "lvl": 30,
-        "personal": "amaterasau",
+        "personal": "amaterasu",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -10393,7 +10393,7 @@
         "pairup": true,
         "variable": false,
         "set": [
-            "kindlinngmaiden",
+            "kindlingmaiden",
 	    "thief",
 	    "troubadour"
         ],
