@@ -5495,13 +5495,13 @@
         },
         "growth": {
             "hp": 15,
-            "str": 10,
+            "str": 20,
             "mag": 0,
-            "skl": 0,
+            "skl": 15,
             "spd": 10,
-            "lck": 0,
+            "lck": 5,
             "def": 10,
-            "res": 0
+            "res": 5
         },
         "pairup": {
             "str": 3,
@@ -5551,7 +5551,7 @@
             "str": 33,
             "mag": 25,
             "skl": 33,
-            "spd": 25,
+            "spd": 29,
             "lck": 28,
             "def": 35,
             "res": 26
@@ -5889,17 +5889,17 @@
             "mag": 5,
             "skl": 6,
             "spd": 7,
-            "lck": 0,
+            "lck": 4,
             "def": 6,
             "res": 7,
             "mov": 8
         },
         "cap": {
             "hp": 50,
-            "str": 31,
-            "mag": 27,
+            "str": 33,
+            "mag": 30,
             "skl": 30,
-            "spd": 29,
+            "spd": 31,
             "lck": 20,
             "def": 31,
             "res": 31
@@ -5927,11 +5927,11 @@
         "rank": {
             "hidden": 161,
 			"tome": 161,
-			"breath": 161
+			"bow": 161
         },
         "skill": {
-            "swap": 1,
-            "quickdraw": 10,
+            "speed2": 1,
+            "shelter": 10,
 			"rendheaven": 25,
 			"wingedshield": 35
 		
@@ -6320,7 +6320,7 @@
             "lck": 0,
             "def": 3,
             "res": 0,
-            "mov": 0
+            "mov": 1
         },
         "rank": {
 			"axe": 251,
@@ -6639,8 +6639,8 @@
         "base": {
             "hp": 20,
             "str": 0,
-            "mag": 10,
-            "skl": 7,
+            "mag": 8,
+            "skl": 4,
             "spd": 0,
             "lck": 4,
             "def": 12,
@@ -6660,10 +6660,10 @@
         "growth": {
             "hp": 25,
             "str": 0,
-            "mag": 25,
-            "skl": 15,
+            "mag": 15,
+            "skl": 1,
             "spd": 0,
-            "lck": 10,
+            "lck": 5,
             "def": 20,
             "res": 5
         },
