@@ -3637,7 +3637,7 @@
     },
     "fujinyumi": {
         "name": "Fujin Yumi",
-        "desc": "Res +2\nTakumi only. Wielder is not slowed by terrain effects.",
+        "desc": "Res +2\nTakumi only. Wielder is not slowed by terrain effects. Doubles Mt when wielder's Skill is higher than the enemy's.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -3989,7 +3989,7 @@
     },
     "brynhildr": {
         "name": "Brynhildr",
-        "desc": "Leo only. May halve damage from magical attacks. Trigger % = (Res stat x 1.5)",
+        "desc": "Leo only. May halve damage from magical attacks. Trigger % = (Lck stat x 2)",
         "weapon": true,
         "stats": {
             "rank": "E",
