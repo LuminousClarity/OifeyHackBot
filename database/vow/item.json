@@ -5743,9 +5743,30 @@
             }
         }
     },
+	"smithandwessen+": {
+        "name": "Smith & Wessen+",
+        "desc": "Effective against sword/axe/lance/flier. Jessie only.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "crit": 10,
+            "avoid": -5,
+			"dodge": -5,
+            "rng": "2"
+        },
+        "forge": 0,
+        "type": "bow",
+		"equip": {
+            "stats": {
+                "lck": 5
+            }
+        }
+    },
 	"smithandwessen": {
         "name": "Smith & Wessen",
-        "desc": "Cannot double hit, but effective against sword/axe/lance/armor. Jessie only.",
+        "desc": "Effective against sword/axe/lance/flier. Cannot double. Jessie only.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -5780,9 +5801,27 @@
         "forge": 0,
         "type": "bow"
     },
+	"aerondight+": {
+        "name": "Aerondight+",
+        "desc": "+2 Def/Res when carried. Effective against monsters, dragons, and beaststone.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 90,
+            "crit": 5,
+            "avoid": 10,
+	    "dodge": 5,
+            "rng": "1",
+            "price": 2200,
+            "sell": 800
+        },
+        "forge": 0,
+        "type": "sword"
+    },
 	"aerondight": {
         "name": "Aerondight",
-        "desc": "+2 Def/Res when carried. Effective against monsters, dragons, and beaststone, but ineffective against anything else.",
+        "desc": "+2 Def/Res when equipped. Effective against monsters, dragons, and beaststone, but ineffective against anything else.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -5797,24 +5836,44 @@
         },
         "forge": 0,
         "type": "sword"
+	"equip": {
+        	"stats": {
+        		"def": 2,
+			"res": 2
+            }
+        }
     },
-	"monado": {
-        "name": "Monado",
-        "desc": "+4 Lck/Spd. Effective against monsters & automations. When equipped, survive lethal attacks if HP > 1 and can be used to restore 15 HP. Trigger % = (Lck stat)",
+	"monado+": {
+        "name": "Monado+",
+        "desc": "+2 Spd/Lck when carried. Effective against monsters & automations. When equipped, survive lethal attacks if HP > 1 and can be used to restore 15 HP. Trigger % = (Lck stat)",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 12,
+            "mt": 11,
+            "hit": 85,
+            "avoid": 20,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+    },
+	"monado": {
+        "name": "Monado",
+        "desc": "+2 Lck/Spd. Can be used to restore 10 HP. A weapon cast aside by Shulk only for it to mysteriously return...",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
             "hit": 80,
             "avoid": 15,
             "rng": "1"
         },
         "forge": 0,
         "type": "sword",
-		"equip": {
-            "stats": {
-                "lck": 4,
-				"spd": 2
+	"equip": {
+        	"stats": {
+        		"lck": 2,
+			"spd": 2
             }
         }
     },
@@ -5862,8 +5921,8 @@
         "forge": 0,
         "type": "breath",
     },
-	"zantetsuken": {
-        "name": "Zantetsuken",
+	"zantetsuken+": {
+        "name": "Zantetsuken+",
         "desc": "Deals extra damage on critical hits. Doubles Mt when wielder's Skill is higher than the enemy's. Lowers wielder's HP by 25% of max HP after combat.",
         "weapon": true,
         "stats": {
@@ -5872,7 +5931,7 @@
             "hit": 80,
             "crit": 50,
             "avoid": -20,
-			"dodge": -10,
+	    "dodge": -10,
             "rng": "1",
         },
         "forge": 0,
@@ -5883,8 +5942,29 @@
             }
         }
     },
-	"lightsaber": {
-        "name": "Lightsaber",
+	"zantetsuken": {
+        "name": "Zantetsuken",
+        "desc": "+2 Str. Lowers wielder's HP by 15% of max after use in combat.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 80,
+            "crit": 30,
+            "avoid": -20,
+	    "dodge": -10,
+            "rng": "1",
+        },
+        "forge": 0,
+        "type": "sword",
+		"equip": {
+            "stats": {
+                "str": 2
+            }
+        }
+    },
+	"lightsaber+": {
+        "name": "Lightsaber+",
         "desc": "Doubles weapon Mt during counterattacks. Effective against armor and Mag-based An elegant weapon, for a more civilized age.",
         "weapon": true,
         "stats": {
@@ -5898,13 +5978,27 @@
         "forge": 0,
         "type": "sword"
     },
-	"theforce": {
-        "name": "The Force",
-        "desc": "Cannot kill foes with >1 HP. Cannot crit, trigger offensive skills, or follow up. Doubles Mt on attack. A strange power from a galaxy far, far away.",
+	"lightsaber": {
+        "name": "Lightsaber",
+        "desc": "Doubles weapon Mt during counterattacks. A magical weapon. An elegant weapon, for a more civilized age.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 9,
+            "mt": 7,
+            "hit": 85,
+            "avoid": 15,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword"
+    },
+	"theforce": {
+        "name": "The Force",
+        "desc": "Cannot kill foes with >1 HP. Cannot crit, trigger offensive skills, or follow up. Doubles Mt on attack. Effective against fliers. A strange power from a galaxy far, far away... +3 Def/Res when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
             "hit": 80,
 			"dodge": 10,
             "rng": "1-2",
@@ -5914,34 +6008,53 @@
         "type": "tome",
 		"equip": {
             "stats": {
-                "def": 4,
-				"res": 4
+                "def": 3,
+		"res": 3
+            }
+        }
+    },
+	"maerrorka+": {
+        "name": "Mærr Orka+",
+        "desc": "+3 Res when carried. May halve damage from magical attacks. Beatrice only. Trigger % = (Skill stat).",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 90,
+            "crit": 5,
+	    "dodge": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+            "stats": {
+			"res": 3
             }
         }
     },
 	"maerrorka": {
         "name": "Mærr Orka",
-        "desc": "+3 Res. May halve damage from magical attacks. Trigger % = (Skill stat). Beatrice only.",
+        "desc": "+3 Res. A special weapon of royalty passed to those worthy of using it.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 11,
-            "hit": 80,
-            "crit": 5,
-			"dodge": 10,
-            "rng": "1-2"
+            "mt": 9,
+            "hit": 85,
+	    "dodge": 5,
+            "rng": "1"
         },
         "forge": 0,
         "type": "sword",
-		"equip": {
+	"equip": {
             "stats": {
-				"res": 3
+			"res": 3
             }
         }
     },
-	"dojikiri": {
-        "name": "Dojikiri",
-        "desc": "Cannot double, but enables wielder to strike twice when attacking. Grants allies  within two spaces Def+4 for one turn after attacking. +4 Def/Res when equipped.",
+	"dojikiri+": {
+        "name": "Dojikiri+",
+        "desc": "Cannot double, but enables wielder to strike twice when attacking. Grants allies within two spaces Def+4 for one turn after attacking. +4 Def/Res when equipped.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -5953,10 +6066,30 @@
         },
         "forge": 0,
         "type": "sword",
-		"equip": {
+	"equip": {
             "stats": {
-				"def": 4,
-				"res": 4
+			"def": 4,
+			"res": 4
+            }
+        }
+    },
+	"dojikiri": {
+        "name": "Dojikiri",
+        "desc": "Cannot double, but enables wielder to strike twice when attacking. +2 Def/Res when equipped.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 85,
+            "avoid": 5,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+            "stats": {
+			"def": 2,
+			"res": 2
             }
         }
     },
@@ -5974,35 +6107,78 @@
         },
         "forge": 0,
         "type": "katana",
-		"equip": {
+	"equip": {
             "stats": {
-				"def": -1,
-				"res": -1
+			"skl": 2,
+			"spd": 2,
+			"def": -1,
+			"res": -1
+            }
+        }
+    },
+	"sealedyamato": {
+        "name": "Sealed Yamato",
+        "desc": "Makes follow-up attacks more difficult to perform (-10 effective Spd). Enables the wielder to strike twice when attacking.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 85,
+            "crit": 5,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+	"equip": {
+            "stats": {
+			"def": -1,
+			"res": -1,
+			"doubling_speed": -10
             }
         }
     },
 	"alastor": {
         "name": "Alastor",
-        "desc": "Good for follow-up attacks (+5 eff. Spd). When equipped, grants +4 Str and user can survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
+        "desc": "Strong against follow-up attacks and makes them easier to perform (+5 eff. Spd). When equipped, grants +4 Str and user can survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
         "weapon": true,
         "stats": {
             "rank": "C",
-            "mt": 13,
-            "hit": 75,
+            "mt": 12,
+            "hit": 80,
             "crit": 15,
             "rng": "1"
         },
         "forge": 0,
-        "type": "katana",
-		"equip": {
-			"stats": {
-            "doubling_speed": -5,
+        "type": "sword",
+	"equip": {
+		"stats": {
+            		"doubling_speed": 5,
 			"str": 4
-			}
+		}
         }
     },
-	"judgement": {
-        "name": "Judgment",
+	"sealedalastor": {
+        "name": "Sealed Alastor",
+        "desc": "Good for follow-up attacks (+3 eff. Spd). When equipped, grants +2 Str. Tara and Ophelia only.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 10,
+            "hit": 75,
+            "crit": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+		"stats": {
+            		"doubling_speed": 3,
+			"str": 2
+		}
+        }
+    },
+	"judgement+": {
+        "name": "Judgment+",
         "desc": "A gun with high accuracy. Reduces 15% of enemy's maximum HP after combat wielder initiated. Effective against tomes, armor, and fliers. Tara and Ophelia only.",
         "weapon": true,
         "stats": {
@@ -6010,16 +6186,37 @@
             "mt": 10,
             "hit": 100,
             "avoid": 15,
-			"dodge": 0,
+	    "dodge": 0,
             "rng": "1-2"
         },
         "forge": 0,
         "type": "bow",
-		"equip": {
-			"stats": {
-            "def": 2,
-			"res": 2
-			}
+	"equip": {
+		"stats": {
+        		"def": 2,
+	    		"res": 2
+		}
+        }
+    },
+	"judgement": {
+        "name": "Judgment",
+        "desc": "Reduces 15% of enemy's maximum HP after combat wielder initiated. Effective against fliers. Tara and Ophelia only.",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 9,
+            "hit": 85,
+            "avoid": 10,
+	    "dodge": 0,
+            "rng": "2"
+        },
+        "forge": 0,
+        "type": "bow",
+	"equip": {
+		"stats": {
+        		"def": 2,
+	    		"res": 2
+		}
         }
     },
 	"callpierce": {
@@ -6108,34 +6305,55 @@
             "doubling_speed": -5
         }
     },
-	"bustersword": {
-        "name": "Buster Sword",
-        "desc": "Effective against axes/clubs. +2 Str/Mag, +3 Def.",
+	"bustersword+": {
+        "name": "Buster Sword+",
+        "desc": "+2 Str/Mag, +3 Def.  Effective against axes/clubs. A weapon that symbolized the honor and legacy to those who once wielded it.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 11,
-            "hit": 80,
-			"dodge": 15,
+            "hit": 85,
+	    "crit": 10,
+	    "dodge": 10,
             "rng": "1"
         },
         "forge": 0,
         "type": "sword",
-		"equip": {
-			"stats": {
-            "str": 2,
+	"equip": {
+		"stats": {
+			"str": 2,
 			"mag": 2,
 			"def": 3
-			}
+		}
         }
     },
-	"wadoichimonji": {
-        "name": "Wado Ichimonji",
-        "desc": "Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking.  Deals extra damage on critical hits. Effective against swords/katanas.",
+	"bustersword": {
+        "name": "Buster Sword",
+        "desc": "+2 Str/Mag. A weapon that symbolized the honor and legacy to those who once wielded it.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 8,
+            "mt": 9,
+            "hit": 80,
+	    "dodge": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+		"stats": {
+			"str": 2,
+			"mag": 2
+		}
+        }
+    },
+	"wadoichimonji+": {
+        "name": "Wado Ichimonji+",
+        "desc": "Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking.  Deals extra damage on critical hits.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
             "hit": 85,
             "crit": 5,
             "avoid": 10,
@@ -6143,10 +6361,53 @@
         },
         "forge": 0,
         "type": "katana",
+	"equip": {
+		"stats": {
+        		"spd": 1,
+	    		"def": -1,
+			"res": -1
+		}
+        }
     },
-	"keybladerep": {
-        "name": "Kingdom Key Rep.",
-        "desc": "When equipped, use to restore 20HP. +3 Str/Mag. ",
+	"wadoichimonji": {
+        "name": "Wado Ichimonji",
+        "desc": "Inverts weapon advantage and doubles its effects. A sword carried by Zoro to remind him of a promise he'd made many years ago.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 85,
+            "crit": 5,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+    },
+	"keybladerep+": {
+        "name": "Kingdom Key Replica+",
+        "desc": "When equipped, use to restore 20HP. +2 Str/Mag when carried. Physical.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "crit": 15,
+            "avoid": 5,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+		"stats": {
+        		"spd": 1,
+	    		"def": -1,
+			"res": -1
+		}
+        }
+    },
+	"keybladerep++": {
+        "name": "Kingdom Key Replica++",
+        "desc": "When equipped, use to restore 20HP. +2 Str/Mag when carried. Magical.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6159,8 +6420,22 @@
         "forge": 0,
         "type": "sword",
     },
+	"keybladerep": {
+        "name": "Kingdom Key Replica",
+        "desc": "When equipped, use to restore 20HP. +2 Str/Mag. Physical.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "crit": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+    },
 	"wadoichimstory": {
-        "name": "Wado Ichi. (Story)",
+        "name": "Wado Ichimoji (Story)",
         "desc": "Deals extra damage on critical hits.",
         "weapon": true,
         "stats": {
@@ -6169,11 +6444,18 @@
             "hit": 85,
             "crit": 5,
             "avoid": 10,
-			"dodge": 15,
+	    "dodge": 15,
             "rng": "1"
         },
         "forge": 0,
         "type": "katana",
+	"equip": {
+		"stats": {
+        		"spd": 1,
+	    		"def": -1,
+			"res": -1
+		}
+        }
     },
 	"planetsprotection": {
         "name": "Planet's Protection",
@@ -6255,14 +6537,14 @@
         },
         "forge": 0,
         "type": "dragonstone",
-		"equip": {
-			"stats": {
-            "mag": 4,
+	"equip": {
+		"stats": {
+        		"mag": 4,
 			"spd": -2,
 			"def": -2,
 			"res": 4
-			}
-        }
+		}
+	}
     },
 	"callheavensblade": {
         "name": "Call: Heaven's Blade",
@@ -6289,8 +6571,8 @@
 			}
         }
     },
-	"crescentrose": {
-        "name": "Crescent Rose",
+	"crescentrose+": {
+        "name": "Crescent Rose+",
         "desc": "Ruby's signature weapon. Doubles Mt when wielder's Skill is higher than the enemy's. Effective against monsters and beaststone users.",
         "weapon": true,
         "stats": {
@@ -6304,16 +6586,39 @@
         },
         "forge": 0,
         "type": "naginata",
-		"equip": {
-			"stats": {
+	"equip": {
+		"stats": {
 			"spd": 2,
 			"def": -1,
 			"res": -1
 			}
         }
     },
-	"crescentroserange": {
-        "name": "C.R (Ranged)",
+	"crescentrose": {
+        "name": "Crescent Rose",
+        "desc": "+2 Spd. Ruby's signature weapon.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 80,
+            "avoid": 5,
+            "rng": "1",
+            "price": 2000,
+            "sell": 750
+        },
+        "forge": 0,
+        "type": "naginata",
+	"equip": {
+		"stats": {
+			"spd": 2,
+			"def": -1,
+			"res": -1
+			}
+        }
+    },
+	"crescentroserange+": {
+        "name": "Crescent Rose (Ranged)+",
         "desc": "Crescent Rose for farther targets. Effective against armor/fliers. Makes follow-up attacks more difficult (-3 effective Spd).",
         "weapon": true,
         "stats": {
@@ -6328,6 +6633,33 @@
         },
         "forge": 0,
         "type": "naginata",
+	"equip": {
+		"stats": {
+			"doubling_speed": -3
+		}
+	}
+    },
+	"crescentroserange": {
+        "name": "Crescent Rose (Ranged)",
+        "desc": "Crescent Rose for farther targets. Effective against fliers. Makes follow-up attacks more difficult to perform (-3 effective Spd).",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 65,
+            "avoid": -15,
+	    "dodge": -10,
+            "rng": "2",
+            "price": 2000,
+            "sell": 750
+        },
+        "forge": 0,
+        "type": "naginata",
+	"equip": {
+		"stats": {
+			"doubling_speed": -3
+		}
+	}
     },
 	"flintlock": {
         "name": "Flintlock",
@@ -6404,7 +6736,7 @@
             "mt": 15,
             "hit": 70,
             "crit": 25,
-			"dodge": -10,
+	    "dodge": -10,
             "rng": "2",
             "price": 6000,
             "sell": 4000
@@ -6430,22 +6762,48 @@
         "forge": 0,
         "type": "bow",
     },
-	"malorianarms": {
-        "name": "Malorian Arms",
-        "desc": "Effective against fliers and armor. Cannot double, but enables the wielder to strike twice when attacking. Inverts weapon advantage and doubles its effects. A custom gun made for a particular legend of Night City.",
+	"malorianarms+": {
+        "name": "Malorian Arms+",
+        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd). Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking. Effective against fliers and armor. A custom gun made for a particular legend of Night City.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 13,
             "hit": 75,
             "crit": 10,
-			"dodge": 5,
+	    "dodge": 5,
             "rng": "2",
             "price": 1000,
             "sell": 500
         },
         "forge": 0,
         "type": "bow",
+	"equip": {
+		"stats": {
+			"doubling_speed": -3
+		}
+        }
+    },
+	"malorianarms": {
+        "name": "Malorian Arms",
+        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd). Inverts weapon advantage and doubles its effects. Cannot double, but strikes twice when attacking. Effective against fliers. A custom gun made for a particular legend of Night City.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 13,
+            "hit": 75,
+            "crit": 5,
+            "rng": "2",
+            "price": 1000,
+            "sell": 500
+        },
+        "forge": 0,
+        "type": "bow",
+	"equip": {
+		"stats": {
+			"doubling_speed": -3
+		}
+        }
     },
 	"shinrarifle": {
         "name": "Shinra Rifle",
@@ -6517,23 +6875,23 @@
         },
         "forge": 0,
         "type": "dragonstone",
-		"equip": {
-			"stats": {
+	"equip": {
+		"stats": {
 			"str": 2,
 			"spd": 2,
 			"lck": 2,
 			"def": -2
-			}
+		}
         }
     },
-	"outragesol": {
-        "name": "Outrage (Sol Badguy)",
-        "desc": "+2 Str/Skl when carried. Strikes twice when attacking and deals extra damage on critical hits. -3 Def/Res when used.",
+	"outrage+": {
+        "name": "Outrage+",
+        "desc": "Doubles Mt when wielder's Skill is higher than the enemy's. Strikes twice when attacking. Deals extra damage on critical hits. +2 Str/Skl when carried. -1 Def/Spd when used.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 7,
-            "hit": 75,
+            "hit": 80,
             "crit": 15,
             "rng": "1",
             "price": 4000,
@@ -6545,81 +6903,184 @@
 			"stats": {
 			"str": 2,
 			"skl": 2,
-			"def": -3,
-			"res": -3
+			"def": -1,
+			"spd": -1
 			}
         }
     },
-	"manderville": {
-        "name": "Manderville",
-        "desc": "+5 Str, +10 Def, -5 Spd/Lck. Deals extra damage on critical hits.",
+	"outrage": {
+        "name": "Outrage",
+        "desc": "Cannot double, but strikes twice when attacking. -3 Spd, -1 Def when used.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 75,
+            "rng": "1",
+            "price": 4000,
+            "sell": 1000
+        },
+        "forge": 0,
+        "type": "axe",
+		"equip": {
+			"stats": {
+			"def": -3,
+			"spd": -1
+			}
+        }
+    },
+	"manderville+": {
+        "name": "Manderville+",
+        "desc": "A weapon used by Tanya when she's a Gunbreaker. Makes follow-up attacks more difficult to perform and is weak against them. (-5/-2 effective Spd). Deals extra damage on critical hits. +4 Str, +10 Def, -3 Lck.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 12,
             "hit": 80,
-            "crit": 10,
+            "crit": 15,
             "avoid": -15,
             "rng": "1"
         },
         "forge": 0,
         "type": "sword",
-		"equip": {
-			"stats": {
+	"equip": {
+		"stats": {
 			"str": 4,
-			"spd": -3,
-			"lck": -5,
+			"doubling_speed": -5,
+			"lck": -3,
 			"def": 10,
-			"res": 0
-			}
+		}
         }
     },
-	"suzakuchokuto": {
-        "name": "Suzaku Chokuto",
-        "desc": "+7 Skl/Spd, -4 Str, -3 Def/Res. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Wielder may survive lethal attacks if their HP > 1. Trigger % = (Lck stat).",
+	"manderville": {
+        "name": "Manderville",
+        "desc": "The weapon used by Tanya when she's a Gunbreaker. +2 Str, +7 Def, -5 Spd/Lck.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 12,
+            "hit": 80,
+            "crit": 5,
+            "avoid": -20,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "sword",
+	"equip": {
+		"stats": {
+			"str": 2,
+			"spd": -5,
+			"lck": -5,
+			"def": 7,
+		}
+        }
+    },
+	"suzakuchokuto+": {
+        "name": "Suzaku Chokuto+",
+        "desc": "A weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's and may survive lethal attacks if their HP > 1. Trigger % = (Lck stat). +7 Skl/Spd, -2 Str/Def/Res.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 7,
-            "hit": 85,
+            "hit": 90,
             "crit": 10,
             "avoid": 20,
             "rng": "1"
         },
         "forge": 0,
         "type": "katana",
-		"equip": {
-			"stats": {
-			"str": -4,
+	"equip": {
+		"stats": {
+			"str": -2,
 			"skl": 7,
 			"spd": 7,
-			"def": -3,
-			"res": -3
-			}
+			"def": -2,
+			"res": -2,
+			"doubling_speed": 3
+		}
         }
     },
-	"deathscythe": {
-        "name": "Death Scythe",
-        "desc": "+5 Mag, -2 Skl/Spd, +10 Res. A magic weapon. Absorbs target's HP. Effective against monsters.",
+	"suzakuchokuto": {
+        "name": "Suzaku Chokuto",
+        "desc": "The weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 effective Spd). +5 Skl/Spd, -3 Str/Def/Res.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 7,
+            "hit": 90,
+            "crit": 5,
+            "avoid": 15,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "katana",
+	"equip": {
+		"stats": {
+			"str": -3,
+			"skl": 5,
+			"spd": 5,
+			"def": -3,
+			"res": -3,
+			"doubling_speed": 3
+		}
+        }
+    },
+	"deathscythe+": {
+        "name": "Death Scythe+",
+        "desc": "The weapon used by Tanya when she's a Reaper. Absorbs target's HP. Effective against monsters. Magical. +5 Mag, +8 Res,  -3 Skl/Spd.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 11,
             "hit": 75,
-            "crit": -20,
-			"dodge": 10,
+            "crit": -15,
             "rng": "1"
         },
         "forge": 0,
         "type": "naginata",
-		"equip": {
-			"stats": {
+	"equip": {
+		"stats": {
 			"mag": 5,
-			"skl": -2,
-			"spd": -2,
-			"res": 10
-			}
+			"skl": -3,
+			"spd": -3,
+			"res": 8
+		}
         }
+    },
+	"deathscythe": {
+        "name": "Death Scythe",
+        "desc": "The weapon used by Tanya when she's a Reaper. Absorbs target's HP. Cannot crit or trigger offensive skills. Magical. +3 Mag, +6 Res, -4 Skl/Spd.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 11,
+            "hit": 75,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "naginata",
+	"equip": {
+		"stats": {
+			"mag": 3,
+			"skl": -4,
+			"spd": -4,
+			"res": 6
+		}
+        }
+    },
+	"labrysaxe+": {
+        "name": "Labrys+ (axe)",
+        "desc": "Doubles Mt when wielder's Skill is higher than the enemy's. When equipped, HP is restored every turn. Labrys only",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 16,
+            "hit": 70,
+            "crit": 10,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "axe",
     },
 	"labrysaxe": {
         "name": "Labrys (axe)",
@@ -6627,9 +7088,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 14,
-            "hit": 70,
-            "crit": 10,
+            "mt": 12,
+            "hit": 65,
             "rng": "1"
         },
         "forge": 0,
