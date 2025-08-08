@@ -5835,7 +5835,7 @@
             "sell": 800
         },
         "forge": 0,
-        "type": "sword"
+        "type": "sword",
 	"equip": {
         	"stats": {
         		"def": 2,

@@ -7203,7 +7203,7 @@
 	},
 	"asagi": {
         "name": "Asagi",
-        "job": "demonsniper",
+        "job": "sniperofdemons",
         "portrait": "asagi.png",
         "lvl": 12,
         "personal": "swordbreaker",
@@ -7214,7 +7214,7 @@
         "pairup": true,
         "variable": false,
         "set": [
-            "demonsniper",
+            "sniperofdemons",
 			"archer",
 			"outlaw"
         ],
