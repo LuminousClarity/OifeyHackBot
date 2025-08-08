@@ -858,7 +858,7 @@
     },
 	"cathy": {
         "name": "Cathy",
-        "job": "starpraetorian",
+        "job": "drakeprincess",
         "portrait": "cathy.png",
         "lvl": 5,
         "personal": "pass",
@@ -7068,7 +7068,7 @@
     },
 	"aerith": {
         "name": "Aerith",
-        "job": "planetguardian",
+        "job": "flowergirl",
         "portrait": "aerith.png",
         "lvl": 16,
         "personal": "quietstrength",
@@ -7337,7 +7337,7 @@
     },
 	"beatrice": {
         "name": "Beatrice",
-        "job": "battlescion",
+        "job": "heiressofvalla",
         "portrait": "beatrice.png",
         "lvl": 15,
         "personal": "quixotic",
