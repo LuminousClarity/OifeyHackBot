@@ -3854,7 +3854,7 @@
         "set": [
             "troubadour",
             "cavalier",
-			"outlaw"
+			"fighter"
         ],
         "base": {
             "normal": {
@@ -3899,7 +3899,7 @@
         },
         "growth": {
             "hp": 50,
-            "str": 35,
+            "str": 45,
             "mag": 15,
             "skl": 40,
             "spd": 35,
@@ -3994,7 +3994,8 @@
         "variable": false,
         "set": [
             "troubadour",
-            "cavalier"
+            "cavalier",
+			"fighter"
         ],
         "base": {
             "normal": {
@@ -4039,7 +4040,7 @@
         },
         "growth": {
             "hp": 50,
-            "str": 35,
+            "str": 45,
             "mag": 15,
             "skl": 40,
             "spd": 35,
@@ -14433,6 +14434,107 @@
                     "skl": 1
                 }
             }
+        }
+    },
+  "megumi": {
+        "name": "Megumi",
+        "job": "diviner",
+        "portrait": "Megumi.png",
+        "lvl": 10,
+        "personal": "healingdescant",
+        "father": "izana",
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "cap": {
+            "str": 0,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 0,
+            "res": 0
+        },
+        "skill": {
+            "normal": [
+                "magic2",
+                "futuresight",
+				"amaterasu"
+            ],
+            "hard": [
+                "magic2",
+                "futuresight",
+				"amaterasu"
+            ],
+            "lunatic": [
+                "magic2",
+                "futuresight",
+				"amaterasu"
+            ]
+        },
+        "pairup": false,
+        "influence": "father",
+        "variable": false,
+        "set": [
+            "diviner"
+        ],
+        "base": {
+            "normal": {
+                "hp": 6,
+                "str": 3,
+                "mag": 8,
+                "skl": 6,
+                "spd": 10,
+                "lck": 8,
+                "def": 5,
+                "res": 7
+            },
+            "hard": {
+                "hp": 6,
+                "str": 3,
+                "mag": 8,
+                "skl": 6,
+                "spd": 10,
+                "lck": 8,
+                "def": 5,
+                "res": 7
+            },
+            "lunatic": {
+                "hp": 6,
+                "str": 3,
+                "mag": 8,
+                "skl": 6,
+                "spd": 10,
+                "lck": 8,
+                "def": 5,
+                "res": 7
+            }
+        },
+        "growth": {
+            "hp": 35,
+            "str": 10,
+            "mag": 50,
+            "skl": 40,
+            "spd": 60,
+            "lck": 50,
+            "def": 20,
+            "res": 35
+        },
+        "rank": {
+            "normal": {
+                "tome": 51
+            },
+            "hard": {
+                "tome": 51
+            },
+            "lunatic": {
+                "tome": 51
+            }
+        },
+        "autolevel": {
+            "type": "child",
+            "join": 18,
+            "default": 18
         }
     }
 }
