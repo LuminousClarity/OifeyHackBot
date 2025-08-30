@@ -3641,8 +3641,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 14,
-            "hit": 85,
+            "mt": 12,
+            "hit": 80,
             "crit": 5,
             "avoid": 10,
             "rng": 2
@@ -5843,12 +5843,12 @@
         "desc": "Dark mages only. Can strike twice. Deals extra damage on critical hits. (Mag/Skl -2 after combat.)",
         "weapon": true,
         "stats": {
-            "rank": "C",
+            "rank": "A",
             "mt": 2,
-            "hit": 75,
+            "hit": 55,
 			"crit": 25,
             "avoid": -5,
-			"dodge": -5,
+			"dodge": -15,
             "rng": "1-2",
 			"sell": 3000
         },
@@ -6862,8 +6862,8 @@
         "weapon": true,
         "stats": {
             "rank": "A",
-            "mt": 14,
-            "hit": 70,
+            "mt": 12,
+            "hit": 80,
 			"crit": 5,
 			"avoid": 10,
 			"rng": "2"
