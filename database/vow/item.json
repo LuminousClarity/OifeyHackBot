@@ -5745,11 +5745,11 @@
     },
 	"smithandwessen+": {
         "name": "Smith & Wessen+",
-        "desc": "Effective against sword/axe/lance/flier. Jessie only.",
+        "desc": "+5 Lck. Makes follow-up attacks more difficult to perform (-3 effective Spd). Effective against sword/axe/lance. Jessie only.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 10,
+            "mt": 6,
             "hit": 85,
             "crit": 10,
             "avoid": -5,
@@ -5766,11 +5766,11 @@
     },
 	"smithandwessen": {
         "name": "Smith & Wessen",
-        "desc": "Effective against sword/axe/lance/flier. Cannot double. Jessie only.",
+        "desc": "Effective against sword/axe/lance. Cannot double. Jessie only. Def/Res -1.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 10,
+            "mt": 6,
             "hit": 85,
             "crit": 10,
             "avoid": -5,
@@ -5781,7 +5781,8 @@
         "type": "bow",
 		"equip": {
             "stats": {
-                "lck": 5
+                "def": -1,
+				"res": -1
             }
         }
     },
@@ -5839,7 +5840,7 @@
 	"equip": {
         	"stats": {
         		"def": 2,
-			"res": 2
+				"res": 2
             }
         }
     },
@@ -6095,7 +6096,7 @@
     },
 	"yamato": {
         "name": "Yamato",
-        "desc": "Enables the wielder to strike twice when attacking. Doubles Mt on attack. Spd/Skil+2 when carried.",
+        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Enables the wielder to strike twice when attacking. Doubles Mt on attack. Spd/Skil+2 when carried.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6112,7 +6113,8 @@
 			"skl": 2,
 			"spd": 2,
 			"def": -1,
-			"res": -1
+			"res": -1,
+			"doubling_speed": -5
             }
         }
     },
@@ -6139,7 +6141,7 @@
     },
 	"alastor": {
         "name": "Alastor",
-        "desc": "Strong against follow-up attacks and makes them easier to perform (+5 eff. Spd). When equipped, grants +4 Str and user can survive lethal attacks if HP > 1. Trigger % = (Lck stat). Tara and Ophelia only.",
+        "desc": "Immediately strikes twice when user initiates combat. Strong against follow-up attacks (+5 Effective Spd). When equipped, survive lethal attacks if HP > 1. Trigger % = (Lck stat). +4 Def when carried. Tara and Ophelia only.",
         "weapon": true,
         "stats": {
             "rank": "C",
@@ -6152,9 +6154,9 @@
         "type": "sword",
 	"equip": {
 		"stats": {
-            		"doubling_speed": 5,
-			"str": 4
-		}
+            	"doubling_speed": 5,
+				"def": 4
+			}
         }
     },
 	"sealedalastor": {
@@ -6172,9 +6174,9 @@
         "type": "sword",
 	"equip": {
 		"stats": {
-            		"doubling_speed": 3,
-			"str": 2
-		}
+            	"doubling_speed": 3,
+				"str": 2
+			}
         }
     },
 	"judgement+": {
@@ -6349,7 +6351,7 @@
     },
 	"wadoichimonji+": {
         "name": "Wado Ichimonji+",
-        "desc": "Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking.  Deals extra damage on critical hits.",
+        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking. Deals extra damage on critical hits.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6365,7 +6367,8 @@
 		"stats": {
         		"spd": 1,
 	    		"def": -1,
-			"res": -1
+				"res": -1,
+				"doubling_speed": -5
 		}
         }
     },
@@ -6573,7 +6576,7 @@
     },
 	"crescentrose+": {
         "name": "Crescent Rose+",
-        "desc": "Ruby's signature weapon. Doubles Mt when wielder's Skill is higher than the enemy's. Effective against monsters and beaststone users.",
+        "desc": "Ruby's signature weapon. Doubles Mt when wielder's Skill is higher than the enemy's. Effective against monsters and beasts.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6764,7 +6767,7 @@
     },
 	"malorianarms+": {
         "name": "Malorian Arms+",
-        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd). Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking. Effective against fliers and armor. A custom gun made for a particular legend of Night City.",
+        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Inverts weapon advantage and doubles its effects. Enables the wielder to strike twice when attacking. Effective against fliers and armor. A custom gun made for a particular legend of Night City.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6780,13 +6783,13 @@
         "type": "bow",
 	"equip": {
 		"stats": {
-			"doubling_speed": -3
+			"doubling_speed": -5
 		}
         }
     },
 	"malorianarms": {
         "name": "Malorian Arms",
-        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd). Inverts weapon advantage and doubles its effects. Cannot double, but strikes twice when attacking. Effective against fliers. A custom gun made for a particular legend of Night City.",
+        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Inverts weapon advantage and doubles its effects. Cannot double, but strikes twice when attacking. Effective against fliers. A custom gun made for a particular legend of Night City.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6801,7 +6804,7 @@
         "type": "bow",
 	"equip": {
 		"stats": {
-			"doubling_speed": -3
+			"doubling_speed": -5
 		}
         }
     },
@@ -6886,7 +6889,7 @@
     },
 	"outrage+": {
         "name": "Outrage+",
-        "desc": "Doubles Mt when wielder's Skill is higher than the enemy's. Strikes twice when attacking. Deals extra damage on critical hits. +2 Str/Skl when carried. -1 Def/Spd when used.",
+        "desc": "Makes follow-up attacks more difficult to perform (-3 effective Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Strikes twice when attacking. Deals extra damage on critical hits. +2 Str/Skl when carried.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6903,8 +6906,7 @@
 			"stats": {
 			"str": 2,
 			"skl": 2,
-			"def": -1,
-			"spd": -1
+			"doubling_speed": -3
 			}
         }
     },
@@ -6924,8 +6926,8 @@
         "type": "axe",
 		"equip": {
 			"stats": {
-			"def": -3,
-			"spd": -1
+			"def": -1,
+			"spd": -3,
 			}
         }
     },
@@ -7108,5 +7110,18 @@
         },
         "forge": 0,
         "type": "axe",
+    },
+	"bladeofcalling": {
+        "name": "Blade of Calling",
+        "desc": "The one that walks The Path alongside Flame will one day, be able to see Destined Death. Effective against monsters and beaststone. Magical.\n\n**Debuffs**: Str -2 | Mag -2 | Skl -2 | Spd -2 | Def -4 | Res -4",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 9,
+            "hit": 90,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "dagger",
     },
 }
