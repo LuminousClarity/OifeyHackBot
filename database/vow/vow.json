@@ -7625,7 +7625,7 @@
         "set": [
             "witcher",
 			"cavalier",
-			"samurai"
+			"darkmage"
         ],
         "base": {
             "normal": {
@@ -10430,12 +10430,12 @@
             }
         },
         "cap": {
-	    "hp": 0,
-            "str": 3,
-            "mag": 0,
-            "skl": 0,
+	    	"hp": -1,
+            "str": -1,
+            "mag": 2,
+            "skl": 1,
             "spd": 0,
-            "lck": 0,
+            "lck": -2,
             "def": 0,
             "res": 0
         },
@@ -10452,18 +10452,18 @@
         "rank": {
             "normal": {
                 "dagger": 96,
-		"staff": 96,
-		"tome": 96
+				"staff": 96,
+				"tome": 51
             },
             "hard": {
                 "dagger": 96,
-		"staff": 96,
-		"tome": 96
+				"staff": 96,
+				"tome": 51
             },
             "lunatic": {
                 "dagger": 96,
-		"staff": 96,
-		"tome": 96
+				"staff": 96,
+				"tome": 51
             }
         },
         "skill": {
