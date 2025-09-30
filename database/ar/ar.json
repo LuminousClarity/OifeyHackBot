@@ -224,35 +224,37 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "str": 1
                 },
                 "b": {
-                    "mag": 1
+                    "skl": 1
                 },
                 "a": {
                     "lck": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "str": 1,
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "str": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "str": 1,
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "str": 1,
+                    "skl": 1,
+					"lck": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "str": 2,
+                    "skl": 1,
+					"spd": 1,
+					"lck": 1
                 }
             }
         }
@@ -354,14 +356,14 @@
                     "lck": 1
                 },
                 "b": {
-                    "mag": 1
+                    "str": 1
                 },
                 "a": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "str": 1,
+                    "lck": 1
                 }
             },
             "bonus": {
@@ -370,16 +372,17 @@
                 },
                 "b": {
                     "lck": 1,
-                    "mag": 1
+                    "str": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "lck": 1,
+                    "str": 1,
+					"spd": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "lck": 2,
+                    "str": 2,
+					"spd": 1
                 }
             }
         }
@@ -487,35 +490,36 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "mag": 1
+                    "str": 1
                 },
                 "a": {
-                    "lck": 1
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "str": 1,
+                    "def": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "def": 1,
+                    "str": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "def": 1,
+                    "str": 1,
+					"skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "str": 2,
+                    "def": 2,
+					"skl": 1
                 }
             }
         }
@@ -614,35 +618,35 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "mag": 1
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 1
+                    "def": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "def": 1,
+                    "str": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "def": 1,
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "def": 2,
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "def": 3,
+                    "skl": 1,
+                    "str": 1
                 }
             }
         }
@@ -741,7 +745,7 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "res": 1
                 },
                 "b": {
                     "mag": 1
@@ -751,25 +755,27 @@
                 },
                 "s": {
                     "lck": 1,
-                    "res": 1
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "res": 1
                 },
                 "b": {
-                    "lck": 1,
+                    "res": 1,
                     "mag": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "res": 1,
+                    "mag": 1,
+					"lck": 1
                 },
                 "s": {
-                    "lck": 3,
+                    "lck": 2,
                     "mag": 1,
-                    "res": 1
+					"res": 1,
+					"spd": 1
                 }
             }
         }
@@ -868,35 +874,34 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "mag": 1
+                    "spd": 1
                 },
                 "a": {
-                    "lck": 1
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "spd": 1,
+                    "str": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "spd": 2
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "spd": 2,
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "spd": 3,
+                    "str": 1,
+                    "skl": 1
                 }
             }
         }
@@ -995,35 +1000,36 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
-                },
-                "b": {
                     "mag": 1
                 },
+                "b": {
+                    "spd": 1
+                },
                 "a": {
-                    "lck": 1
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "mag": 1,
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "mag": 1
                 },
                 "b": {
-                    "lck": 1,
+                    "spd": 1,
                     "mag": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "spd": 1,
+                    "mag": 1,
+					"skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "mag": 2,
+                    "spd": 2,
+                    "skl": 1
                 }
             }
         }
@@ -1254,35 +1260,37 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "mag": 1
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 1
+                    "res": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "str": 1,
+                    "def": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "def": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "def": 1,
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "def": 1,
+                    "skl": 1,
+					"res": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "def": 2,
+                    "skl": 1,
+					"res": 1,
+					"str": 1
                 }
             }
         }
@@ -1384,35 +1392,36 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "mag": 1
+                    "skl": 1
                 },
                 "a": {
                     "lck": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "skl": 1,
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "spd": 1,
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "spd": 1,
+                    "skl": 1,
+					"lck": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "skl": 2,
+                    "spd": 2,
+					"lck": 1
                 }
             }
         }
@@ -1510,35 +1519,34 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "mag": 1
+                    "spd": 1
                 },
                 "a": {
-                    "lck": 1
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "spd": 1,
+                    "lck": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "spd": 2
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "spd": 2,
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "spd": 3,
+                    "skl": 1,
+                    "lck": 1
                 }
             }
         }
@@ -1637,35 +1645,34 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "str": 1
                 },
                 "b": {
-                    "mag": 1
+                    "str": 1
                 },
                 "a": {
-                    "lck": 1
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "str": 1,
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "str": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
-                },
+                    "str": 2
+				},
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "str": 2,
+                    "skl": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "str": 3,
+                    "skl": 1,
+                    "spd": 1
                 }
             }
         }
@@ -1764,35 +1771,36 @@
         "pairup": {
             "raw": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "mag": 1
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 1
+                    "str": 1
                 },
                 "s": {
-                    "lck": 1,
-                    "res": 1
+                    "skl": 1,
+                    "spd": 1
                 }
             },
             "bonus": {
                 "c": {
-                    "lck": 1
+                    "spd": 1
                 },
                 "b": {
-                    "lck": 1,
-                    "mag": 1
+                    "spd": 1,
+                    "skl": 1
                 },
                 "a": {
-                    "lck": 2,
-                    "mag": 1
+                    "spd": 1,
+                    "skl": 1,
+					"str": 1
                 },
                 "s": {
-                    "lck": 3,
-                    "mag": 1,
-                    "res": 1
+                    "spd": 2,
+                    "skl": 2,
+					"str": 1
                 }
             }
         }
