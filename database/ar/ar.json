@@ -524,27 +524,155 @@
             }
         }
     },
-	"kellam": {
-        "name": "Kellam",
-        "job": "knight",
-        "portrait": "kellam.png",
+	"gaius": {
+        "name": "Gaius",
+        "job": "thief",
+        "portrait": "gaius.png",
         "lvl": 5,
-        "personal": "hitavo10",
+        "personal": "sweettooth",
         "father": false,
         "mother": false,
         "gender": "m",
         "blood": false,
         "skill": {
             "normal": [
-                "hitavo10",
+                "sweettooth",
+                "locktouch"
+            ],
+            "hard": [
+                "sweettooth",
+                "locktouch"
+            ],
+            "lunatic": [
+                "sweettooth",
+                "locktouch"
+            ]
+        },
+        "variable": false,
+        "set": [
+			"thief",
+            "assassin"
+        ],
+        "base": {
+            "normal": {
+                "hp": 6,
+                "str": 4,
+                "mag": 0,
+                "skl": 7,
+                "spd": 7,
+                "lck": 6,
+                "def": 3,
+                "res": 2
+            },
+            "hard": {
+                "hp": 6,
+                "str": 4,
+                "mag": 0,
+                "skl": 7,
+                "spd": 7,
+                "lck": 6,
+                "def": 3,
+                "res": 2
+            },
+            "lunatic": {
+                "hp": 6,
+                "str": 4,
+                "mag": 0,
+                "skl": 7,
+                "spd": 7,
+                "lck": 6,
+                "def": 3,
+                "res": 2
+            }
+        },
+        "cap": {
+            "str": 1,
+            "mag": -1,
+            "skl": 2,
+            "spd": 2,
+            "lck": -2,
+            "def": -1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 50,
+            "str": 45,
+            "mag": 15,
+            "skl": 45,
+            "spd": 45,
+            "lck": 35,
+            "def": 25,
+            "res": 15
+        },
+        "rank": {
+            "normal": {
+                "hidden": 10
+            },
+            "hard": {
+                "hidden": 10
+            },
+            "lunatic": {
+                "hidden": 10
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                    "spd": 1
+                },
+                "a": {
+                    "str": 1
+                },
+                "s": {
+                    "str": 1,
+                    "spd": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "skl": 1
+                },
+                "b": {
+                    "skl": 1,
+                    "spd": 1
+                },
+                "a": {
+                    "spd": 1,
+                    "str": 1,
+					"skl": 1
+                },
+                "s": {
+                    "str": 2,
+                    "spd": 2,
+					"skl": 1
+                }
+            }
+        }
+    },
+	"kellam": {
+        "name": "Kellam",
+        "job": "knight",
+        "portrait": "kellam.png",
+        "lvl": 5,
+        "personal": "winddisciple",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "winddisciple",
                 "defense2"
             ],
             "hard": [
-                "hitavo10",
+                "winddisciple",
                 "defense2"
             ],
             "lunatic": [
-                "hitavo10",
+                "winddisciple",
                 "defense2"
             ]
         },
@@ -906,6 +1034,135 @@
             }
         }
     },
+	"maribelle": {
+        "name": "Maribelle",
+        "job": "troubadour",
+        "portrait": "maribelle.png",
+        "lvl": 4,
+        "personal": "rosesthorns",
+        "father": false,
+        "mother": false,
+        "gender": "f",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "rosesthorns",
+                "resistance2"
+            ],
+            "hard": [
+                "rosesthorns",
+                "resistance2"
+            ],
+            "lunatic": [
+                "rosesthorns",
+                "resistance2"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "troubadour",
+            "valkyrie"
+        ],
+        "base": {
+            "normal": {
+                "hp": 2,
+                "str": 0,
+                "mag": 2,
+                "skl": 2,
+                "spd": 1,
+                "lck": 5,
+                "def": 2,
+                "res": 1
+            },
+            "hard": {
+                "hp": 2,
+                "str": 0,
+                "mag": 2,
+                "skl": 2,
+                "spd": 1,
+                "lck": 5,
+                "def": 2,
+                "res": 1
+            },
+            "lunatic": {
+                "hp": 2,
+                "str": 0,
+                "mag": 2,
+                "skl": 2,
+                "spd": 1,
+                "lck": 5,
+                "def": 2,
+                "res": 1
+            }
+        },
+        "cap": {
+            "str": -3,
+            "mag": 2,
+            "skl": 1,
+            "spd": 0,
+            "lck": 3,
+            "def": -3,
+            "res": 2
+        },
+        "growth": {
+            "hp": 30,
+            "str": 20,
+            "mag": 40,
+            "skl": 40,
+            "spd": 30,
+            "lck": 80,
+            "def": 10,
+            "res": 40
+        },
+        "rank": {
+            "normal": {
+                "staff": 36
+            },
+            "hard": {
+                "staff": 36
+            },
+            "lunatic": {
+                "staff": 36
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "res": 1
+                },
+                "b": {
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 1
+                },
+                "s": {
+                    "lck": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "res": 1
+                },
+                "b": {
+					"res": 1,
+                    "mag": 1
+                },
+                "a": {
+                    "res": 1,
+                    "mag": 1,
+					"lck": 1
+					
+                },
+                "s": {
+                    "res": 2,
+                    "lck": 2,
+					"mag": 1
+                }
+            }
+        }
+    },
 	"miriel": {
         "name": "Miriel",
         "job": "mage",
@@ -1030,6 +1287,134 @@
                     "mag": 2,
                     "spd": 2,
                     "skl": 1
+                }
+            }
+        }
+    },
+	"ricken": {
+        "name": "Ricken",
+        "job": "mage",
+        "portrait": "ricken.png",
+        "lvl": 3,
+        "personal": "pride",
+        "father": false,
+        "mother": false,
+        "gender": "m",
+        "blood": false,
+        "skill": {
+            "normal": [
+                "pride",
+                "magic2"
+            ],
+            "hard": [
+                "pride",
+                "magic2"
+            ],
+            "lunatic": [
+                "pride",
+                "magic2"
+            ]
+        },
+        "variable": false,
+        "set": [
+            "mage",
+            "sage"
+        ],
+        "base": {
+            "normal": {
+                "hp": 4,
+                "str": 3,
+                "mag": 4,
+                "skl": 3,
+                "spd": 1,
+                "lck": 10,
+                "def": 4,
+                "res": 0
+            },
+            "hard": {
+                "hp": 4,
+                "str": 3,
+                "mag": 4,
+                "skl": 3,
+                "spd": 1,
+                "lck": 10,
+                "def": 4,
+                "res": 0
+            },
+            "lunatic": {
+                "hp": 4,
+                "str": 3,
+                "mag": 4,
+                "skl": 3,
+                "spd": 1,
+                "lck": 10,
+                "def": 4,
+                "res": 0
+            }
+        },
+        "cap": {
+            "str": -1,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 1,
+            "def": -1,
+            "res": 0
+        },
+        "growth": {
+            "hp": 50,
+            "str": 20,
+            "mag": 35,
+            "skl": 30,
+            "spd": 30,
+            "lck": 65,
+            "def": 30,
+            "res": 25
+        },
+        "rank": {
+            "normal": {
+                "tome": 6
+            },
+            "hard": {
+                "tome": 6
+            },
+            "lunatic": {
+                "tome": 6
+            }
+        },
+        "pairup": {
+            "raw": {
+                "c": {
+                    "mag": 1
+                },
+                "b": {
+                    "lck": 1
+                },
+                "a": {
+                    "mag": 1
+                },
+                "s": {
+                    "spd": 1,
+                    "res": 1
+                }
+            },
+            "bonus": {
+                "c": {
+                    "mag": 1
+                },
+                "b": {
+                    "lck": 1,
+                    "mag": 1
+                },
+                "a": {
+                    "lck": 1,
+                    "mag": 2
+                },
+                "s": {
+                    "mag": 2,
+                    "lck": 1,
+                    "spd": 1,
+					"res": 1
                 }
             }
         }
