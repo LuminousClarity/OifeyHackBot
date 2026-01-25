@@ -5924,14 +5924,14 @@
     },
 	"zantetsuken+": {
         "name": "Zantetsuken+",
-        "desc": "Deals extra damage on critical hits. Doubles Mt when wielder's Skill is higher than the enemy's. Lowers wielder's HP by 25% of max HP after combat.",
+        "desc": "Deals extra damage on critical hits. Doubles Mt when wielder's Skill is higher than the enemy's. Lowers wielder's HP by 15% of max HP after combat.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 9,
             "hit": 80,
-            "crit": 50,
-            "avoid": -20,
+            "crit": 35,
+            "avoid": -10,
 	    "dodge": -10,
             "rng": "1",
         },
@@ -5945,14 +5945,14 @@
     },
 	"zantetsuken": {
         "name": "Zantetsuken",
-        "desc": "+2 Str. Lowers wielder's HP by 15% of max after use in combat.",
+        "desc": "+2 Str. Lowers wielder's HP by 10% of max after use in combat.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 7,
             "hit": 80,
-            "crit": 30,
-            "avoid": -20,
+            "crit": 25,
+            "avoid": -15,
 	    "dodge": -10,
             "rng": "1",
         },
@@ -6559,7 +6559,7 @@
             "hit": 100,
             "crit": 10,
 	    "dodge": 20,
-            "rng": "1-2",
+            "rng": "1",
             "price": 4000,
             "sell": 2000
         },
@@ -6838,29 +6838,26 @@
         "forge": 0,
         "type": "axe",
     },
-	"calllifedrain": {
-        "name": "Call: Life Drain",
-        "desc": "Magical. Summons Sandalphon. Can't make follow up attacks. Deals Heavy damage to one foe and absorbs target's HP. After use in combat, wielder suffers Mag/Skl-2. Mag/Res+2, Def/Skl -2.",
+	"callprimialforce": {
+        "name": "Call: Primal Force",
+        "desc": "Summons Asura. Cannot make follow up attacks. Deals Colossal Physical damage. Doubles weapon Mt during counterattacks. User takes 20% max HP damage after combat. Effective against armor. Def/Res+4, Skl/Spd-4",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 20,
-            "hit": 70,
-            "crit": 0,
-            "avoid": 0,
-			"dodge": 0,
-            "rng": "1-2",
-            "price": 0,
-            "sell": 0
+            "mt": 18,
+            "hit": 80,
+            "rng": "1",
+            "price": 6000,
+            "sell": 3000
         },
         "forge": 0,
         "type": "dragonstone",
 		"equip": {
 			"stats": {
-			"mag": 2,
-			"skl": -2,
-			"def": -2,
-			"res": 2
+			"skl": -4,
+			"spd": -4,
+			"def": 4,
+			"res": 4
 			}
         }
     },
@@ -6893,8 +6890,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
-            "hit": 80,
+            "mt": 8,
+            "hit": 85,
             "crit": 15,
             "rng": "1",
             "price": 4000,
@@ -6906,7 +6903,7 @@
 			"stats": {
 			"str": 2,
 			"skl": 2,
-			"doubling_speed": -3
+			"doubling_speed": -4
 			}
         }
     },
@@ -6917,7 +6914,7 @@
         "stats": {
             "rank": "E",
             "mt": 7,
-            "hit": 75,
+            "hit": 80,
             "rng": "1",
             "price": 4000,
             "sell": 1000
@@ -6947,11 +6944,12 @@
         "type": "sword",
 	"equip": {
 		"stats": {
-			"str": 4,
+			"str": -2,
 			"doubling_speed": -5,
 			"lck": -3,
-			"def": 10,
-		}
+			"def": 7,
+			"res": 7
+			}
         }
     },
 	"manderville": {
@@ -6970,16 +6968,17 @@
         "type": "sword",
 	"equip": {
 		"stats": {
-			"str": 2,
-			"spd": -5,
-			"lck": -5,
-			"def": 7,
-		}
+			"str": -3,
+			"spd": -4,
+			"lck": -4,
+			"def": 5,
+			"res": 5
+			}
         }
     },
 	"suzakuchokuto+": {
         "name": "Suzaku Chokuto+",
-        "desc": "A weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's and may survive lethal attacks if their HP > 1. Trigger % = (Lck stat). +7 Skl/Spd, -2 Str/Def/Res.",
+        "desc": "A weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 eff. Spd). Doubles Mt when wielder's Skill is higher than the enemy's and may survive lethal attacks if their HP > 1. Trigger % = (Lck stat). Str+2, Skl/Spd+7, Def/Res-2.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6993,22 +6992,22 @@
         "type": "katana",
 	"equip": {
 		"stats": {
-			"str": -2,
+			"str": 2,
 			"skl": 7,
 			"spd": 7,
 			"def": -2,
 			"res": -2,
 			"doubling_speed": 3
-		}
+			}
         }
     },
 	"suzakuchokuto": {
         "name": "Suzaku Chokuto",
-        "desc": "The weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 effective Spd). +5 Skl/Spd, -3 Str/Def/Res.",
+        "desc": "The weapon used by Tanya when she's a Samurai. Good for follow-up attacks (+3 effective Spd). Doubles Mt when wielder's Skill is higher than the enemy's. Skl/Spd+5, Def/Res-3.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 6,
             "hit": 90,
             "crit": 5,
             "avoid": 15,
@@ -7018,13 +7017,12 @@
         "type": "katana",
 	"equip": {
 		"stats": {
-			"str": -3,
 			"skl": 5,
 			"spd": 5,
 			"def": -3,
 			"res": -3,
 			"doubling_speed": 3
-		}
+			}
         }
     },
 	"deathscythe+": {
@@ -7045,7 +7043,7 @@
 			"mag": 5,
 			"skl": -3,
 			"spd": -3,
-			"res": 8
+			"res": 7
 		}
         }
     },
@@ -7066,7 +7064,7 @@
 			"mag": 3,
 			"skl": -4,
 			"spd": -4,
-			"res": 6
+			"res": 5
 		}
         }
     },
@@ -7123,5 +7121,147 @@
         },
         "forge": 0,
         "type": "dagger",
+		"equip": {
+			"stats": {
+           	"mag": 2,
+			"spd": 2
+			}
+        }
+    },
+	"alchemy": {
+        "name": "Alchemy",
+        "desc": "Skl+4, Def/Res -2. Ignores terrain effects during combat. Immediately strikes twice when attacking. Upon hit, target suffers Def/Res reduction.\n\n**Debuffs**: Def -4 | Res -4",
+        "weapon": true,
+        "stats": {
+            "rank": "C",
+            "mt": 8,
+            "hit": 75,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "beaststone",
+    },
+	"sixphasedbow": {
+        "name": "Six-Phased Bow",
+        "desc": "Doubles weapon Mt during counterattacks. When equipped, restores a small amount of HP after every turn.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 80,
+            "avoid": -10,
+			"dodge": 5,
+            "rng": "2"
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"sixphasedbow+": {
+        "name": "Six-Phased Bow+",
+        "desc": "Doubles weapon Mt during counterattacks. When equipped, restores some HP after every turn. Wielder is not slowed by terrain effects. Ignores terrain effects on combat.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 8,
+            "hit": 85,
+			"crit": 5,
+            "avoid": -10,
+			"dodge": 10,
+            "rng": "1-2"
+        },
+        "forge": 0,
+        "type": "bow",
+    },
+	"callgodshand": {
+        "name": "Call: God's Hand",
+        "desc": "Summons Thor. Cannot crit, trigger offensive skills, or follow up. Deals Colossal Physical damage. User takes 25% max HP damage after use. Str+4, Skl-3, Def+3, Res-4.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 36,
+            "hit": 70,
+            "rng": "1",
+            "price": 6000,
+            "sell": 3000
+        },
+        "forge": 0,
+        "type": "dragonstone",
+		"equip": {
+			"stats": {
+           	"str": 4,
+			"skl": -3,
+			"def": 3,
+			"res": -4
+			}
+        }
+    },
+	"stylebrawler": {
+        "name": "Style: Brawler",
+        "desc": "Def/Res+4, Skl/Spd-3. Kiryu's street fighting style during his early days as a Yakuza. Unrefined, but got through most conflicts before his Legend style.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 80,
+			"dodge": 20,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "beaststone",
+		"equip": {
+			"stats": {
+           	"skl": -3,
+			"spd": -3,
+			"def": 4,
+			"res": 4
+			}
+        }
+    },
+	"stylerush": {
+        "name": "Style: Rush",
+        "desc": "Spd+5, Lck+6, Def/Res-3. Immediately strikes twice when user initiates combat. A speed-oriented style that delivers relentless blows.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 1,
+            "hit": 70,
+			"avoid": 20,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "beaststone",
+		"equip": {
+			"stats": {
+			"spd": 5,
+			"lck": 6,
+			"def": -3,
+			"res": -3
+			}
+        }
+    },
+	"stylerush": {
+        "name": "Style: Legend",
+        "desc": "Str+4, Skl+2, Spd+1, Lck-4, Def-1, Res-2. Doubles Mt when wielder's Skill is higher than the enemy's. Kiryu's default fighting style he has learned from Sotaro Komaki.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 85,
+			"crit": 15,
+			"dodge": 5,
+            "rng": "1"
+        },
+        "forge": 0,
+        "type": "beaststone",
+		"equip": {
+			"stats": {
+			"str": 4,
+			"skl": 2,
+			"spd": 1,
+			"lck": -4,
+			"def": -1,
+			"res": -2
+			}
+        }
     },
 }
