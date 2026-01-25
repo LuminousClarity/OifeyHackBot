@@ -5223,8 +5223,8 @@
             "mov": 0
         },
         "rank": {
-            "sword": 96,
-	    "bow": 161
+            "sword": 161,
+	    	"bow": 161
         },
         "skill": {
 	    "deathblow": 5,
@@ -5498,7 +5498,7 @@
         },
         "rank": {
 		"sword": 161,
-		"staff": 51
+		"staff": 21
         },
         "skill": {
 		"staffsavant": 5,
@@ -6522,7 +6522,7 @@
 			"tome": 161
 		},
         "skill": {
-		"axefaire": 5,
+		"ignis": 5,
 		"awakening": 15
         }
     },
@@ -6660,8 +6660,8 @@
         "skill": {
             "elbowroom": 5,
             "salvageblow": 10,
-	    "lifeanddeath": 25,
-	    "savageblow": 35
+	    	"lifeanddeath": 25,
+	    	"savageblow": 35
         }
     },
 	"starpraetorian": {
@@ -6728,8 +6728,8 @@
 	    "hidden": 161
 	},
         "skill": {
-	    "sealstrength": 5,
-	    "grislywound": 15
+	    "grislywound": 5,
+	    "inevitableend": 15
         }
     },
 	"nyanurai": {
@@ -6840,7 +6840,7 @@
             "res": 50
         },
         "growth": {
-            "hp": 5,
+            "hp": 10,
             "str": 10,
             "mag": 15,
             "skl": 15,
@@ -6874,14 +6874,14 @@
         "name": "Kindling Maiden",
         "promo": [],
         "base": {
-            "hp": 18,
-            "str": 4,
-            "mag": 5,
-            "skl": 9,
-            "spd": 8,
-            "lck": 4,
-            "def": 5,
-            "res": 4,
+            "hp": 20,
+            "str": 7,
+            "mag": 4,
+            "skl": 10,
+            "spd": 6,
+            "lck": 2,
+            "def": 7,
+            "res": 2,
             "mov": 6
         },
 	"bonus": {
@@ -6956,7 +6956,7 @@
             "lck": 2,
             "def": 7,
             "res": 1,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7006,7 +7006,7 @@
 	},
         "skill": {
             "vantage": 5,
-            "ignis": 10,
+            "quickdraw": 10,
         }
     },
 	"drakeprincess": {
@@ -7023,7 +7023,7 @@
             "lck": 1,
             "def": 3,
             "res": 3,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7090,7 +7090,7 @@
             "lck": 3,
             "def": 5,
             "res": 3,
-            "mov": 6
+            "mov": 7
         },
 	"bonus": {},
         "cap": {
@@ -7157,7 +7157,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7223,7 +7223,7 @@
             "lck": 4,
             "def": 2,
             "res": 6,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7290,7 +7290,7 @@
             "lck": 0,
             "def": 7,
             "res": 1,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7357,7 +7357,7 @@
             "lck": 4,
             "def": 5,
             "res": 4,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7424,7 +7424,7 @@
             "lck": 3,
             "def": 5,
             "res": 3,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7490,7 +7490,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7557,7 +7557,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7622,7 +7622,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7690,7 +7690,7 @@
             "lck": 4,
             "def": 1,
             "res": 4,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7756,7 +7756,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7824,7 +7824,7 @@
             "lck": 3,
             "def": 3,
             "res": 3,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7890,7 +7890,7 @@
             "lck": 1,
             "def": 2,
             "res": 4,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -7958,7 +7958,7 @@
             "lck": 4,
             "def": 2,
             "res": 5,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8024,7 +8024,7 @@
             "lck": 3,
             "def": 3,
             "res": 3,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8090,7 +8090,7 @@
             "lck": 2,
             "def": 4,
             "res": 1,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8155,7 +8155,7 @@
             "lck": 2,
             "def": 5,
             "res": 2,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8222,7 +8222,7 @@
             "lck": 4,
             "def": 7,
             "res": 0,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8289,7 +8289,7 @@
             "lck": 2,
             "def": 7,
             "res": 0,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8355,7 +8355,7 @@
             "lck": 2,
             "def": 4,
             "res": 1,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8422,7 +8422,7 @@
             "lck": 3,
             "def": 6,
             "res": 4,
-            "mov": 6
+            "mov": 5
         },
 	"bonus": {},
         "cap": {
@@ -8446,7 +8446,7 @@
             "res": 50
         },
         "growth": {
-            "hp": 5,
+            "hp": 10,
             "str": 10,
             "mag": 10,
             "skl": 15,
@@ -8474,6 +8474,484 @@
         "skill": {
             "magic2": 5,
             "sealresistance": 10,
+        }
+    },
+	"alchemist": {
+        "name": "Alchemist",
+        "promo": [],
+        "base": {
+            "hp": 20,
+            "str": 9,
+            "mag": 7,
+            "skl": 7,
+            "spd": 7,
+            "lck": 5,
+            "def": 7,
+            "res": 6,
+            "mov": 6
+        },
+	"bonus": {},
+        "cap": {
+            "hp": 65,
+            "str": 34,
+            "mag": 27,
+            "skl": 32,
+            "spd": 29,
+            "lck": 50,
+            "def": 30,
+            "res": 26
+        },
+        "generic": {
+            "hp": 80,
+            "str": 60,
+            "mag": 45,
+            "skl": 60,
+            "spd": 45,
+            "lck": 60,
+            "def": 45,
+            "res": 40
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 15,
+            "skl": 10,
+            "spd": 5,
+            "lck": 5,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 2,
+            "spd": 0,
+            "lck": 4,
+            "def": 0,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+	    "lance": 96,
+	    "stone": 251
+	},
+        "skill": {
+            "miracle": 5,
+            "rendheaven": 10,
+	    	"countermagic": 25,
+	    	"hoshidanunity": 35
+        }
+    },
+	"wayfarer": {
+        "name": "Wayfarer",
+        "promo": [
+		"trailblazer"
+	],
+        "base": {
+            "hp": 16,
+            "str": 0,
+            "mag": 3,
+            "skl": 5,
+            "spd": 5,
+            "lck": 4,
+            "def": 2,
+            "res": 5,
+            "mov": 5
+        },
+	"bonus": {},
+        "cap": {
+            "hp": 45,
+            "str": 17,
+            "mag": 22,
+            "skl": 22,
+            "spd": 20,
+            "lck": 24,
+            "def": 22,
+            "res": 20
+        },
+        "generic": {
+            "hp": 70,
+            "str": 35,
+            "mag": 55,
+            "skl": 60,
+            "spd": 45,
+            "lck": 45,
+            "def": 45,
+            "res": 40
+        },
+        "growth": {
+            "hp": 10,
+            "str": 0,
+            "mag": 15,
+            "skl": 10,
+            "spd": 5,
+            "lck": 0,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 2,
+            "res": 2,
+            "mov": 0
+        },
+        "rank": {
+	    "bow": 96,
+	    "staff": 21
+	},
+        "skill": {
+            "charm": 5,
+            "opportunityshot": 10
+        }
+    },
+	"trailblazer": {
+        "name": "Trailblazer",
+        "promo": [],
+        "base": {
+            "hp": 19,
+            "str": 3,
+            "mag": 7,
+            "skl": 6,
+            "spd": 9,
+            "lck": 5,
+            "def": 5,
+            "res": 8,
+            "mov": 6
+        },
+	"bonus": {
+	    "hit": 10,
+	    "dodge": 10
+	},
+        "cap": {
+            "hp": 65,
+            "str": 29,
+            "mag": 33,
+            "skl": 29,
+            "spd": 26,
+            "lck": 32,
+            "def": 37,
+            "res": 34
+        },
+        "generic": {
+            "hp": 70,
+            "str": 35,
+            "mag": 55,
+            "skl": 60,
+            "spd": 45,
+            "lck": 45,
+            "def": 50,
+            "res": 40
+        },
+        "growth": {
+            "hp": 10,
+            "str": 0,
+            "mag": 15,
+            "skl": 10,
+            "spd": 5,
+            "lck": 0,
+            "def": 15,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 0,
+            "mag": 2,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 3,
+            "res": 3,
+            "mov": 0
+        },
+        "rank": {
+	    "bow": 251,
+	    "staff": 96
+	},
+        "skill": {
+            "waryfighter": 5,
+            "bowfaire": 15
+        }
+    },
+	"yakuza": {
+        "name": "Yakuza",
+        "promo": [
+		"dragonofdojima"
+		],
+        "base": {
+            "hp": 16,
+            "str": 5,
+            "mag": 0,
+            "skl": 6,
+            "spd": 8,
+            "lck": 4,
+            "def": 4,
+            "res": 1,
+            "mov": 5
+        },
+	"bonus": {},
+        "cap": {
+            "hp": 45,
+            "str": 24,
+            "mag": 16,
+            "skl": 23,
+            "spd": 21,
+            "lck": 24,
+            "def": 23,
+            "res": 18
+        },
+        "generic": {
+            "hp": 100,
+            "str": 76,
+            "mag": 0,
+            "skl": 60,
+            "spd": 55,
+            "lck": 35,
+            "def": 55,
+            "res": 10
+        },
+        "growth": {
+            "hp": 15,
+            "str": 15,
+            "mag": 0,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 10,
+            "res": 0
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 4,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 2,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+		"sword": 21,
+	    "axe": 21,
+	    "stone": 96
+	},
+        "skill": {
+            "quickdraw": 5,
+            "dragonfang": 10
+        }
+    },
+	"dragonofdojima": {
+        "name": "Dragon of Dojima",
+        "promo": [],
+        "base": {
+            "hp": 19,
+            "str": 6,
+            "mag": 0,
+            "skl": 9,
+            "spd": 10,
+            "lck": 5,
+            "def": 8,
+            "res": 2,
+            "mov": 6
+        },
+	"bonus": {
+	    "crit": 5,
+	    "avoid": 10,
+		"dodge": 10
+	},
+        "cap": {
+            "hp": 70,
+            "str": 33,
+            "mag": 20,
+            "skl": 33,
+            "spd": 32,
+            "lck": 28,
+            "def": 34,
+            "res": 24
+        },
+        "generic": {
+            "hp": 105,
+            "str": 76,
+            "mag": 0,
+            "skl": 60,
+            "spd": 55,
+            "lck": 35,
+            "def": 55,
+            "res": 10
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 0,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 10,
+            "res": 0
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 5,
+            "mag": 0,
+            "skl": 0,
+            "spd": 0,
+            "lck": 0,
+            "def": 3,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+		"sword": 51,
+	    "axe": 51,
+	    "stone": 251
+	},
+        "skill": {
+            "spendthrift": 5,
+            "hoshidanunity": 15
+        }
+    },
+	"martialartist": {
+        "name": "Martial Artist",
+        "promo": [
+		"asura",
+		"spearmaster"
+		],
+        "base": {
+            "hp": 17,
+            "str": 7,
+            "mag": 7,
+            "skl": 6,
+            "spd": 7,
+            "lck": 2,
+            "def": 5,
+            "res": 3,
+            "mov": 5
+        },
+	"bonus": {
+		"avoid": 10
+	},
+        "cap": {
+            "hp": 40,
+            "str": 24,
+            "mag": 24,
+            "skl": 23,
+            "spd": 22,
+            "lck": 20,
+            "def": 21,
+            "res": 21
+        },
+        "generic": {
+            "hp": 75,
+            "str": 50,
+            "mag": 50,
+            "skl": 45,
+            "spd": 40,
+            "lck": 15,
+            "def": 35,
+            "res": 35
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 15,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 2,
+            "mag": 2,
+            "skl": 1,
+            "spd": 0,
+            "lck": 0,
+            "def": 1,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+	    "stone": 96
+	},
+        "skill": {
+            "heartseeker": 5,
+            "astra": 10
+        }
+    },
+	"asura": {
+        "name": "Asura",
+        "promo": [],
+        "base": {
+            "hp": 20,
+            "str": 10,
+            "mag": 9,
+            "skl": 8,
+            "spd": 9,
+            "lck": 2,
+            "def": 7,
+            "res": 4,
+            "mov": 6
+        },
+	"bonus": {
+		"crit": 5,
+		"avoid": 15,
+		"dodge": 5
+	},
+        "cap": {
+            "hp": 60,
+            "str": 33,
+            "mag": 31,
+            "skl": 32,
+            "spd": 31,
+            "lck": 26,
+            "def": 30,
+            "res": 29
+        },
+        "generic": {
+            "hp": 85,
+            "str": 60,
+            "mag": 60,
+            "skl": 55,
+            "spd": 50,
+            "lck": 15,
+            "def": 45,
+            "res": 45
+        },
+        "growth": {
+            "hp": 10,
+            "str": 15,
+            "mag": 15,
+            "skl": 15,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 3,
+            "mag": 3,
+            "skl": 1,
+            "spd": 0,
+            "lck": 0,
+            "def": 1,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+		"lance": 96,
+	    "stone": 255
+	},
+        "skill": {
+            "renewal": 5,
+            "aggressor": 15
         }
     },
 }
