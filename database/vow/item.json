@@ -5749,18 +5749,20 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 6,
+            "mt": 8,
             "hit": 85,
             "crit": 10,
-            "avoid": -5,
+            "avoid": 0,
 			"dodge": -5,
-            "rng": "2"
+            "rng": "1-2"
         },
         "forge": 0,
         "type": "bow",
 		"equip": {
             "stats": {
-                "lck": 5
+                "lck": 5,
+				"def": -1,
+				"res": -1
             }
         }
     },
@@ -5781,6 +5783,7 @@
         "type": "bow",
 		"equip": {
             "stats": {
+				"lck": 3,
                 "def": -1,
 				"res": -1
             }
@@ -5970,14 +5973,20 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 8,
             "hit": 90,
             "crit": 5,
             "avoid": 20,
             "rng": "1"
         },
         "forge": 0,
-        "type": "sword"
+        "type": "sword",
+		"equip": {
+            "stats": {
+                "def": 1,
+				"res": 1
+            }
+        }
     },
 	"lightsaber": {
         "name": "Lightsaber",
@@ -6096,11 +6105,11 @@
     },
 	"yamato": {
         "name": "Yamato",
-        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Enables the wielder to strike twice when attacking. Doubles Mt on attack. Spd/Skil+2 when carried.",
+        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Enables the wielder to strike twice when attacking. Spd/Skil+2 when carried.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 6,
+            "mt": 8,
             "hit": 85,
             "crit": 10,
             "avoid": 5,
@@ -6114,7 +6123,7 @@
 			"spd": 2,
 			"def": -1,
 			"res": -1,
-			"doubling_speed": -5
+			"doubling_speed": -7
             }
         }
     },
@@ -6368,7 +6377,7 @@
         		"spd": 1,
 	    		"def": -1,
 				"res": -1,
-				"doubling_speed": -5
+				"doubling_speed": -7
 		}
         }
     },
@@ -6576,13 +6585,14 @@
     },
 	"crescentrose+": {
         "name": "Crescent Rose+",
-        "desc": "Ruby's signature weapon. Doubles Mt when wielder's Skill is higher than the enemy's. Effective against monsters and beasts.",
+        "desc": "Ruby's signature weapon. Effective against monsters and beaststone.",
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 12,
+            "mt": 14,
             "hit": 80,
-            "avoid": 10,
+			"dodge": 5,
+            "avoid": 15,
             "rng": "1",
             "price": 2000,
             "sell": 750
@@ -6591,9 +6601,7 @@
         "type": "naginata",
 	"equip": {
 		"stats": {
-			"spd": 2,
-			"def": -1,
-			"res": -1
+			"spd": 3
 			}
         }
     },
@@ -6603,9 +6611,9 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 10,
-            "hit": 80,
-            "avoid": 5,
+            "mt": 12,
+            "hit": 75,
+            "avoid": 10,
             "rng": "1",
             "price": 2000,
             "sell": 750
@@ -6614,9 +6622,7 @@
         "type": "naginata",
 	"equip": {
 		"stats": {
-			"spd": 2,
-			"def": -1,
-			"res": -1
+			"spd": 2
 			}
         }
     },
@@ -6626,7 +6632,7 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 7,
+            "mt": 8,
             "hit": 70,
             "avoid": -10,
 	    "dodge": -5,
@@ -6638,7 +6644,9 @@
         "type": "naginata",
 	"equip": {
 		"stats": {
-			"doubling_speed": -3
+			"doubling_speed": -3,
+			"def": -1,
+			"res": -1
 		}
 	}
     },
@@ -6660,7 +6668,9 @@
         "type": "naginata",
 	"equip": {
 		"stats": {
-			"doubling_speed": -3
+			"doubling_speed": -3,
+			"def": -1,
+			"res": -1
 		}
 	}
     },
@@ -6789,7 +6799,7 @@
     },
 	"malorianarms": {
         "name": "Malorian Arms",
-        "desc": "Makes follow-up attacks more difficult to perform (-5 effective Spd). Inverts weapon advantage and doubles its effects. Cannot double, but strikes twice when attacking. Effective against fliers. A custom gun made for a particular legend of Night City.",
+        "desc": "Inverts weapon advantage and doubles its effects. Cannot double, but strikes twice when attacking. Effective against fliers. A custom gun made for a particular legend of Night City.",
         "weapon": true,
         "stats": {
             "rank": "E",
@@ -6803,9 +6813,7 @@
         "forge": 0,
         "type": "bow",
 	"equip": {
-		"stats": {
-			"doubling_speed": -5
-		}
+		"stats": {}
         }
     },
 	"shinrarifle": {
@@ -6890,9 +6898,10 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 8,
+            "mt": 7,
             "hit": 85,
-            "crit": 15,
+			"dodge": 10,
+            "crit": 5,
             "rng": "1",
             "price": 4000,
             "sell": 1000
