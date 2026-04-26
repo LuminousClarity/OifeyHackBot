@@ -5028,11 +5028,11 @@
         "promo": [],
         "base": {
             "hp": 18,
-            "str": 6,
+            "str": 8,
             "mag": 0,
             "skl": 8,
             "spd": 9,
-            "lck": 3,
+            "lck": 5,
             "def": 5,
             "res": 6,
             "mov": 8
@@ -5096,14 +5096,14 @@
         "name": "The Negotiator",
         "promo": [],
         "base": {
-            "hp": 21,
+            "hp": 20,
             "str": 5,
             "mag": 7,
-            "skl": 10,
-            "spd": 8,
+            "skl": 6,
+            "spd": 7,
             "lck": 5,
             "def": 7,
-            "res": 6,
+            "res": 8,
             "mov": 6
         },
 	"bonus": {
@@ -5157,7 +5157,7 @@
 	    "tome": 96
         },
         "skill": {
-		"countermagic": 5,
+		"vengeance": 5,
 		"boldstance": 15
         }
     },
@@ -5227,8 +5227,8 @@
 	    	"bow": 161
         },
         "skill": {
-	    "deathblow": 5,
-	    "luna": 15
+	    "luna": 5,
+	    "deathblow": 15
         }
     },
 	"seesleader": {
@@ -5316,8 +5316,8 @@
             "mov": 6
         },
 	"bonus": {
-            "hit": 5,
-	    "dodge": 10
+            "hit": 10,
+	    	"dodge": 5
 	},
         "cap": {
             "hp": 65,
@@ -5452,8 +5452,8 @@
         },
 	"bonus": {
             "hit": 10,
-	    "avoid": 5,
-	    "dodge": 5
+	    	"avoid": 5,
+	    	"dodge": 5
 		},
         "cap": {
             "hp": 65,
@@ -5502,7 +5502,7 @@
         },
         "skill": {
 		"staffsavant": 5,
-		"counter": 15
+		"awakening": 15
         }
     },
 	"nightcitylegend": {
@@ -5614,10 +5614,10 @@
         "growth": {
             "hp": 20,
             "str": 20,
-            "mag": 0,
-            "skl": 0,
-            "spd": 10,
-            "lck": 10,
+            "mag": 5,
+            "skl": 10,
+            "spd": 15,
+            "lck": 0,
             "def": 15,
             "res": 0
         },
@@ -6936,10 +6936,10 @@
 	    "tome": 161
 	},
         "skill": {
-            "ironwill": 5,
+            "amatersau": 5,
             "ignis": 10,
-	    "pass": 25,
-	    "shurikenfaire": 35
+	    	"pass": 25,
+	    	"shurikenfaire": 35
         }
     },
 	"monarch": {
@@ -7340,7 +7340,7 @@
         },
         "skill": {
 	    "vantage": 5,
-	    "lifetaker": 10
+	    "miracle": 10
         }
     },
 	"jedimaster": {
@@ -7350,13 +7350,13 @@
 	],
         "base": {
             "hp": 18,
-            "str": 4,
-            "mag": 5,
-            "skl": 9,
-            "spd": 8,
+            "str": 3,
+            "mag": 4,
+            "skl": 3,
+            "spd": 5,
             "lck": 4,
             "def": 5,
-            "res": 4,
+            "res": 5,
             "mov": 5
         },
 	"bonus": {},
@@ -7406,8 +7406,8 @@
 	    "tome": 51
         },
         "skill": {
-		"sealstrength": 5,
-		"vengeance": 10
+		"strongriposte": 5,
+		"sealstrength": 10
         }
     },
 	"heiressofvalla": {
@@ -8314,11 +8314,11 @@
         },
         "growth": {
             "hp": 20,
-            "str": 15,
-            "mag": 0,
-            "skl": 0,
-            "spd": 10,
-            "lck": 10,
+            "str": 20,
+            "mag": 5,
+            "skl": 5,
+            "spd": 15,
+            "lck": 0,
             "def": 15,
             "res": 0
         },
@@ -8357,7 +8357,9 @@
             "res": 1,
             "mov": 5
         },
-	"bonus": {},
+        "bonus": {
+            "hit": 5
+        },
         "cap": {
             "hp": 65,
             "str": 37,
