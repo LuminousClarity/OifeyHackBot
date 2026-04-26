@@ -7068,11 +7068,11 @@
         }
     },
 	"aerith": {
-        "name": "Aerith",
+        "name": "Aerith Gainsborough",
         "job": "flowergirl",
         "portrait": "aerith.png",
         "lvl": 16,
-        "personal": "quietstrength",
+        "personal": "hiddenbloom",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -7203,11 +7203,11 @@
         }
 	},
 	"asagi": {
-        "name": "Asagi",
+        "name": "Asagi Asagiri",
         "job": "sniperofdemons",
         "portrait": "asagi.png",
         "lvl": 12,
-        "personal": "swordbreaker",
+        "personal": "dabegmoney",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -7351,7 +7351,7 @@
         "set": [
             "heiressofvalla",
 			"cavalier",
-			"skyknight"
+			"samurai"
         ],
         "base": {
             "normal": {
@@ -7616,7 +7616,7 @@
         "job": "witcher",
         "portrait": "geralt.png",
         "lvl": 8,
-        "personal": "quicksalve",
+        "personal": "whitewolf",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -7764,34 +7764,34 @@
         ],
         "base": {
             "normal": {
-                "hp": 3,
+                "hp": 4,
                 "str": 2,
-                "mag": 4,
-                "skl": 8,
-                "spd": 3,
-                "lck": 3,
-                "def": 2,
-                "res": 6
+                "mag": 5,
+                "skl": 3,
+                "spd": 1,
+                "lck": 2,
+                "def": 3,
+                "res": 3
             },
             "hard": {
-                "hp": 3,
+                "hp": 4,
                 "str": 2,
-                "mag": 4,
-                "skl": 8,
-                "spd": 3,
-                "lck": 3,
-                "def": 2,
-                "res": 6
+                "mag": 5,
+                "skl": 3,
+                "spd": 1,
+                "lck": 2,
+                "def": 3,
+                "res": 3
             },
             "lunatic": {
-                "hp": 3,
+                "hp": 4,
                 "str": 2,
-                "mag": 4,
-                "skl": 8,
-                "spd": 3,
-                "lck": 3,
-                "def": 2,
-                "res": 6
+                "mag": 5,
+                "skl": 3,
+                "spd": 1,
+                "lck": 2,
+                "def": 3,
+                "res": 3
             }
         },
         "cap": {
@@ -7884,7 +7884,7 @@
         "job": "sageofwar",
         "portrait": "iroryu.png",
         "lvl": 15,
-        "personal": "galeforce",
+        "personal": "dragonswrath",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -8019,11 +8019,11 @@
         }
     },
 	"jessie": {
-        "name": "Jessie",
+        "name": "Jessie Jane",
         "job": "rancher",
         "portrait": "jessie.png",
         "lvl": 9,
-        "personal": "elbowroom",
+        "personal": "cowgirlcanter",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -8152,11 +8152,11 @@
         }
     },
 	"kenobi": {
-        "name": "Kenobi",
+        "name": "Obi-Wan Kenobi",
         "job": "jedimaster",
         "portrait": "kenobi.png",
         "lvl": 8,
-        "personal": "strongriposte",
+        "personal": "soresu",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -8170,14 +8170,14 @@
         ],
         "base": {
             "normal": {
-                "hp": 6,
-                "str": 4,
+                "hp": 5,
+                "str": 5,
                 "mag": 6,
-                "skl": 1,
-                "spd": 2,
-                "lck": 6,
-                "def": 4,
-                "res": 8
+                "skl": 6,
+                "spd": 4,
+                "lck": 5,
+                "def": 3,
+                "res": 5
             },
             "hard": {
                 "hp": 6,
@@ -8291,7 +8291,7 @@
         "job": "wanderer",
         "portrait": "kotomi.png",
         "lvl": 7,
-        "personal": "inextremis",
+        "personal": "attheprecipice",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -8420,11 +8420,11 @@
         }
     },
 	"kotone": {
-        "name": "Kotone",
+        "name": "Kotone Shiomi",
         "job": "seesmember",
         "portrait": "kotone.png",
         "lvl": 13,
-        "personal": "potentpotion",
+        "personal": "thefool",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -8694,7 +8694,7 @@
         "job": "huntress",
         "portrait": "ruby.png",
         "lvl": 12,
-        "personal": "speedtaker",
+        "personal": "scatteringpetals",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -8822,7 +8822,7 @@
         "job": "visionary",
         "portrait": "shulk.png",
         "lvl": 9,
-        "personal": "awakening",
+        "personal": "rightbackatyou",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -8948,11 +8948,11 @@
         }
     },
 	"silverhand": {
-        "name": "Silverhand",
+        "name": "Johnny Silverhand",
         "job": "rockerboy",
         "portrait": "silverhand.png",
         "lvl": 12,
-        "personal": "fancyfootwork",
+        "personal": "encorerebel",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -9088,7 +9088,7 @@
         "job": "immoralflame",
         "portrait": "solbadguy.png",
         "lvl": 13,
-        "personal": "fieryblood",
+        "personal": "bruteforce",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -9104,7 +9104,7 @@
             "normal": {
                 "hp": 11,
                 "str": 10,
-                "mag": 0,
+                "mag": 5,
                 "skl": 10,
                 "spd": 9,
                 "lck": 8,
@@ -9114,7 +9114,7 @@
             "hard": {
                 "hp": 11,
                 "str": 10,
-                "mag": 0,
+                "mag": 5,
                 "skl": 10,
                 "spd": 9,
                 "lck": 8,
@@ -9124,7 +9124,7 @@
             "lunatic": {
                 "hp": 11,
                 "str": 10,
-                "mag": 0,
+                "mag": 5,
                 "skl": 10,
                 "spd": 9,
                 "lck": 8,
@@ -9143,14 +9143,14 @@
             "res": -2
         },
         "growth": {
-            "hp": 65,
-            "str": 50,
+            "hp": 70,
+            "str": 65,
             "mag": 20,
-            "skl": 50,
+            "skl": 40,
             "spd": 50,
             "lck": 30,
             "def": 40,
-            "res": 30
+            "res": 20
         },
         "rank": {
             "normal": {
@@ -9227,8 +9227,8 @@
         "variable": false,
         "set": [
             "warrioroflight",
-	    "spearfighter",
-	    "outlaw"
+	    	"spearfighter",
+	    	"cavalier"
         ],
         "base": {
             "normal": {
@@ -9352,7 +9352,7 @@
         "job": "scionofsparda",
         "portrait": "tara.png",
         "lvl": 13,
-        "personal": "hoshidanunity",
+        "personal": "showoff",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -9488,7 +9488,7 @@
         "job": "darkslayer",
         "portrait": "vergil.png",
         "lvl": 13,
-        "personal": "replicate",
+        "personal": "absolutemotivation",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -9721,7 +9721,7 @@
         "job": "soldier1st",
         "portrait": "zack.png",
         "lvl": 16,
-        "personal": "puissance",
+        "personal": "priceoffreedom",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -9853,11 +9853,11 @@
         }
     },
 	"zoro": {
-        "name": "Zoro",
+        "name": "Rorona Zoro",
         "job": "piratehunter",
         "portrait": "zoro.png",
         "lvl": 16,
-        "personal": "puissance",
+        "personal": "threeswordstyle",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -9988,7 +9988,7 @@
         "job": "royalsummoner",
         "portrait": "melia.png",
         "lvl": 16,
-        "personal": "maleficaura",
+        "personal": "essenceofether",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -10252,7 +10252,7 @@
         "job": "uniformedgirl",
         "portrait": "yukiko.png",
         "lvl": 13,
-        "personal": "calm",
+        "personal": "magicability",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -10389,7 +10389,7 @@
         "job": "kindlingmaiden",
         "portrait": "melina.png",
         "lvl": 30,
-        "personal": "amaterasu",
+        "personal": "sacredauthority",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -10398,8 +10398,8 @@
         "variable": false,
         "set": [
             "kindlingmaiden",
-	    "thief",
-	    "troubadour"
+	    	"thief",
+	    	"diviner"
         ],
         "base": {
             "normal": {
@@ -10540,8 +10540,8 @@
         "variable": false,
         "set": [
             "alchemist",
-	    "spearfighter",
-	    "knight"
+	    	"spearfighter",
+	    	"martialartist"
         ],
         "base": {
             "normal": {
@@ -10817,8 +10817,8 @@
         "variable": false,
         "set": [
             "yakuza",
-	    "martialartist",
-	    "onisavage"
+	    	"martialartist",
+	    	"onisavage"
         ],
         "base": {
             "normal": {
@@ -10874,15 +10874,18 @@
         },
         "rank": {
             "normal": {
-                "dagger": 21,
+                "sword": 21,
+				"axe": 21,
 				"stone": 51
             },
             "hard": {
-                "dagger": 21,
+                "sword": 21,
+				"axe": 21,
 				"stone": 51
             },
             "lunatic": {
-                "dagger": 21,
+                "sword": 21,
+				"axe": 21,
 				"stone": 51
             }
         },
