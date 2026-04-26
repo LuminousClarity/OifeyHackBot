@@ -1782,114 +1782,152 @@
         "name": "Dragon's Wrath",
         "desc": "If this unit initiates an attack and defeats the enemy, take another turn and grants Str/Mag+4 for one turn. Bonuses don't stack with Rally Str/Mag, and Galeforce.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Iroryu"
+        }
     },
     "sacredauthority": {
         "name": "Sacred Authority",
         "desc": "Negates enemy activation skills and Vantage when unit is attacking or is being attacked. Enemies with Divine Shield or Dragonskin are immune to this effect, unless user also has those skills.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Melina"
+        }
     },
     "magicability": {
         "name": "Magic Ability",
         "desc": "When attacking with magical weapons, increase their Might by 25%.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Yukiko"
+        }
     },
     "bruteforce": {
         "name": "Brute Force",
         "desc": "Ignores Def/Res (up to 10) when unit is initiates an attack based on Str/6.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Sol Badguy"
+        }
     },
     "soresu": {
         "name": "Soresu",
         "desc": "Reduces damage taken by Mag/5 (up to 10) when enemy initiates an attack.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Obi-Wan Kenobi"
+        }
     },
     "whitewolf": {
         "name": "The White Wolf",
         "desc": "Grants Quick Salve and Potent Potion, except HP-recovery items are 220% potent. Once per map, when about to take a lethal blow, takes half damage instead to a minimum of 1 HP.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Geralt"
+        }
     },
     "threeswordstyle": {
         "name": "Three Sword Style",
         "desc": "Increases the trigger rate of skills by 15% when this unit is carrying three or more swords/katanas.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Rorona Zoro"
+        }
     },
     "thefool": {
         "name": "The Fool",
         "desc": "This unit deals +2 damage for every Dragonstone in their inventory.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Kotone Shiomi"
+        }
     },
     "priceoffreedom": {
         "name": "The Price of Freedom",
         "desc": "Within 5 spaces, +1 damage dealt per ally and -1 damage taken per enemy (max 6). If no allies are nearby, grants +2 damage dealt and +1 damage taken (max 12 and 6) per enemy instead.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Zack Fair"
+        }
     },
     "scatteringpetals": {
         "name": "Scattering Petals",
         "desc": "Grants Speedtaker. Allows user to perform a consecutive attack upon activation, regardless of Speed differences. Trigger % = (0.75 x Speed stat).",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Ruby Rose"
+        }
     },
     "absolutemotivation": {
         "name": "Absolute Motivation",
         "desc": "Grants use of Replicate command. Use once per battle to create a replica. If user or their replica is in Attack Stance, they will deal full damage instead of half. Does not account additional bonuses from pair-ups.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Vergil"
+        }
     },
     "dabegmoney": {
         "name": "Da Beg Money!",
         "desc": "When Asagi initiates an attack, she will gain gold equal to her Luck x 5.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Asagi Asagiri"
+        }
     },
     "hiddenbloom": {
         "name": "Hidden Bloom",
         "desc": "After unit initiates combat or target heals with a staff/rod, restores HP to allies within three spaces equal to unit's Res/3 after combat or healing.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Aerith Gainsborough"
+        }
     },
     "essenceofether": {
         "name": "Essence of Ether",
         "desc": "If an ally within 3 spaces initiates combat with a magic weapon, they gain +10 Hit and +3 Damage.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Melia"
+        }
     },
     "showoff": {
         "name": "Show-Off",
         "desc": "If unit leaves combat undamaged or target healed by a staff/rod, gain one skill stack. Each stack (max 10) grants +2% Avoid and skill activation. If unit uses Wait within four spaces of an enemy, gains two stacks. Stacks reset when unit takes damage during combat.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Tara"
+        }
     },
     "encorerebel": {
         "name": "Encore Rebel",
         "desc": "After the unit sings, activates every rally skill they have in their skill slot.",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Johnny Silverhand"
+        }
     },
     "rightbackatyou": {
         "name": "Right Back At You!",
         "desc": "If this unit avoids or takes no damage from an attack, immediately follow-up attack. Cannot trigger if wielding a weapon that blocks offensive skills. In Attack Stance, unit may follow-up attack if the lead unit they're supporting receives damage during battle. Does not work with Bold Stance and ally must be able to counter attack. Trigger % = (Speed stat x 1.5)",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Shulk"
+        }
     },
     "attheprecipice": {
         "name": "At The Precipice",
         "desc": "As unit's HP falls, grants bonuses based on current HP. ≤90% HP (+1 damage, +10 Crit), ≤60% HP (+2 damage, +20 Crit), ≤30% HP (+3 damage, +30 Crit).",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Kotomi"
+        }
     },
     "cowgirlcanter": {
         "name": "Cowgirl Canter",
         "desc": "This unit deals +3 damage when fighting in a space with no terrain effects. Unit may move after initiating combat. Unit may trade during this movement, but cannot attack, use items, access Convoy, break objects, or Pair-Up. Canter Movement = (Total Movement - 4).",
         "emoji": "",
-        "reference": {}
+        "reference": {
+            "Personal": "Jessie Jane"
+        }
     }
 }
