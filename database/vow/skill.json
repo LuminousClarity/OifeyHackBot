@@ -1836,7 +1836,7 @@
     },
     "thefool": {
         "name": "The Fool",
-        "desc": "This unit deals +2 damage for every Dragonstone in their inventory.",
+        "desc": "After initiating combat, if one hit deals damage equal to at least 20% of this unit's Atk while at weapon advantage, or lands a critical hit with any weapon, refreshes a selected ally within 2 spaces who has already acted. Only once per turn.",
         "emoji": "",
         "reference": {
             "Personal": "Kotone Shiomi"
@@ -1900,7 +1900,7 @@
     },
     "encorerebel": {
         "name": "Encore Rebel",
-        "desc": "After the unit sings, activates every rally skill they have in their skill slot.",
+        "desc": "When a unit sings an ally, gives a personal rally based on the total sum of their stats/40 (minimum of 1), then activates every rally skill they have in their skill slot.",
         "emoji": "",
         "reference": {
             "Personal": "Johnny Silverhand"
@@ -1928,6 +1928,22 @@
         "emoji": "",
         "reference": {
             "Personal": "Jessie Jane"
+        }
+    },
+    "phalanx": {
+        "name": "Phalanx",
+        "emoji": "",
+        "desc": "Within two spaces, -1 damage taken per ally and +1 damage dealt every two allies in range on unit, with a cap of -4/+2. If there are allies with the same skill in range, increases bonus cap to a maximum of -10/+5.",
+        "reference": {
+            "Class": "Soldier (Lv. 10)"
+        }
+    },
+    "jump": {
+        "name": "Jump",
+        "emoji": "",
+        "desc": "Dragoon only. Select an enemy within twice the unit's total Movement. The unit attacks once, dealing 1.5x the normal damage, then lands on an adjacent unoccupied tile. Jump cannot trigger follow-up attacks, offensive skills, or Brave effects. After landing, the unit's action ends unless they can use Swap, Shelter, Shove, Galeforce, or Canter.",
+        "reference": {
+            "Class": "Dragoon (Lv. 5)"
         }
     }
 }
