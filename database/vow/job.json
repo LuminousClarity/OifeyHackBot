@@ -8956,4 +8956,143 @@
             "aggressor": 15
         }
     },
+	"soldier": {
+        "name": "Soldier",
+        "promo": [
+		"dragoon",
+		"paladin",
+		"greatknight"
+		],
+        "base": {
+            "hp": 17,
+            "str": 5,
+            "mag": 3,
+            "skl": 5,
+            "spd": 5,
+            "lck": 2,
+            "def": 5,
+            "res": 2,
+            "mov": 5
+        },
+	"bonus": {
+		"hit": 10,
+		"crit": 5
+	},
+        "cap": {
+            "hp": 40,
+            "str": 21,
+            "mag": 15,
+            "skl": 20,
+            "spd": 20,
+            "lck": 21,
+            "def": 22,
+            "res": 20
+        },
+        "generic": {
+            "hp": 70,
+            "str": 50,
+            "mag": 30,
+            "skl": 45,
+            "spd": 45,
+            "lck": 25,
+            "def": 50,
+            "res": 35
+        },
+        "growth": {
+            "hp": 10,
+            "str": 10,
+            "mag": 5,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 10,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 2,
+            "mag": 0,
+            "skl": 1,
+            "spd": 1,
+            "lck": 0,
+            "def": 2,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+	    "lance": 96
+	},
+        "skill": {
+            "defense+2": 5,
+            "phalanx": 10
+        }
+    },
+	"dragoon": {
+        "name": "Dragoon",
+        "promo": [],
+        "base": {
+            "hp": 20,
+            "str": 8,
+            "mag": 5,
+            "skl": 7,
+            "spd": 7,
+            "lck": 3,
+            "def": 8,
+            "res": 3,
+            "mov": 6
+        },
+	"bonus": {
+		"hit": 10,
+		"avoid": 5,
+		"crit": 5
+	},
+        "cap": {
+            "hp": 60,
+            "str": 32,
+            "mag": 27,
+            "skl": 32,
+            "spd": 30,
+            "lck": 27,
+            "def": 33,
+            "res": 27
+        },
+        "generic": {
+            "hp": 70,
+            "str": 55,
+            "mag": 30,
+            "skl": 45,
+            "spd": 45,
+            "lck": 25,
+            "def": 50,
+            "res": 35
+        },
+        "growth": {
+            "hp": 20,
+            "str": 15,
+            "mag": 5,
+            "skl": 10,
+            "spd": 10,
+            "lck": 0,
+            "def": 15,
+            "res": 10
+        },
+        "pairup": {
+	    "hp": 0,
+            "str": 3,
+            "mag": 0,
+            "skl": 1,
+            "spd": 1,
+            "lck": 0,
+            "def": 3,
+            "res": 0,
+            "mov": 0
+        },
+        "rank": {
+		"lance": 251
+	},
+        "skill": {
+            "jump": 5,
+            "lancefaire": 15
+        }
+    },
 }
