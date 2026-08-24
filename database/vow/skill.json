@@ -1804,7 +1804,7 @@
     },
     "bruteforce": {
         "name": "Brute Force",
-        "desc": "Ignores Def/Res (up to 10) when unit is initiates an attack based on Str/6.",
+        "desc": "Deals true damage (up to 10) based on Str/6.",
         "emoji": "",
         "reference": {
             "Personal": "Sol Badguy"
@@ -1928,6 +1928,78 @@
         "emoji": "",
         "reference": {
             "Personal": "Jessie Jane"
+        }
+    },
+    "felyneconfidence": {
+        "name": "Felyne Confidence",
+        "desc": "At max HP, grants Hit/Avoid+20. These bonuses decrease as unit's HP lowers.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Chad"
+        }
+    },
+    "queensresolve": {
+        "name": "Queen's Resolve",
+        "desc": "Grants Quixotic. When above 50% HP, grants -3 damage taken. When below 50% HP, grants an additional +10% skill activation instead.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Beatrice"
+        }
+    },
+    "airheadhero": {
+        "name": "Airhead Hero",
+        "desc": "Unit gains Crit +2 each turn and +1 damage every other turn, capped at turn 8.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Tanya"
+        }
+    },
+    "steeleddrive": {
+        "name": "Steeled Drive",
+        "desc": "If unit deals at least 1 damage during combat, gains +1 damage dealt/effective speed, up to 6. If unit misses or deals no damage, bonuses resets to 0.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Labrys"
+        }
+    },
+    "seasonedcommander": {
+        "name": "Seasoned Commander",
+        "desc": "Grants 2% additional EXP to army for every ally on field. For every two allies on field, grants Hit+1 to unit. Unit must be lead on map for skill to be active.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Gonar"
+        }
+    },
+    "instinctualfamiliarity": {
+        "name": "Instinctual Familiarity",
+        "desc": "After an enemy damages unit, grants Avo+10 and -3 damage taken against that enemy until battle ends or unit is defeated.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Cathy"
+        }
+    },
+    "tigerdrop": {
+        "name": "Tiger Drop",
+        "desc": "If an enemy initiates combat and unit can counterattack, unit attacks first dealing current HP/2 as damage. Unit is guaranteed to hit. After striking, foe's first attack deals 0 damage. Trigger % = (Skill stat x 0.75)",
+        "emoji": "",
+        "reference": {
+            "Personal": "Kiryu"
+        }
+    },
+    "fleetingheart": {
+        "name": "A Fleeting Heart",
+        "desc": "Grants Nohrian Trust. When unit is lead in a pair-up, uses certain battle skills of their partner as if it were their own. If the lead in Attack Stance, only damage dealt/taken and non-post combat skills will be used.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Xion"
+        }
+    },
+    "powerofcuteness": {
+        "name": "Power of Cuteness",
+        "desc": "Grants Shield command. On use, creates Shield HP=Def/3+Res/3, absorbing damage for allies within 4 spaces. If an enemy initiates combat within range while Shield HP remains, immediately triggers Opportunity Shot.",
+        "emoji": "",
+        "reference": {
+            "Personal": "March 7th"
         }
     },
     "phalanx": {
