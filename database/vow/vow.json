@@ -861,22 +861,22 @@
         "job": "drakeprincess",
         "portrait": "cathy.png",
         "lvl": 5,
-        "personal": "pass",
+        "personal": "instinctualfamiliarity",
         "father": false,
         "mother": false,
         "gender": "f",
         "blood": false,
         "skill": {
             "normal": [
-                "pass",
+                "instinctualfamiliarity",
                 "sealspeed"
             ],
             "hard": [
-                "pass",
+                "instinctualfamiliarity",
                 "sealspeed"
             ],
             "lunatic": [
-                "pass",
+                "instinctualfamiliarity",
                 "sealspeed"
             ]
         },
@@ -7150,17 +7150,14 @@
         },
         "skill": {
             "normal": [
-                "quietstrength",
 				"maleficaura",
 				"voiceofpeace"
             ],
             "hard": [
-                "quietstrength",
 				"maleficaura",
 				"voiceofpeace"
             ],
             "lunatic": [
-                "quietstrength",
 				"maleficaura",
 				"voiceofpeace"
             ]
@@ -7283,17 +7280,14 @@
         },
         "skill": {
             "normal": [
-                "swordbreaker",
 				"ironwill",
 				"pointblank"
             ],
             "hard": [
-                "swordbreaker",
 				"ironwill",
 				"pointblank"
             ],
             "lunatic": [
-                "swordbreaker",
 				"ironwill",
 				"pointblank"
             ]
@@ -7341,7 +7335,7 @@
         "job": "heiressofvalla",
         "portrait": "beatrice.png",
         "lvl": 15,
-        "personal": "quixotic",
+        "personal": "queensresolve",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -7420,17 +7414,14 @@
         },
         "skill": {
             "normal": [
-                "quixotic",
 				"charm",
 				"pavise"
             ],
             "hard": [
-                "quixotic",
 				"charm",
 				"pavise"
             ],
             "lunatic": [
-                "quixotic",
 				"charm",
 				"pavise"
             ]
@@ -7696,15 +7687,12 @@
         },
         "skill": {
             "normal": [
-                "quicksalve",
 				"dancingblade"
             ],
             "hard": [
-                "quicksalve",
 				"dancingblade"
             ],
             "lunatic": [
-                "quicksalve",
 				"dancingblade"
             ]
         },
@@ -7750,7 +7738,7 @@
         "job": "conqueror",
         "portrait": "gonar.png",
         "lvl": 1,
-        "personal": "winddisciple",
+        "personal": "seasonedcommander",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -7830,19 +7818,13 @@
         },
         "skill": {
             "normal": [
-                "winddisciple",
-		"vantage",
-		"quickdraw"
+				"quickdraw"
             ],
             "hard": [
-                "winddisciple",
-		"vantage",
-		"quickdraw"
+				"quickdraw"
             ],
             "lunatic": [
-                "winddisciple",
-		"vantage",
-		"quickdraw"
+				"quickdraw"
             ]
         },
 		"pairup": {
@@ -7967,19 +7949,16 @@
         },
         "skill": {
             "normal": [
-                "galeforce",
-		"heartseeker",
-		"ignis"
+				"heartseeker",
+				"ignis"
             ],
             "hard": [
-                "galeforce",
-		"heartseeker",
-		"ignis"
+				"heartseeker",
+				"ignis"
             ],
             "lunatic": [
-                "galeforce",
-		"heartseeker",
-		"ignis"
+				"heartseeker",
+				"ignis"
             ]
         },
 		"pairup": {
@@ -8103,16 +8082,13 @@
         },
         "skill": {
             "normal": [
-                "elbowroom",
-		"pass"
+				"pass"
             ],
             "hard": [
-                "elbowroom",
-		"pass"
+				"pass"
             ],
             "lunatic": [
-                "elbowroom",
-		"pass"
+				"pass"
             ]
         },
 		"pairup": {
@@ -8165,8 +8141,8 @@
         "variable": false,
         "set": [
             "jedimaster",
-	    "samurai",
-	    "monk"
+	   		"samurai",
+	    	"monk"
         ],
         "base": {
             "normal": {
@@ -8236,16 +8212,13 @@
         },
         "skill": {
             "normal": [
-                "strongriposte",
-		"sealstrength"
+				"strongriposte"
             ],
             "hard": [
-                "strongriposte",
-		"sealstrength"
+				"strongriposte"
             ],
             "lunatic": [
-                "strongriposte",
-		"sealstrength"
+				"strongriposte"
             ]
         },
 		"pairup": {
@@ -8371,16 +8344,13 @@
         },
         "skill": {
             "normal": [
-                "inextremis",
-		"vantage"
+				"vantage"
             ],
             "hard": [
-                "inextremis",
-		"vantage"
+				"vantage"
             ],
             "lunatic": [
-                "inextremis",
-		"vantage"
+				"vantage"
             ]
         },
 		"pairup": {
@@ -8510,16 +8480,13 @@
         },
         "skill": {
             "normal": [
-                "dualstriker",
-		"trample"
+				"trample"
             ],
             "hard": [
-                "dualstriker",
-		"trample"
+				"trample"
             ],
             "lunatic": [
-                "dualstriker",
-		"trample"
+				"trample"
             ]
         },
 		"pairup": {
@@ -8563,7 +8530,7 @@
         "job": "unit31",
         "portrait": "labrys.png",
         "lvl": 13,
-        "personal": "strengthtaker",
+        "personal": "steeleddrive",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -8641,18 +8608,18 @@
         "skill": {
             "normal": [
                 "luck4",
-		"miracle",
-		"heavyblade"
+				"miracle",
+				"heavyblade"
             ],
             "hard": [
                 "luck4",
-		"miracle",
-		"heavyblade"
+				"miracle",
+				"heavyblade"
             ],
             "lunatic": [
                 "luck4",
-		"miracle",
-		"heavyblade"
+				"miracle",
+				"heavyblade"
             ]
         },
 		"pairup": {
@@ -8772,15 +8739,15 @@
         "skill": {
             "normal": [
                 "dartingblow",
-		"charm"
+				"charm"
             ],
             "hard": [
                 "dartingblow",
-		"charm"
+				"charm"
             ],
             "lunatic": [
                 "dartingblow",
-		"charm"
+				"charm"
             ]
         },
 		"pairup": {
@@ -8831,8 +8798,8 @@
         "variable": false,
         "set": [
             "visionary",
-	    "swordknight",
-	    "samurai"
+	    	"swordknight",
+	    	"samurai"
         ],
         "base": {
             "normal": {
@@ -9033,18 +9000,18 @@
         "skill": {
             "normal": [
                 "veteranintuition",
-		"vantage",
-		"rallystrength"
+				"vantage",
+				"rallystrength"
             ],
             "hard": [
                 "veteranintuition",
-		"vantage",
-		"rallystrength"
+				"vantage",
+				"rallystrength"
             ],
             "lunatic": [
                 "veteranintuition",
-		"vantage",
-		"rallystrength"
+				"vantage",
+				"rallystrength"
             ]
         },
 		"pairup": {
@@ -9103,32 +9070,32 @@
         "base": {
             "normal": {
                 "hp": 11,
-                "str": 10,
-                "mag": 5,
-                "skl": 10,
+                "str": 12,
+                "mag": 0,
+                "skl": 12,
                 "spd": 9,
                 "lck": 8,
-                "def": 6,
+                "def": 9,
                 "res": 10
             },
             "hard": {
                 "hp": 11,
-                "str": 10,
-                "mag": 5,
-                "skl": 10,
+                "str": 12,
+                "mag": 0,
+                "skl": 12,
                 "spd": 9,
                 "lck": 8,
-                "def": 6,
+                "def": 9,
                 "res": 10
             },
             "lunatic": {
                 "hp": 11,
-                "str": 10,
-                "mag": 5,
-                "skl": 10,
+                "str": 12,
+                "mag": 0,
+                "skl": 12,
                 "spd": 9,
                 "lck": 8,
-                "def": 6,
+                "def": 9,
                 "res": 10
             }
         },
@@ -9166,15 +9133,15 @@
         "skill": {
             "normal": [
                 "duelistsblow",
-		"astra"
+				"astra"
             ],
             "hard": [
                 "duelistsblow",
-		"astra"
+				"astra"
             ],
             "lunatic": [
                 "duelistsblow",
-		"astra"
+				"astra"
             ]
         },
 		"pairup": {
@@ -9218,7 +9185,7 @@
         "job": "warrioroflight",
         "portrait": "tanya.png",
         "lvl": 13,
-        "personal": "bushido",
+        "personal": "airheadhero",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -9227,7 +9194,7 @@
         "variable": false,
         "set": [
             "warrioroflight",
-	    	"spearfighter",
+	    	"soldier",
 	    	"cavalier"
         ],
         "base": {
@@ -9299,15 +9266,15 @@
         "skill": {
             "normal": [
                 "nohriantrust",
-		"trample"
+				"trample"
             ],
             "hard": [
                 "nohriantrust",
-		"trample"
+				"trample"
             ],
             "lunatic": [
                 "nohriantrust",
-		"trample"
+				"trample"
             ]
         },
 		"pairup": {
@@ -9436,15 +9403,15 @@
         "skill": {
             "normal": [
                 "duelistsblow",
-		"aether"
+				"aether"
             ],
             "hard": [
                 "duelistsblow",
-		"aether"
+				"aether"
             ],
             "lunatic": [
                 "duelistsblow",
-		"aether"
+				"aether"
             ]
         },
 		"pairup": {
@@ -9566,15 +9533,15 @@
         "skill": {
             "normal": [
                 "defender",
-		"astra"
+				"astra"
             ],
             "hard": [
                 "defender",
-		"astra"
+				"astra"
             ],
             "lunatic": [
                 "defender",
-		"astra"
+				"astra"
             ]
         },
 		"pairup": false,
@@ -9584,7 +9551,7 @@
         "job": "imperfectreplica",
         "portrait": "xion.png",
         "lvl": 16,
-        "personal": "warp",
+        "personal": "fleetingheart",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -9593,8 +9560,8 @@
         "variable": false,
         "set": [
             "imperfectreplica",
-	    "darkmage",
-	    "mercenary"
+	    	"darkmage",
+	    	"mercenary"
         ],
         "base": {
             "normal": {
@@ -9668,15 +9635,15 @@
         "skill": {
             "normal": [
                 "livetoserve",
-		"nohriantrust"
+				"warp"
             ],
             "hard": [
                 "livetoserve",
-		"nohriantrust"
+				"warp"
             ],
             "lunatic": [
                 "livetoserve",
-		"nohriantrust"
+				"warp"
             ]
         },
 		"pairup": {
@@ -9805,15 +9772,15 @@
         "skill": {
             "normal": [
                 "heavyblade",
-		"dragonfang"
+				"dragonfang"
             ],
             "hard": [
                 "heavyblade",
-		"dragonfang"
+				"dragonfang"
             ],
             "lunatic": [
                 "heavyblade",
-		"dragonfang"
+				"dragonfang"
             ]
         },
 		"pairup": {
@@ -9935,15 +9902,15 @@
         "skill": {
             "normal": [
                 "quickdraw",
-		"luna"
+				"luna"
             ],
             "hard": [
                 "quickdraw",
-		"luna"
+				"luna"
             ],
             "lunatic": [
                 "quickdraw",
-		"luna"
+				"luna"
             ]
         },
 		"pairup": {
@@ -10069,15 +10036,15 @@
         "skill": {
             "normal": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ],
             "hard": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ],
             "lunatic": [
                 "toxicbrew",
-		"certainblow"
+				"certainblow"
             ]
         },
 		"pairup": {
@@ -10122,7 +10089,7 @@
         "job": "palico",
         "portrait": "chad.png",
         "lvl": 16,
-        "personal": "perfectionist",
+        "personal": "felyneconfidence",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -10131,7 +10098,8 @@
         "variable": false,
         "set": [
             "palico",
-	    "nyanurai"
+	    	"nyanurai",
+			"dreadfighter"
         ],
         "base": {
             "normal": {
@@ -10336,15 +10304,15 @@
         "skill": {
             "normal": [
                 "magic2",
-		"sealresistance"
+				"sealresistance"
             ],
             "hard": [
                 "magic2",
-		"sealresistance"
+				"sealresistance"
             ],
             "lunatic": [
                 "magic2",
-		"sealresistance"
+				"sealresistance"
             ]
         },
 		"pairup": {
@@ -10473,21 +10441,21 @@
         "skill": {
             "normal": [
                 "ironwill",
-		"ignis",
-		"pass",
-		"shadowgift"
+				"ignis",
+				"pass",
+				"shadowgift"
             ],
             "hard": [
                 "ironwill",
-		"ignis",
-		"pass",
-		"shadowgift"
+				"ignis",
+				"pass",
+				"shadowgift"
             ],
             "lunatic": [
                 "ironwill",
-		"ignis",
-		"pass",
-		"shadowgift"
+				"ignis",
+				"pass",
+				"shadowgift"
             ]
         },
 		"pairup": {
@@ -10531,7 +10499,7 @@
         "job": "alchemist",
         "portrait": "edward.png",
         "lvl": 35,
-        "personal": "triplethreat",
+        "personal": "equivalentexchange",
         "father": false,
         "mother": false,
         "gender": "m",
@@ -10673,7 +10641,7 @@
         "job": "wayfarer",
         "portrait": "march.png",
         "lvl": 15,
-        "personal": "icyblood",
+        "personal": "powerofcuteness",
         "father": false,
         "mother": false,
         "gender": "f",
@@ -10808,7 +10776,7 @@
         "job": "yakuza",
         "portrait": "kiryu.png",
         "lvl": 15,
-        "personal": "fiercemien",
+        "personal": "tigerdrop",
         "father": false,
         "mother": false,
         "gender": "m",
