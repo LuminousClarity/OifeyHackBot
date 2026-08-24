@@ -9023,7 +9023,7 @@
 	    "lance": 96
 	},
         "skill": {
-            "defense+2": 5,
+            "defense2": 5,
             "phalanx": 10
         }
     },
