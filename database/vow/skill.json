@@ -2002,6 +2002,14 @@
             "Personal": "March 7th"
         }
     },
+    "equivalentexchange": {
+        "name": "Equivalent Exchange",
+        "desc": "After taking damage in combat, stores half of the highest single damage taken. Adds it to unit's next initiated attack, then resets on first strike, hit or miss.",
+        "emoji": "",
+        "reference": {
+            "Personal": "Edward Elric"
+        }
+    },
     "phalanx": {
         "name": "Phalanx",
         "emoji": "",
