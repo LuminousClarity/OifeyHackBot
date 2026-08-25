@@ -5154,10 +5154,10 @@
         },
         "rank": {
             "sword": 251,
-	    "tome": 96
+	    	"tome": 96
         },
         "skill": {
-		"vengeance": 5,
+		"forcedeflection": 5,
 		"boldstance": 15
         }
     },
@@ -7403,11 +7403,11 @@
         },
         "rank": {
             "sword": 96,
-	    "tome": 51
+	    	"tome": 51
         },
         "skill": {
 		"strongriposte": 5,
-		"sealstrength": 10
+		"vengeance": 10
         }
     },
 	"heiressofvalla": {
