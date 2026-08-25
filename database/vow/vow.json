@@ -7080,8 +7080,8 @@
         "variable": false,
         "set": [
             "planetguardian",
-			"troubadour",
-			"skyknight"
+			"commoner",
+			"troubadour"
         ],
         "base": {
             "normal": {
@@ -7214,7 +7214,7 @@
         "set": [
             "sniperofdemons",
 			"commoner",
-			"archer"
+			"mercenary"
         ],
         "base": {
             "normal": {
@@ -7735,7 +7735,7 @@
     },
 	"gonar": {
         "name": "Gonar",
-        "job": "conqueror",
+        "job": "monarch",
         "portrait": "gonar.png",
         "lvl": 1,
         "personal": "seasonedcommander",
@@ -7746,9 +7746,9 @@
         "pairup": true,
         "variable": false,
         "set": [
-            "conqueror",
-	    "fighter",
-	    "darkmage"
+            "monarch",
+	    	"fighter",
+	    	"darkmage"
         ],
         "base": {
             "normal": {
@@ -7875,8 +7875,8 @@
         "variable": false,
         "set": [
             "sageofwar",
-	    "archer",
-	    "samurai"
+	    	"archer",
+	    	"samurai"
         ],
         "base": {
             "normal": {
@@ -8011,8 +8011,8 @@
         "variable": false,
         "set": [
             "rancher",
-	    "thief",
-	    "cavalier"
+	    	"thief",
+	    	"cavalier"
         ],
         "base": {
             "normal": {
@@ -8273,8 +8273,8 @@
         "variable": false,
         "set": [
             "wanderer",
-	    "shrinemaiden",
-	    "ninja"
+	    	"shrinemaiden",
+	    	"ninja"
         ],
         "base": {
             "normal": {
@@ -8403,8 +8403,8 @@
         "variable": false,
         "set": [
             "seesmember",
-	    "spearfighter",
-	    "mercenary"
+	    	"spearfighter",
+	    	"mercenary"
         ],
         "base": {
             "normal": {
@@ -8539,8 +8539,8 @@
         "variable": false,
         "set": [
             "unit31",
-	    "wyvernrider",
-	    "fighter"
+	    	"wyvernrider",
+	    	"fighter"
         ],
         "base": {
             "normal": {
@@ -8670,8 +8670,8 @@
         "variable": false,
         "set": [
             "huntress",
-	    "spearfighter",
-	    "skyknight"
+	    	"skyknight",
+	    	"spearfighter"
         ],
         "base": {
             "normal": {
@@ -8928,8 +8928,8 @@
         "variable": false,
         "set": [
             "rockerboy",
-	    "wyvernrider",
-	    "outlaw"
+	    	"wyvernrider",
+	    	"skyknight"
         ],
         "base": {
             "normal": {
@@ -9064,8 +9064,8 @@
         "variable": false,
         "set": [
             "immoralflame",
-	    "onisavage",
-	    "fighter"
+	    	"onisavage",
+	    	"fighter"
         ],
         "base": {
             "normal": {
@@ -9328,8 +9328,8 @@
         "variable": false,
         "set": [
             "scionofsparda",
-	    "samurai",
-	    "mercenary"
+	    	"samurai",
+	    	"mercenary"
         ],
         "base": {
             "normal": {
@@ -9464,8 +9464,8 @@
         "variable": false,
         "set": [
             "darkslayer",
-	    "swordknight",
-	    "ninja"
+	    	"swordknight",
+	    	"ninja"
         ],
         "base": {
             "normal": {
@@ -9697,8 +9697,8 @@
         "variable": false,
         "set": [
             "soldier1st",
-	    "mercenary",
-	    "knight"
+	    	"mercenary",
+	    	"cavalier"
         ],
         "base": {
             "normal": {
@@ -9833,8 +9833,8 @@
         "variable": false,
         "set": [
             "piratehunter",
-	    "samurai",
-	    "onisavage"
+	    	"samurai",
+	    	"onisavage"
         ],
         "base": {
             "normal": {
@@ -9964,8 +9964,8 @@
         "variable": false,
         "set": [
             "royalsummoner",
-	    "diviner",
-	    "darkmage"
+	    	"diviner",
+	    	"darkmage"
         ],
         "base": {
             "normal": {
@@ -10229,8 +10229,8 @@
         "variable": false,
         "set": [
             "uniformedgirl",
-	    "shrinemaiden",
-	    "troubadour"
+	    	"shrinemaiden",
+	    	"ninja"
         ],
         "base": {
             "normal": {
@@ -10367,7 +10367,7 @@
         "set": [
             "kindlingmaiden",
 	    	"thief",
-	    	"diviner"
+	    	"troubadour"
         ],
         "base": {
             "normal": {
@@ -10508,8 +10508,8 @@
         "variable": false,
         "set": [
             "alchemist",
-	    	"spearfighter",
-	    	"martialartist"
+	    	"martialartist",
+	    	"spearfighter"
         ],
         "base": {
             "normal": {
@@ -10650,8 +10650,8 @@
         "variable": false,
         "set": [
             "wayfarer",
-	    "samurai",
-	    "darkmage"
+	    	"samurai",
+	    	"darkmage"
         ],
         "base": {
             "normal": {
