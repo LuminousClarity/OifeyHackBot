@@ -2010,6 +2010,14 @@
             "Personal": "Edward Elric"
         }
     },
+    "forcedeflection": {
+        "name": "Force Deflection",
+        "desc": "If attacked from two or more tiles away, reduces damage by 75% and reflects 50% of the original damage to the attacker. Trigger % = (Skill stat)",
+        "emoji": "",
+        "reference": {
+            "Class": "The Negotiator"
+        }
+    },
     "phalanx": {
         "name": "Phalanx",
         "emoji": "",
