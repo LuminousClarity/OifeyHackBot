@@ -1820,7 +1820,7 @@
     },
     "whitewolf": {
         "name": "The White Wolf",
-        "desc": "Grants Quick Salve and Potent Potion, except HP-recovery items are 220% potent. Once per map, when about to take a lethal blow, takes half damage instead to a minimum of 1 HP.",
+        "desc": "When initiating combat, +3 damage dealt. If the foe has a debuff, deals +6 damage instead and applies during counterattacks.",
         "emoji": "",
         "reference": {
             "Personal": "Geralt"
@@ -1860,7 +1860,7 @@
     },
     "absolutemotivation": {
         "name": "Absolute Motivation",
-        "desc": "Grants use of Replicate command. Use once per battle to create a replica. If user or their replica is in Attack Stance, they will deal full damage instead of half. Does not account additional bonuses from pair-ups.",
+        "desc": "Grants use of Replicate command. Use once per battle to create a replica, and replica's HP is separate from user. Unit and replica deal full damage in Attack Stance instead of half.",
         "emoji": "",
         "reference": {
             "Personal": "Vergil"
@@ -1884,7 +1884,7 @@
     },
     "essenceofether": {
         "name": "Essence of Ether",
-        "desc": "If an ally within 3 spaces initiates combat with a magic weapon, they gain +10 Hit and +3 Damage.",
+        "desc": "After initiating an attack, gains an Elemental Stack (max 3), each granting Mag+2. With World Ender in inventory, can Discharge a summoned Spirit, consuming all stacks.",
         "emoji": "",
         "reference": {
             "Personal": "Melia"
@@ -1908,7 +1908,7 @@
     },
     "rightbackatyou": {
         "name": "Right Back At You!",
-        "desc": "If this unit avoids or takes no damage from an attack, immediately follow-up attack. Cannot trigger if wielding a weapon that blocks offensive skills. In Attack Stance, unit may follow-up attack if the lead unit they're supporting receives damage during battle. Does not work with Bold Stance and ally must be able to counter attack. Trigger % = (Speed stat x 1.5)",
+        "desc": "If unit avoids an attack, immediately counterattacks. In Attack Stance, may follow-up attack if the lead unit takes damage. Cannot activate while wielding a weapon that blocks offensive skills. Counterattack only once per combat. Trigger % = (Speed stat x 1.5).",
         "emoji": "",
         "reference": {
             "Personal": "Shulk"
@@ -1964,7 +1964,7 @@
     },
     "seasonedcommander": {
         "name": "Seasoned Commander",
-        "desc": "Grants 2% additional EXP to army for every ally on field. For every two allies on field, grants Hit+1 to unit. Unit must be lead on map for skill to be active.",
+        "desc": "Grants 2% additional EXP to army for every ally on field. For every two allies on field, grants Hit+1 to unit.",
         "emoji": "",
         "reference": {
             "Personal": "Gonar"
@@ -2033,5 +2033,45 @@
         "reference": {
             "Class": "Dragoon (Lv. 5)"
         }
-    }
+    },
+    "luckystrike": {
+        "name": "Lucky Strike",
+        "emoji": "",
+        "desc": "Takes 50% of unit's Lck as extra damage. Trigger % = (Luck stat)",
+        "reference": {
+            "Class": "Commoner (Lv. 10)"
+        }
+    },
+    "elegantshot": {
+        "name": "Elegant Shot",
+        "emoji": "",
+        "desc": "May turn a missed attack into a hit. Trigger % = (Luck stat)",
+        "reference": {
+            "Class": "Duchess (Lv. 15)"
+        }
+    },
+    "mutatedblood": {
+        "name": "Mutated Blood",
+        "emoji": "",
+        "desc": "Grants Quick Salve and Potent Potion. HP recovery items are 220% effective.",
+        "reference": {
+            "Class": "Witcher (Lv. 5)"
+        }
+    },
+    "hogtie": {
+        "name": "Hogtie",
+        "emoji": "",
+        "desc": "Takes 25% of Skl as extra damage, then lowers target's Mov by 3 for one turn upon a successful hit. Consecutive successful hits lowers Mov by -1 onwards. Trigger % = (Skill x 1.5)",
+        "reference": {
+            "Class": "Rancher (Lv. 10)"
+        }
+    },
+    "sharedambition": {
+        "name": "Shared Ambition",
+        "emoji": "",
+        "desc": "Grants +1 to all stats when paired up as the lead unit. If the unit has an A-rank with the supporting unit or is a replica, grants +2 instead.",
+        "reference": {
+            "Class": "Dark Slayer (Lv. 5)"
+        }
+    },
 }
