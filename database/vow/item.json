@@ -6100,8 +6100,8 @@
         "weapon": true,
         "stats": {
             "rank": "E",
-            "mt": 8,
-            "hit": 85,
+            "mt": 9,
+            "hit": 87,
             "crit": 10,
             "avoid": 5,
             "rng": "1-2"
