@@ -5027,14 +5027,14 @@
         "name": "Cowgirl",
         "promo": [],
         "base": {
-            "hp": 18,
+            "hp": 20,
             "str": 8,
             "mag": 0,
-            "skl": 8,
-            "spd": 9,
-            "lck": 5,
-            "def": 5,
-            "res": 6,
+            "skl": 7,
+            "spd": 10,
+            "lck": 6,
+            "def": 7,
+            "res": 4,
             "mov": 8
         },
 		"bonus": {
@@ -5043,13 +5043,13 @@
 			"crit": 10
 		},
         "cap": {
-            "hp": 55,
-            "str": 33,
+            "hp": 60,
+            "str": 32,
             "mag": 25,
-            "skl": 33,
-            "spd": 32,
+            "skl": 32,
+            "spd": 35,
             "lck": 35,
-            "def": 32,
+            "def": 30,
             "res": 27
         },
         "generic": {
@@ -5059,17 +5059,17 @@
             "skl": 55,
             "spd": 50,
             "lck": 75,
-            "def": 45,
+            "def": 35,
             "res": 25
         },
         "growth": {
             "hp": 10,
             "str": 15,
             "mag": 0,
-            "skl": 5,
-            "spd": 10,
-            "lck": 15,
-            "def": 15,
+            "skl": 10,
+            "spd": 20,
+            "lck": 20,
+            "def": 10,
             "res": 5
         },
         "pairup": {
@@ -6386,7 +6386,7 @@
 		},
         "skill": {
             "miracle": 1,
-            "demoiselle": 10
+            "luckystrike": 10
         }
     },
 	"duchess": {
@@ -6398,7 +6398,7 @@
             "mag": 6,
             "skl": 8,
             "spd": 7,
-            "lck": 2,
+            "lck": 6,
             "def": 6,
             "res": 8,
             "mov": 6
@@ -6428,14 +6428,14 @@
             "res": 55
         },
         "growth": {
-            "hp": 20,
-            "str": 15,
+            "hp": 15,
+            "str": 10,
             "mag": 15,
-            "skl": 20,
+            "skl": 15,
             "spd": 20,
-            "lck": 5,
-            "def": 10,
-            "res": 10
+            "lck": 20,
+            "def": 5,
+            "res": 15
         },
         "pairup": {
 			"hp": 0,
@@ -6454,8 +6454,8 @@
 			"staff": 161
 		},
         "skill": {
-            "rallyspectrum": 5,
-            "renewal": 10
+            "elegantslot": 5,
+            "amaterasu": 10
         }
     },
 	"conqueror": {
@@ -6544,14 +6544,14 @@
 	    "avoid": 20,
 		},
         "cap": {
-            "hp": 60,
-            "str": 25,
-            "mag": 38,
+            "hp": 55,
+            "str": 20,
+            "mag": 40,
             "skl": 27,
-            "spd": 34,
-            "lck": 28,
-            "def": 27,
-            "res": 32
+            "spd": 31,
+            "lck": 24,
+            "def": 26,
+            "res": 30
         },
         "generic": {
             "hp": 70,
@@ -6564,13 +6564,13 @@
             "res": 55
         },
         "growth": {
-	    "hp": 5,
+	    	"hp": 10,
             "str": 0,
-            "mag": 25,
-            "skl": 5,
-            "spd": 20,
-            "lck": 5,
-            "def": 0,
+            "mag": 15,
+            "skl": 10,
+            "spd": 5,
+            "lck": 10,
+            "def": 5,
             "res": 10
         },
         "pairup": {
@@ -6589,7 +6589,7 @@
 	    "staff": 1
 	},
         "skill": {
-            "toxicbrew": 5,
+            "charm": 5,
             "certainblow": 10,
             "tomefaire": 25,
             "magictaker": 35
@@ -7083,25 +7083,25 @@
 	],
         "base": {
             "hp": 17,
-            "str": 6,
+            "str": 5,
             "mag": 0,
             "skl": 5,
-            "spd": 5,
-            "lck": 3,
-            "def": 5,
+            "spd": 7,
+            "lck": 4,
+            "def": 4,
             "res": 3,
             "mov": 7
         },
 	"bonus": {},
-        "cap": {
-            "hp": 55,
-            "str": 33,
-            "mag": 25,
-            "skl": 33,
-            "spd": 32,
-            "lck": 35,
-            "def": 32,
-            "res": 27
+	"cap": {
+            "hp": 40,
+            "str": 21,
+            "mag": 15,
+            "skl": 21,
+            "spd": 23,
+            "lck": 27,
+            "def": 20,
+            "res": 19
         },
         "generic": {
             "hp": 70,
@@ -7116,11 +7116,11 @@
         "growth": {
             "hp": 10,
             "str": 15,
-            "mag": 5,
+            "mag": 0,
             "skl": 10,
-            "spd": 15,
-            "lck": 15,
-            "def": 10,
+            "spd": 20,
+            "lck": 20,
+            "def": 5,
             "res": 5
         },
         "pairup": {
@@ -7140,7 +7140,7 @@
 	},
         "skill": {
             "pass": 5,
-            "rendheaven": 10,
+            "hogtie": 10,
         }
     },
 	"witcher": {
@@ -7205,7 +7205,7 @@
 	    "tome": 96
         },
         "skill": {
-		"dancingblade": 5,
+		"mutatedblood": 5,
 		"astra": 10
         }
     },
@@ -7738,7 +7738,7 @@
 		"sword": 96
         },
         "skill": {
-		"defender": 5,
+		"sharedambition": 5,
 		"astra": 10
         }
     },
