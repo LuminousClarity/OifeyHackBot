@@ -3980,17 +3980,14 @@
     },
     "ember": {
         "name": "Ember",
-        "desc": "Ddg+10. A cantrip learned by beginning mages.",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
         "weapon": true,
         "stats": {
             "rank": "E",
             "mt": 1,
             "hit": 100,
-            "avoid": 10,
-            "dodge": 10,
             "rng": "1-2"
         },
-        "forge": 0,
         "type": "tome"
     },
     "missiletainn": {
@@ -5896,19 +5893,13 @@
         "forge": 0,
         "type": "sword",
     },
-	"igni": {
-        "name": "Igni",
-        "desc": "Ddg+10. A magical sign used by witchers. Target suffers stat drop on hit.",
-        "weapon": true,
-        "stats": {
-            "rank": "E",
-            "mt": 4,
-            "hit": 90,
-			"dodge": 10,
-            "rng": "1-2"
-        },
+    "witchersigns": {
+        "name": "Witcher Signs",
+        "desc": "Signs used by Witchers. Cannot Skill. +1 to Str/Mag/Skill/Spd when carried.",
+        "weapon": false,
+        "stats": {},
         "forge": 0,
-        "type": "tome",
+        "type": "item"
     },
 	"divinestream": {
         "name": "Divine Stream",
@@ -7260,7 +7251,6 @@
 			"dodge": 5,
             "rng": "1"
         },
-        "forge": 0,
         "type": "beaststone",
 		"equip": {
 			"stats": {
@@ -7272,5 +7262,79 @@
 			"res": -2
 			}
         }
+    },
+    "worldender": {
+        "name": "World Ender",
+        "desc": "Res+4. Wielder is not slowed by terrain effects. While in Inventory, Melia can summon elemental spirits. Only three can be active at a time.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 10,
+            "hit": 85,
+            "dodge": 10,
+            "rng": "1-2",
+        },
+        "forge": 0,
+        "type": "tome"
+    },
+    "trainersword": {
+        "name": "Trainer Sword",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 4,
+            "hit": 85,
+            "rng": 1
+        },
+        "type": "sword"
+    },
+    "trainerlance": {
+        "name": "Trainer Lance",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 4,
+            "hit": 80,
+            "rng": 1
+        },
+        "type": "lance"
+    },
+    "traineraxe": {
+        "name": "Trainer Axe",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 70,
+            "rng": 1
+        },
+        "type": "axe"
+    },
+    "trainerdagger": {
+        "name": "Trainer Dagger",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 2,
+            "hit": 90,
+            "rng": 1-2
+        },
+        "type": "dagger"
+    },
+    "trainerbow": {
+        "name": "Trainer Bow",
+        "desc": "When equipped, doubles weapon exp gained during combat. Cannot crit.",
+        "weapon": true,
+        "stats": {
+            "rank": "E",
+            "mt": 6,
+            "hit": 85,
+            "rng": 1-2
+        },
+        "type": "bow"
     },
 }
